@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IndianPlantRecord",
+  "description": "Botanical record schema for Indian Plant Species Identification and Health Analysis System",
+  "type": "object",
+  "required": [
+    "id",
+    "scientific_name",
+    "common_name",
+    "family",
+    "genus",
+    "species",
+    "category",
+    "status_in_india",
+    "verification_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique stable identifier (slug format, e.g. 'oryza-sativa' or 'mangifera-indica')"
+    },
+    "scientific_name": {
+      "type": "string",
+      "description": "Accepted botanical scientific binomial or trinomial name"
+    },
+    "common_name": {
+      "type": "string",
+      "description": "Widely accepted English common name"
+    },
+    "hindi_name": {
+      "type": "string",
+      "description": "Hindi vernacular name in Devanagari script and transliteration"
+    },
+    "telugu_name": {
+      "type": "string",
+      "description": "Telugu vernacular name in Telugu script and transliteration"
+    },
+    "tamil_name": {
+      "type": "string",
+      "description": "Tamil vernacular name in Tamil script and transliteration"
+    },
+    "other_regional_names": {
+      "type": "object",
+      "description": "Vernacular names in other Indian languages (Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Odia, Assamese)",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "synonyms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Botanical synonyms and alternative orthographic spellings"
+    },
+    "family": {
+      "type": "string",
+      "description": "Botanical family (e.g., Poaceae, Fabaceae, Solanaceae)"
+    },
+    "genus": {
+      "type": "string",
+      "description": "Botanical genus"
+    },
+    "species": {
+      "type": "string",
+      "description": "Specific epithet"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "crop",
+        "fruit plant",
+        "vegetable",
+        "herb",
+        "medicinal plant",
+        "tree",
+        "shrub",
+        "flower",
+        "ornamental",
+        "grass",
+        "weed",
+        "spice",
+        "pulse",
+        "oilseed",
+        "plantation",
+        "other"
+      ],
+      "description": "Primary agricultural, horticultural, or ecological category"
+    },
+    "status_in_india": {
+      "type": "string",
+      "enum": ["native", "naturalized", "cultivated", "invasive", "unknown"],
+      "description": "Status of the species in India"
+    },
+    "indian_states": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Indian states or biogeographical regions where presence is documented"
+    },
+    "leaf_characteristics": {
+      "type": "object",
+      "properties": {
+        "shape": { "type": "string" },
+        "arrangement": { "type": "string" },
+        "margin": { "type": "string" },
+        "venation": { "type": "string" },
+        "color": { "type": "string" }
+      }
+    },
+    "stem_characteristics": {
+      "type": "string",
+      "description": "Stem growth form, bark, thorns, texture"
+    },
+    "flower_characteristics": {
+      "type": "string",
+      "description": "Inflorescence type, petal color, symmetry, flowering season"
+    },
+    "fruit_characteristics": {
+      "type": "string",
+      "description": "Fruit type, seed morphology, color, maturation period"
+    },
+    "growth_habit": {
+      "type": "string",
+      "description": "Growth habit and typical dimensions (height, canopy spread)"
+    },
+    "habitat_and_climate": {
+      "type": "string",
+      "description": "Ecological niche, climate zones, elevation tolerance"
+    },
+    "sunlight_requirements": {
+      "type": "string",
+      "description": "Full sun, partial shade, shade tolerance"
+    },
+    "water_requirements": {
+      "type": "string",
+      "description": "Watering needs and drought/waterlogging tolerance"
+    },
+    "soil_preferences": {
+      "type": "string",
+      "description": "Soil texture, drainage, optimal pH range"
+    },
+    "growing_season": {
+      "type": "string",
+      "description": "Kharif, Rabi, Zaid, perennial, or flowering months"
+    },
+    "propagation_methods": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Documented propagation techniques (seeds, cuttings, grafting, etc.)"
+    },
+    "uses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Documented food, medicinal, timber, industrial, or cultural uses"
+    },
+    "safety_notes": {
+      "type": "string",
+      "description": "Toxicity warnings, allergen advisories, or handling precautions"
+    },
+    "is_toxic": {
+      "type": "boolean",
+      "description": "Whether any plant part is toxic to humans or livestock"
+    },
+    "common_pests_and_diseases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "symptoms": { "type": "string" },
+          "management": { "type": "string" }
+        }
+      }
+    },
+    "prevention_guidance": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "General preventive agronomic or horticultural care guidelines"
+    },
+    "image_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "image_url": { "type": "string" },
+          "local_path": { "type": "string" },
+          "organ": { "type": "string", "enum": ["leaf", "flower", "fruit", "stem", "seed", "whole_plant"] },
+          "license": { "type": "string" },
+          "author": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "publisher": { "type": "string" }
+        }
+      }
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "provisional", "pending_review"],
+      "description": "Taxonomic and agronomic verification status"
+    },
+    "last_checked_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date of verification (YYYY-MM-DD)"
+    }
+  }
+}

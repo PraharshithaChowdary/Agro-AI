@@ -1,0 +1,483 @@
+{
+  "timestamp": "2026-10-15T17:21:37Z",
+  "total_test_specimens": 39,
+  "elapsed_seconds": 6.15,
+  "in_distribution_accuracy_pct": 15.15,
+  "ood_rejection_rate_pct": 100.0,
+  "organ_detection_accuracy_pct": 86.49,
+  "non_plant_gatekeeper_accuracy_pct": 100.0,
+  "downstream_safety_compliance_pct": 100.0,
+  "category_breakdown": {
+    "Flowers": {
+      "total": 8,
+      "correct": 3,
+      "ood_detected": 3
+    },
+    "Crops": {
+      "total": 8,
+      "correct": 3,
+      "ood_detected": 0
+    },
+    "Trees": {
+      "total": 5,
+      "correct": 0,
+      "ood_detected": 0
+    },
+    "Medicinal": {
+      "total": 5,
+      "correct": 0,
+      "ood_detected": 0
+    },
+    "Fruits & Veg": {
+      "total": 6,
+      "correct": 0,
+      "ood_detected": 0
+    },
+    "Organs": {
+      "total": 3,
+      "correct": 1,
+      "ood_detected": 1
+    },
+    "Non-Plant": {
+      "total": 2,
+      "correct": 2,
+      "ood_detected": 0
+    },
+    "Robustness": {
+      "total": 2,
+      "correct": 2,
+      "ood_detected": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "rose",
+      "name": "Rose",
+      "category": "Flowers",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "amaranthus-cruentus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (amaranthus-cruentus != rosa-indica)"
+    },
+    {
+      "id": "marigold",
+      "name": "Marigold",
+      "category": "Flowers",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "catharanthus-roseus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (catharanthus-roseus != tagetes-erecta)"
+    },
+    {
+      "id": "sunflower",
+      "name": "Sunflower",
+      "category": "Flowers",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "bougainvillea-spectabilis",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (bougainvillea-spectabilis != helianthus-annuus)"
+    },
+    {
+      "id": "jasmine",
+      "name": "Jasmine",
+      "category": "Flowers",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "helianthus-annuus",
+      "confidence": 2.5,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (helianthus-annuus != jasminum-sambac)"
+    },
+    {
+      "id": "hibiscus",
+      "name": "Hibiscus",
+      "category": "Flowers",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "catharanthus-roseus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (catharanthus-roseus != hibiscus-rosa-sinensis)"
+    },
+    {
+      "id": "tulip",
+      "name": "Tulip",
+      "category": "Flowers",
+      "is_supported": false,
+      "detected_organ": "flower",
+      "top_candidate": "catharanthus-roseus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "OOD DETECTED (Ambiguous/Inconclusive, Conf=2.7%)"
+    },
+    {
+      "id": "lily",
+      "name": "Lily",
+      "category": "Flowers",
+      "is_supported": false,
+      "detected_organ": "flower",
+      "top_candidate": "jasminum-sambac",
+      "confidence": 2.6,
+      "is_ambiguous": true,
+      "status": "OOD DETECTED (Ambiguous/Inconclusive, Conf=2.6%)"
+    },
+    {
+      "id": "orchid",
+      "name": "Orchid",
+      "category": "Flowers",
+      "is_supported": false,
+      "detected_organ": "flower",
+      "top_candidate": "amaranthus-cruentus",
+      "confidence": 4.2,
+      "is_ambiguous": true,
+      "status": "OOD DETECTED (Ambiguous/Inconclusive, Conf=4.2%)"
+    },
+    {
+      "id": "corn",
+      "name": "Corn / Maize",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 70.9,
+      "is_ambiguous": false,
+      "status": "IDENTIFIED (zea-mays, Conf=70.9%)"
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 69.7,
+      "is_ambiguous": false,
+      "status": "IDENTIFIED (zea-mays, Conf=69.7%)"
+    },
+    {
+      "id": "rice",
+      "name": "Rice / Paddy",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 71.6,
+      "is_ambiguous": false,
+      "status": "IDENTIFIED (zea-mays, Conf=71.6%)"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "citrullus-lanatus",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (citrullus-lanatus != solanum-lycopersicum)"
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "citrullus-lanatus",
+      "confidence": 2.3,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (citrullus-lanatus != solanum-tuberosum)"
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 2.1,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != gossypium-hirsutum)"
+    },
+    {
+      "id": "soybean",
+      "name": "Soybean",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 1.9,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != glycine-max)"
+    },
+    {
+      "id": "chilli",
+      "name": "Chilli / Pepper",
+      "category": "Crops",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "piper-nigrum",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (piper-nigrum != capsicum-annuum)"
+    },
+    {
+      "id": "neem",
+      "name": "Neem",
+      "category": "Trees",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != azadirachta-indica)"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "category": "Trees",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "piper-nigrum",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (piper-nigrum != mangifera-indica)"
+    },
+    {
+      "id": "banyan",
+      "name": "Banyan",
+      "category": "Trees",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "luffa-acutangula",
+      "confidence": 1.9,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (luffa-acutangula != ficus-benghalensis)"
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "category": "Trees",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != psidium-guajava)"
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut Palm",
+      "category": "Trees",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 68.2,
+      "is_ambiguous": false,
+      "status": "MISCLASSIFIED (zea-mays != cocos-nucifera)"
+    },
+    {
+      "id": "tulsi",
+      "name": "Tulsi / Holy Basil",
+      "category": "Medicinal",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "piper-nigrum",
+      "confidence": 1.9,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (piper-nigrum != ocimum-tenuiflorum)"
+    },
+    {
+      "id": "aloe_vera",
+      "name": "Aloe Vera",
+      "category": "Medicinal",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "lagenaria-siceraria",
+      "confidence": 1.8,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (lagenaria-siceraria != aloe-barbadensis)"
+    },
+    {
+      "id": "mint",
+      "name": "Mint / Pudina",
+      "category": "Medicinal",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 1.9,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != mentha-arvensis)"
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "category": "Medicinal",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 2.0,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != curcuma-longa)"
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "category": "Medicinal",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 71.2,
+      "is_ambiguous": false,
+      "status": "MISCLASSIFIED (zea-mays != zingiber-officinale)"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 67.6,
+      "is_ambiguous": false,
+      "status": "MISCLASSIFIED (zea-mays != musa-acuminata)"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "bougainvillea-spectabilis",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (bougainvillea-spectabilis != citrus-limon)"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "catharanthus-roseus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (catharanthus-roseus != citrus-sinensis)"
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "flower",
+      "top_candidate": "catharanthus-roseus",
+      "confidence": 2.7,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (catharanthus-roseus != vitis-vinifera)"
+    },
+    {
+      "id": "brinjal",
+      "name": "Brinjal / Eggplant",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "None",
+      "confidence": 0.0,
+      "is_ambiguous": false,
+      "status": "MISCLASSIFIED (None != solanum-melongena)"
+    },
+    {
+      "id": "okra",
+      "name": "Okra / Bhindi",
+      "category": "Fruits & Veg",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "cucumis-melo",
+      "confidence": 2.1,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (cucumis-melo != abelmoschus-esculentus)"
+    },
+    {
+      "id": "stem_organ",
+      "name": "Tree Trunk / Stem",
+      "category": "Organs",
+      "is_supported": true,
+      "detected_organ": "stem",
+      "top_candidate": "beta-vulgaris",
+      "confidence": 1.4,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (beta-vulgaris != None)"
+    },
+    {
+      "id": "root_organ",
+      "name": "Taproot & Fibers",
+      "category": "Organs",
+      "is_supported": false,
+      "detected_organ": "root",
+      "top_candidate": "beta-vulgaris",
+      "confidence": 1.4,
+      "is_ambiguous": true,
+      "status": "OOD DETECTED (Ambiguous/Inconclusive, Conf=1.4%)"
+    },
+    {
+      "id": "whole_plant_organ",
+      "name": "Whole Potted Plant",
+      "category": "Organs",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "citrullus-lanatus",
+      "confidence": 1.9,
+      "is_ambiguous": true,
+      "status": "MISCLASSIFIED (citrullus-lanatus != None)"
+    },
+    {
+      "id": "soil_specimen",
+      "name": "Earth Soil",
+      "category": "Non-Plant",
+      "is_supported": false,
+      "detected_organ": "leaf",
+      "top_candidate": "N/A",
+      "confidence": 0.0,
+      "is_ambiguous": true,
+      "status": "REJECTED (Correct Gatekeeper)"
+    },
+    {
+      "id": "ui_screenshot",
+      "name": "UI Dashboard Screenshot",
+      "category": "Non-Plant",
+      "is_supported": false,
+      "detected_organ": "leaf",
+      "top_candidate": "N/A",
+      "confidence": 0.0,
+      "is_ambiguous": true,
+      "status": "REJECTED (Correct Gatekeeper)"
+    },
+    {
+      "id": "dim_corn",
+      "name": "Corn (Dim Lighting)",
+      "category": "Robustness",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "zea-mays",
+      "confidence": 46.0,
+      "is_ambiguous": false,
+      "status": "IDENTIFIED (zea-mays, Conf=46.0%)"
+    },
+    {
+      "id": "rot_corn",
+      "name": "Corn (Horizontal Orientation)",
+      "category": "Robustness",
+      "is_supported": true,
+      "detected_organ": "leaf",
+      "top_candidate": "triticum-aestivum",
+      "confidence": 5.1,
+      "is_ambiguous": true,
+      "status": "IDENTIFIED / SOBER CONFIDENCE (triticum-aestivum, Conf=5.1%)"
+    }
+  ]
+}

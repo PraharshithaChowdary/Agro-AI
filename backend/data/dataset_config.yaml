@@ -1,0 +1,99 @@
+# AGRO AI — Dataset Configuration & Source Manifest
+# Defines canonical URLs, download protocols, class mappings, and target storage paths.
+
+storage:
+  base_dir: "datasets"
+  plants_dir: "datasets/plants"
+  leaf_diseases_dir: "datasets/leaf_diseases"
+  soil_dir: "datasets/soil"
+  manifests_dir: "datasets/manifests"
+  min_storage_required_gb: 15.0
+
+datasets:
+  # 1. Botanical Species Identification
+  plant_species:
+    name: "PlantCLEF & Botanical Species Benchmark"
+    target_species_goal: 10000
+    active_supported_species: 13
+    official_source_url: "https://www.imageclef.org/node/332"
+    license: "CC-BY-SA 4.0 / Research Use"
+    classes:
+      - "Apple (Malus domestica)"
+      - "Brinjal / Eggplant (Solanum melongena)"
+      - "Chilli / Bell Pepper (Capsicum annuum)"
+      - "Corn / Maize (Zea mays)"
+      - "Cotton (Gossypium hirsutum)"
+      - "Cucumber (Cucumis sativus)"
+      - "Grape (Vitis vinifera)"
+      - "Mango (Mangifera indica)"
+      - "Potato (Solanum tuberosum)"
+      - "Rice / Paddy (Oryza sativa)"
+      - "Rose (Rosa rubiginosa / hybrid)"
+      - "Tomato (Solanum lycopersicum)"
+      - "Wheat (Triticum aestivum)"
+
+  # 2. Leaf Health & Pathogen Diagnosis
+  leaf_diseases:
+    name: "PlantVillage & PlantDoc Multi-Pathogen Corpus"
+    official_source_urls:
+      - "https://github.com/spMohanty/PlantVillage-Dataset"
+      - "https://github.com/pratikkayal/PlantDoc-Dataset"
+    license: "MIT / Open Academic Access"
+    active_conditions_count: 39
+    classes:
+      - "Apple___healthy"
+      - "Apple___Apple_scab"
+      - "Apple___Black_rot"
+      - "Apple___Cedar_apple_rust"
+      - "Brinjal___healthy"
+      - "Brinjal___Phomopsis_blight"
+      - "Brinjal___Little_leaf"
+      - "Corn___healthy"
+      - "Corn___Common_rust"
+      - "Corn___Northern_Leaf_Blight"
+      - "Cotton___healthy"
+      - "Cotton___Bacterial_blight"
+      - "Cucumber___healthy"
+      - "Cucumber___Downy_mildew"
+      - "Grape___healthy"
+      - "Grape___Black_rot"
+      - "Grape___Leaf_blight"
+      - "Mango___healthy"
+      - "Mango___Anthracnose"
+      - "Pepper___healthy"
+      - "Pepper___Bacterial_spot"
+      - "Potato___healthy"
+      - "Potato___Early_blight"
+      - "Potato___Late_blight"
+      - "Rice___healthy"
+      - "Rice___Brown_Spot"
+      - "Rice___Leaf_Blast"
+      - "Rose___healthy"
+      - "Rose___Black_spot"
+      - "Rose___Powdery_mildew"
+      - "Tomato___healthy"
+      - "Tomato___Early_blight"
+      - "Tomato___Late_blight"
+      - "Tomato___Leaf_Mold"
+      - "Tomato___Bacterial_spot"
+      - "Tomato___Septoria_leaf_spot"
+      - "Wheat___healthy"
+      - "Wheat___Leaf_rust"
+      - "Wheat___Yellow_rust"
+
+  # 3. Pedological Soil Classification
+  soil_categories:
+    name: "Global Visual Soil Taxonomy Benchmark"
+    target_classes_goal: 50
+    active_supported_classes: 6
+    official_sources:
+      - "Kaggle Soil Types Dataset (CC0)"
+      - "ICAR Regional Soil Surveys"
+    license: "Public Domain / CC-BY"
+    classes:
+      - "Alluvial Soil"
+      - "Black Soil (Regur)"
+      - "Clay Soil"
+      - "Laterite Soil"
+      - "Red Soil"
+      - "Sandy Loam Soil"

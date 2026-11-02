@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-10-10T06:51:23.403954",
+  "total_verified_species": 98,
+  "target_species_goal": 10000,
+  "progress_percentage": 0.98,
+  "categories": {
+    "crop": 9,
+    "pulse": 5,
+    "oilseed": 6,
+    "fruit plant": 19,
+    "plantation": 2,
+    "medicinal plant": 6,
+    "tree": 8,
+    "spice": 6,
+    "herb": 4,
+    "flower": 4,
+    "ornamental": 5,
+    "grass": 1,
+    "vegetable": 23
+  },
+  "top_families": [
+    [
+      "Fabaceae",
+      14
+    ],
+    [
+      "Poaceae",
+      9
+    ],
+    [
+      "Cucurbitaceae",
+      8
+    ],
+    [
+      "Solanaceae",
+      5
+    ],
+    [
+      "Malvaceae",
+      4
+    ],
+    [
+      "Brassicaceae",
+      4
+    ],
+    [
+      "Myrtaceae",
+      4
+    ],
+    [
+      "Rutaceae",
+      4
+    ],
+    [
+      "Arecaceae",
+      3
+    ],
+    [
+      "Moraceae",
+      3
+    ]
+  ],
+  "unique_synonyms_mapped": 49,
+  "manifest_path": "data\\manifests\\unified_plant_manifest.json",
+  "status": "ready_for_import"
+}

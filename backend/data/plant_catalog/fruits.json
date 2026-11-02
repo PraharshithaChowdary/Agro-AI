@@ -1,0 +1,2163 @@
+[
+  {
+    "id": "mangifera-indica",
+    "scientific_name": "Mangifera indica",
+    "common_name": "Mango / King of Fruits / Aam",
+    "hindi_name": "आम (Aam)",
+    "telugu_name": "మామిడి (Mamidi)",
+    "tamil_name": "மாம்பழம் (Mambazham)",
+    "other_regional_names": {
+      "kannada": "ಮಾವಿನ ಹಣ್ಣು (Mavina Hannu)",
+      "malayalam": "മാങ്ങ (Maanga)",
+      "bengali": "আম (Aam)",
+      "marathi": "आंबा (Aamba)"
+    },
+    "synonyms": [],
+    "family": "Anacardiaceae",
+    "genus": "Mangifera",
+    "species": "indica",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Bihar",
+      "Gujarat",
+      "Maharashtra",
+      "West Bengal",
+      "Telangana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), oblong-lanceolate leaves, copper-red when young turning dark lustrous green",
+      "arrangement": "Alternate, spiral",
+      "margin": "Entire, wavy",
+      "venation": "Pinnate",
+      "color": "Dark glossy green"
+    },
+    "stem_characteristics": "Stout, erect trunk with rough, dark grey-brown fissured bark and dense spreading dome canopy, 10–30 m",
+    "flower_characteristics": "Terminal large branched panicles with thousands of tiny fragrant yellowish-pink flowers (hermaphrodite and male)",
+    "fruit_characteristics": "Large fleshy drupe with prominent resinous stone (endocarp), yellow/orange/red skin with sweet juicy pulp",
+    "growth_habit": "Large majestic evergreen canopy tree, 10–30 meters tall",
+    "habitat_and_climate": "Tropical and sub-tropical climate; distinct dry period essential for profuse winter flowering",
+    "sunlight_requirements": "Full blazing tropical sun (8+ hours daily)",
+    "water_requirements": "Moderate; critical during fruit development; withhold before flowering",
+    "soil_preferences": "Deep, well-drained alluvial loams and fertile red loams, pH 5.5–7.5",
+    "growing_season": "Spring flowering (Jan–March), summer harvest (April–July)",
+    "propagation_methods": [
+      "Veneer grafting, epicotyl grafting, inarching"
+    ],
+    "uses": [
+      "King of fruits; eaten fresh (Alphonso, Banganapalli, Dasheri, Kesar, Langra)",
+      "Processed: mango pulp, aam papad, pickles, mango lassi",
+      "Mango wood for religious havans and timber"
+    ],
+    "safety_notes": "Mango sap / stem peel contains urushiol contact resin causing contact dermatitis in allergic individuals.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Anthracnose (Colletotrichum gloeosporioides)",
+        "type": "fungal",
+        "symptoms": "Dark brown tear-stain necrotic spots on foliage, blossom blight, and black rotting on ripening fruits",
+        "management": "Foliar Copper Oxychloride (2.5 g/L) or Carbendazim (1 g/L)"
+      },
+      {
+        "name": "Powdery Mildew (Oidium mangiferae)",
+        "type": "fungal",
+        "symptoms": "White powdery fungal growth covering panicles causing total flower drop and fruit drop",
+        "management": "Wettable Sulfur (2 g/L) or Dinocap (1 ml/L) at panicle emergence"
+      }
+    ],
+    "prevention_guidance": [
+      "Spray Paclobutrazol (Cultar) in soil basin in Sept-Oct to promote profuse flowering",
+      "Prune congested dead branches after post-harvest to allow sunlight into canopy"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/mangifera-indica.jpg",
+        "local_path": "backend/data/plant_images/mangifera-indica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "musa-acuminata",
+    "scientific_name": "Musa acuminata",
+    "common_name": "Banana / Plantain / Kela",
+    "hindi_name": "केला (Kela)",
+    "telugu_name": "అరటి (Arati)",
+    "tamil_name": "வாழைப்பழம் (Vazhaippazham)",
+    "other_regional_names": {
+      "kannada": "ಬಾಳೆಹಣ್ಣು (Balehannu)",
+      "malayalam": "വാഴപ്പഴം (Vazhappazham)",
+      "bengali": "কলা (Kola)",
+      "marathi": "केळे (Kele)"
+    },
+    "synonyms": [
+      "Musa paradisiaca",
+      "Musa sapientum"
+    ],
+    "family": "Musaceae",
+    "genus": "Musa",
+    "species": "acuminata",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Kerala",
+      "Bihar",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Gigantic oblong-elliptic smooth arching blades with prominent central midrib and lateral transverse parallel veins",
+      "arrangement": "Spirally arranged",
+      "margin": "Entire, tearing naturally along transverse veins in wind",
+      "venation": "Parallel-pinnate",
+      "color": "Bright lush green"
+    },
+    "stem_characteristics": "Pseudostem formed by tightly packed overlapping concentric leaf sheaths, 2–6 m tall",
+    "flower_characteristics": "Large terminal pendulous inflorescence with purple-red ovate bracts, female flowers at base, male bud (heart) at tip",
+    "fruit_characteristics": "Elongated parthenocarpic fleshy berry (finger) in tiered clusters (hands) along central stalk (bunch)",
+    "growth_habit": "Large arborescent perennial evergreen giant herb, 2–6 meters",
+    "habitat_and_climate": "Warm, humid tropical climate with high rainfall and temperature 22°C–35°C; highly sensitive to frost",
+    "sunlight_requirements": "Full sun (6–8 hours)",
+    "water_requirements": "High water requirement (1800–2200 mm); sensitive to drought stress",
+    "soil_preferences": "Deep, rich, well-drained loamy to clay loam soils with high organic matter, pH 6.0–7.5",
+    "growing_season": "Year-round planting and harvesting (Grand Naine, Robusta, Poovan, Nendran)",
+    "propagation_methods": [
+      "Sword suckers (1.5–2.0 kg) or certified tissue culture plantlets"
+    ],
+    "uses": [
+      "Major fruit crop; fresh dessert fruit, baby food, chips, plantain curry",
+      "Flower heart (vazhaipoo) and pseudostem core (vazhaithandu) cooked as vegetables",
+      "Broad leaves used as traditional biodegradable dining plates across South India"
+    ],
+    "safety_notes": "Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Panama Wilt (Fusarium oxysporum f. sp. cubense)",
+        "type": "fungal",
+        "symptoms": "Yellowing of lower leaf margins, petiole buckling, vascular discoloration of pseudostem, plant collapse",
+        "management": "Plant resistant Grand Naine; dip suckers in Carbendazim (2 g/L); apply Trichoderma viride with FYM"
+      },
+      {
+        "name": "Sigatoka Leaf Spot (Pseudocercospora musae)",
+        "type": "fungal",
+        "symptoms": "Spindle-shaped chlorotic streaks turning dark brown/black with light grey sunken centers",
+        "management": "Foliar spray of Propiconazole (1 ml/L) mixed with mineral oil"
+      }
+    ],
+    "prevention_guidance": [
+      "De-suckering: retain only one follower sucker per clump to channel nutrients to main bunch",
+      "Bag developing bunch with perforated blue polyethylene sleeves to protect from sunburn and thrips"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/musa-acuminata.jpg",
+        "local_path": "backend/data/plant_images/musa-acuminata.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "psidium-guajava",
+    "scientific_name": "Psidium guajava",
+    "common_name": "Guava / Amrood",
+    "hindi_name": "अमरूद (Amrood)",
+    "telugu_name": "జామ (Jaama)",
+    "tamil_name": "கொய்யாப்பழம் (Koyyappazham)",
+    "other_regional_names": {
+      "kannada": "ಸೀಬೆಹಣ್ಣು (Seebehannu)",
+      "malayalam": "പേരയ്ക്ക (Perakka)",
+      "bengali": "পেয়ারা (Peyara)",
+      "marathi": "पेरू (Peru)"
+    },
+    "synonyms": [],
+    "family": "Myrtaceae",
+    "genus": "Psidium",
+    "species": "guajava",
+    "category": "fruit plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Uttar Pradesh (Allahabad)",
+      "Madhya Pradesh",
+      "Bihar",
+      "Andhra Pradesh",
+      "Maharashtra",
+      "Gujarat",
+      "Karnataka",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, elliptic to oblong leathery leaves with prominent raised parallel veins beneath",
+      "arrangement": "Opposite, decussate",
+      "margin": "Entire",
+      "venation": "Pinnate with sunken veins above",
+      "color": "Dull medium green with aromatic glandular dots"
+    },
+    "stem_characteristics": "Smooth, thin, peeling coppery-brown bark with green patches, quadrangular young twigs, 3–8 m",
+    "flower_characteristics": "White solitary or 2–3 clustered flowers with numerous showy white stamens",
+    "fruit_characteristics": "Globose to pyriform berry with persistent calyx, green skin ripening yellow, white or pink pulp with hard seeds",
+    "growth_habit": "Small evergreen or semi-deciduous tree or spreading shrub, 3–8 meters",
+    "habitat_and_climate": "Tropical and sub-tropical climate; highly adaptable and drought hardy",
+    "sunlight_requirements": "Full sunlight (8 hours)",
+    "water_requirements": "Moderate; drought tolerant once established",
+    "soil_preferences": "Tolerates varied soils: alluvial loams, clay loams, red soils; withstands soil salinity and pH 4.5–8.2",
+    "growing_season": "Two main crops: Mrig Bahar (winter fruiting, superior quality) and Ambe Bahar (monsoon fruiting)",
+    "propagation_methods": [
+      "Air layering (guttee), wedge grafting, or budding (Lucknow 49 / Sardar, Allahabad Safeda)"
+    ],
+    "uses": [
+      "High-vitamin C fruit (4 times higher than orange); eaten fresh with chaat masala",
+      "Jams, jellies (high natural pectin content), guava nectar",
+      "Tender leaves boiled for mouth ulcers and gastrointestinal soothing"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Guava Wilt (Fusarium oxysporum f. sp. psidii)",
+        "type": "fungal",
+        "symptoms": "Rapid yellowing and browning of leaves, twig die-back, complete wilting of mature tree",
+        "management": "Drench basin with Carbendazim (2 g/L); graft on resistant Psidium cattleianum rootstock"
+      }
+    ],
+    "prevention_guidance": [
+      "Withhold irrigation in summer to force winter Mrig Bahar crop",
+      "Fruit bagging with foam nets protects from fruit flies"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/psidium-guajava.jpg",
+        "local_path": "backend/data/plant_images/psidium-guajava.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "carica-papaya",
+    "scientific_name": "Carica papaya",
+    "common_name": "Papaya / Papita",
+    "hindi_name": "पपीता (Papita)",
+    "telugu_name": "బొప్పాయి (Boppayi)",
+    "tamil_name": "பப்பாளி (Pappali)",
+    "other_regional_names": {
+      "kannada": "ಪಪ್ಪಾಯಿ (Pappayi)",
+      "malayalam": "പപ്പായ (Pappaya)",
+      "bengali": "পেঁপে (Pnepne)",
+      "marathi": "पपई (Papai)"
+    },
+    "synonyms": [],
+    "family": "Caricaceae",
+    "genus": "Carica",
+    "species": "papaya",
+    "category": "fruit plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "West Bengal",
+      "Tamil Nadu",
+      "Telangana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, palmately 7–11 deeply lobed leaves (50–70 cm across) with hollow cylindrical petioles (1 m)",
+      "arrangement": "Spirally clustered at stem apex",
+      "margin": "Deeply lobed",
+      "venation": "Palmate",
+      "color": "Vibrant light green to dark green"
+    },
+    "stem_characteristics": "Soft-wooded, erect, hollow unbranched single cylindrical trunk with prominent leaf scars, 2–8 m",
+    "flower_characteristics": "Polygamous (dioecious, gynodioecious, hermaphrodite): waxy creamy-white to yellow fragrant tubular flowers",
+    "fruit_characteristics": "Large cylindrical to globose berry (0.5–3.0 kg), orange-yellow skin, salmon-orange flesh with gelatinous black seeds",
+    "growth_habit": "Fast-growing soft-wooded herbaceous tree-like perennial, 2–8 meters",
+    "habitat_and_climate": "Warm tropical climate; completely intolerant of frost and waterlogging",
+    "sunlight_requirements": "Full sunlight (8 hours daily)",
+    "water_requirements": "Regular moderate moisture; collar region must stay dry to prevent stem rot",
+    "soil_preferences": "Deep, fertile, well-drained rich sandy loam with high organic matter, pH 6.0–7.0",
+    "growing_season": "Year-round fruiting (Red Lady 786, Pusa Delicious, Coorg Honey Dew)",
+    "propagation_methods": [
+      "Seed sowing in nursery polybags"
+    ],
+    "uses": [
+      "Sweet dessert fruit rich in beta-carotene and Vitamin C",
+      "Raw green papaya cooked in curries (som tam, chutney)",
+      "Latex source of papain enzyme for meat tenderizing and digestive therapeutics"
+    ],
+    "safety_notes": "Unripe green papaya latex contains papain enzyme; pregnant women are advised to avoid raw unpeeled papaya.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Papaya Ringspot Virus (PRSV)",
+        "type": "viral",
+        "symptoms": "Yellow mosaic mottling on leaves, shoestring distortion, water-soaked oily rings on stems and fruits",
+        "management": "Vector aphid control with systemic insecticides; rogue infected trees immediately"
+      },
+      {
+        "name": "Foot Rot / Stem Rot (Pythium aphanidermatum)",
+        "type": "fungal",
+        "symptoms": "Water-soaked soft rotting at soil collar level causing tree toppling",
+        "management": "Ensure elevated mound planting; drench collar with Metalaxyl + Mancozeb (2.5 g/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant on 20 cm raised mounds to ensure water never pools around stem collar",
+      "Maintain 1 male tree for every 10 female trees in dioecious orchards"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/carica-papaya.jpg",
+        "local_path": "backend/data/plant_images/carica-papaya.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cocos-nucifera",
+    "scientific_name": "Cocos nucifera",
+    "common_name": "Coconut Palm / Kalpavriksha / Nariyal",
+    "hindi_name": "नारियल (Nariyal)",
+    "telugu_name": "కొబ్బరి (Kobbari)",
+    "tamil_name": "தேங்காய் (Thengai)",
+    "other_regional_names": {
+      "kannada": "ತೆಂಗಿನಕಾಯಿ (Tenginakayi)",
+      "malayalam": "തേങ്ങ (Thenga)",
+      "bengali": "নারকেল (Narkel)",
+      "marathi": "नारळ (Naral)"
+    },
+    "synonyms": [],
+    "family": "Arecaceae",
+    "genus": "Cocos",
+    "species": "nucifera",
+    "category": "plantation",
+    "status_in_india": "native",
+    "indian_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Odisha",
+      "West Bengal",
+      "Goa",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large pinnately divided feather-like arching fronds (4–6 m long) with numerous linear-lanceolate rigid leaflets",
+      "arrangement": "Crown rosette",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Lustrous emerald green to golden green"
+    },
+    "stem_characteristics": "Tall, slender, unbranched cylindrical ringed trunk with swollen base and adventitious root bole, 15–30 m",
+    "flower_characteristics": "Monoecious: spadix inflorescence enclosed in woody spathe; male flowers numerous at tip, female button flowers at base",
+    "fruit_characteristics": "Large fibrous 3-sided ovoid drupe with smooth exocarp, thick fibrous coir mesocarp, hard stony endocarp, and sweet liquid/solid endosperm",
+    "growth_habit": "Tall majestic single-stemmed evergreen palm tree, 15–30 meters",
+    "habitat_and_climate": "Warm humid tropical maritime coastal belt and river basins; frost-free",
+    "sunlight_requirements": "Full intense sun",
+    "water_requirements": "High (40–50 liters/palm/day in summer); responds to coastal saltwater and brackish aquifers",
+    "soil_preferences": "Deep coastal sandy soils, alluvial loams, and red laterites with good percolation, pH 5.2–8.0",
+    "growing_season": "Perennial continuous fruiting (West Coast Tall, East Coast Tall, Chowghat Orange Dwarf, DXT hybrids)",
+    "propagation_methods": [
+      "Selected mature seed coconut germination"
+    ],
+    "uses": [
+      "Kalpavriksha (tree of heaven): tender coconut water (natural electrolyte), coconut oil, copra, grated coconut in food",
+      "Coir fiber for ropes, geotextiles, mattresses, and coir pith compost",
+      "Leaves for thatch, trunk for building timber"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Rhinoceros Beetle (Oryctes rhinoceros)",
+        "type": "pest",
+        "symptoms": "Geometric V-shaped geometric cuts on emerging fronds; chewing into cabbage crown",
+        "management": "Hook out beetles from crown; pack top leaf axils with sevidol/sand mixture (1:1)"
+      },
+      {
+        "name": "Root (Wilt) Disease",
+        "type": "phytoplasma",
+        "symptoms": "Flaccidity and abnormal inward ribbing of leaflets, marginal necrosis, yellowing",
+        "management": "Balanced NPK + Magnesium Sulfate (500 g/palm); intercrop with green manure"
+      }
+    ],
+    "prevention_guidance": [
+      "Apply 1 kg urea, 2 kg single superphosphate, and 2 kg muriate of potash per mature palm annually",
+      "Practice basin mulching with coconut leaves and coir pith"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cocos-nucifera.jpg",
+        "local_path": "backend/data/plant_images/cocos-nucifera.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "areca-catechu",
+    "scientific_name": "Areca catechu",
+    "common_name": "Arecanut / Betel Nut Palm / Supari",
+    "hindi_name": "सुपारी (Supari)",
+    "telugu_name": "పోకచెక్క (Pokachekka)",
+    "tamil_name": "பாக்கு (Paakku)",
+    "other_regional_names": {
+      "kannada": "ಅಡಿಕೆ (Adike)",
+      "malayalam": "അടയ്ക്ക (Adaykka)",
+      "bengali": "সুপারি (Shupari)",
+      "marathi": "सुपारी (Supari)"
+    },
+    "synonyms": [],
+    "family": "Arecaceae",
+    "genus": "Areca",
+    "species": "catechu",
+    "category": "plantation",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Karnataka",
+      "Kerala",
+      "Assam",
+      "Meghalaya",
+      "West Bengal",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnately divided arching fronds (1.5–2 m) crowded at stem crown with lanceolate clustered pinnae",
+      "arrangement": "Terminal crown",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Dark glossy green"
+    },
+    "stem_characteristics": "Slender, perfectly straight erect annulated trunk (15–20 cm diameter) with distinct pale nodal rings, 12–25 m",
+    "flower_characteristics": "Spadix inflorescence branching under crownshaft; small fragrant white male flowers and fewer female flowers",
+    "fruit_characteristics": "Fibrous ovoid to globose drupe (4–6 cm), bright orange-red when ripe, enclosing hard ruminate seed (nut)",
+    "growth_habit": "Slender tall single-stemmed evergreen feather palm, 12–25 meters",
+    "habitat_and_climate": "Humid tropical rainforest zones and foothills (Western Ghats and Northeast India); sensitive to drought and sunscald",
+    "sunlight_requirements": "Partial shade when young; filtered to full sun as canopy matures",
+    "water_requirements": "High regular moisture; sensitive to water deficit",
+    "soil_preferences": "Deep fertile lateritic loams and clay loams rich in organic matter with excellent drainage, pH 5.5–6.5",
+    "growing_season": "Perennial fruiting (Mangala, Sumangala, Mohitnagar, South Kanara)",
+    "propagation_methods": [
+      "Ripe seed nut nursery germination"
+    ],
+    "uses": [
+      "Betel nut chewed with paan (piper betle leaf and slaked lime)",
+      "Tannins for dyeing and leather tanning",
+      "Areca leaf sheaths pressed into eco-friendly biodegradable plates and bowls"
+    ],
+    "safety_notes": "Habitual chewing of areca nut with tobacco is clinically proven to cause oral submucous fibrosis and oral carcinomas.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Koleroga / Fruit Rot (Phytophthora meadii)",
+        "type": "fungal",
+        "symptoms": "Water-soaked lesions on nuts causing heavy premature rotting and dropping of green nuts during monsoon",
+        "management": "Prophylactic spraying of 1% Bordeaux mixture before monsoon onset; cover bunches with polythene bags"
+      }
+    ],
+    "prevention_guidance": [
+      "Tie polyethylene bags over developing nut bunches before heavy monsoon to prevent Koleroga",
+      "Intercrop with Pepper, Banana, and Cocoa"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/areca-catechu.jpg",
+        "local_path": "backend/data/plant_images/areca-catechu.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "artocarpus-heterophyllus",
+    "scientific_name": "Artocarpus heterophyllus",
+    "common_name": "Jackfruit / Kathal",
+    "hindi_name": "कटहल (Kathal)",
+    "telugu_name": "పనస (Panasa)",
+    "tamil_name": "பலாப்பழம் (Palappazham)",
+    "other_regional_names": {
+      "kannada": "ಹಲಸಿನ ಹಣ್ಣು (Halasina Hannu)",
+      "malayalam": "ചക്ക (Chakka)",
+      "bengali": "কাঁঠাল (Kanthal)",
+      "marathi": "फणस (Phanas)"
+    },
+    "synonyms": [],
+    "family": "Moraceae",
+    "genus": "Artocarpus",
+    "species": "heterophyllus",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka",
+      "Assam",
+      "West Bengal",
+      "Tripura",
+      "Odisha",
+      "Maharashtra",
+      "Goa"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), elliptic to obovate glossy dark green leaves",
+      "arrangement": "Alternate, spiral",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dark glossy green above, paler beneath"
+    },
+    "stem_characteristics": "Stout, straight trunk with rough dark grey-brown bark; exhibits cauliflory (flowers directly on trunk and older boughs), 10–20 m",
+    "flower_characteristics": "Monoecious: cylindrical fleshy spikes; male spikes on younger twigs, female spikes directly on main trunk and thick branches",
+    "fruit_characteristics": "World's largest tree-borne fruit: giant syncarp (10–35 kg) with spiny pyramidal rind holding golden-yellow aromatic bulbs (arils)",
+    "growth_habit": "Large stately evergreen canopy tree, 10–20 meters",
+    "habitat_and_climate": "Humid tropical Western Ghats and Northeast rainforests; warm and frost-free",
+    "sunlight_requirements": "Full sunlight to light shade",
+    "water_requirements": "Moderate; deep taproot system withstands dry periods",
+    "soil_preferences": "Deep, fertile, well-drained alluvial and lateritic sandy loams; strictly avoids waterlogged roots",
+    "growing_season": "Summer fruiting (March–July)",
+    "propagation_methods": [
+      "Seeds (fresh), approach grafting, air layering"
+    ],
+    "uses": [
+      "Raw tender green jackfruit cooked as vegetarian 'plant meat' curry (kathal sabzi)",
+      "Ripe golden bulbs eaten fresh, halwa, chips, ice cream",
+      "Nutritious seeds boiled or roasted",
+      "Valuable yellow timber for furniture and musical instruments"
+    ],
+    "safety_notes": "Latex sap is very sticky; grease hands and knives with coconut oil before cutting.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Rhizopus Fruit Rot (Rhizopus artocarpi)",
+        "type": "fungal",
+        "symptoms": "Soft watery black rot on male inflorescences and young fruitlets covered in greyish-black whisker mycelium",
+        "management": "Foliar spray of Copper Oxychloride (2.5 g/L) or Mancozeb"
+      }
+    ],
+    "prevention_guidance": [
+      "Prune dead wood and water sprouts to keep main trunk clean for cauliflorous fruit emergence"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/artocarpus-heterophyllus.jpg",
+        "local_path": "backend/data/plant_images/artocarpus-heterophyllus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "punica-granatum",
+    "scientific_name": "Punica granatum",
+    "common_name": "Pomegranate / Anar",
+    "hindi_name": "अनार (Anar)",
+    "telugu_name": "దానిమ్మ (Danimma)",
+    "tamil_name": "மாதுளம்பழம் (Madhulampazham)",
+    "other_regional_names": {
+      "kannada": "ದಾಳಿಂಬೆ (Dalimbe)",
+      "malayalam": "മാതളനാരങ്ങ (Mathalanaranga)",
+      "bengali": "বেদানা / ডালিম (Bedana / Dalim)",
+      "marathi": "डाळಿಂಬ (Dalimb)"
+    },
+    "synonyms": [],
+    "family": "Lythraceae",
+    "genus": "Punica",
+    "species": "granatum",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra (Solapur, Nashik)",
+      "Gujarat",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Narrow, oblong-lanceolate smooth glossy leaves with short reddish petiole",
+      "arrangement": "Opposite or clustered on spur twigs",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Lustrous bright green"
+    },
+    "stem_characteristics": "Multi-stemmed spiny spreading shrub or small tree with grey bark, 3–6 m",
+    "flower_characteristics": "Showy solitary or clustered bright scarlet-red tubular flowers with fleshy calyx",
+    "fruit_characteristics": "Globose berry (balausta) with tough leathery red/yellow rind and persistent crown calyx, interior filled with ruby-red juicy arils",
+    "growth_habit": "Deciduous spiny spreading shrub or small tree, 3–6 meters",
+    "habitat_and_climate": "Semi-arid sub-tropical to tropical climate with dry hot summers and cool winters",
+    "sunlight_requirements": "Full bright sun (8+ hours daily)",
+    "water_requirements": "Moderate; highly drought hardy, but uniform drip irrigation prevents fruit cracking",
+    "soil_preferences": "Well-drained light loamy soils to medium black soils, pH 6.5–8.0",
+    "growing_season": "Mrig Bahar (monsoon flower, winter harvest) and Hastha Bahar (Bhagwa / Sindhuri / Ganesh)",
+    "propagation_methods": [
+      "Air layering, hardwood cuttings, or tissue culture"
+    ],
+    "uses": [
+      "Nutrient-dense superfruit rich in punicalagins, ellagic acid, and antioxidants",
+      "Fresh arils, pure juice, anardana (dried sour seeds as spice)",
+      "Rind used in Ayurvedic remedies for diarrhea"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Bacterial Blight / Telya (Xanthomonas axonopodis pv. punicae)",
+        "type": "bacterial",
+        "symptoms": "Water-soaked angular black spots on leaves, black cankers on twigs, Y-shaped or L-shaped black oily cracks on fruits",
+        "management": "Strict sanitation; prune infected twigs; spray Streptocycline (0.5 g/L) + Copper Oxychloride (2.5 g/L)"
+      },
+      {
+        "name": "Fruit Borer / Anar Butterfly (Deudorix isocrates)",
+        "type": "pest",
+        "symptoms": "Caterpillar bores inside developing fruit, causing rotting and fruit drop with foul frass",
+        "management": "Bag young fruits with butter paper/cloth bags at marble stage; spray Chlorantraniliprole"
+      }
+    ],
+    "prevention_guidance": [
+      "Bag young developing fruits (5 cm diameter) with butter paper bags to prevent 100% insect and sunscald damage",
+      "Adopt drip irrigation to avoid wet foliage"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/punica-granatum.jpg",
+        "local_path": "backend/data/plant_images/punica-granatum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "vitis-vinifera",
+    "scientific_name": "Vitis vinifera",
+    "common_name": "Grapes / Angoor",
+    "hindi_name": "अंगूर (Angoor)",
+    "telugu_name": "ద్రాక్ష (Draksha)",
+    "tamil_name": "திராட்சை (Thiratchai)",
+    "other_regional_names": {
+      "kannada": "ದ್ರಾಕ್ಷಿ (Drakshi)",
+      "malayalam": "മുന്തിരി (Munthiri)",
+      "bengali": "আঙুর (Angur)",
+      "marathi": "द्राक्षे (Drakashe)"
+    },
+    "synonyms": [],
+    "family": "Vitaceae",
+    "genus": "Vitis",
+    "species": "vinifera",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra (Nashik, Sangli)",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Telangana",
+      "Punjab",
+      "Haryana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, cordate palmately 3–5 lobed leaves with coarsely serrate margins",
+      "arrangement": "Alternate, distichous",
+      "margin": "Coarsely serrate",
+      "venation": "Palmate",
+      "color": "Rich green with distinct veins"
+    },
+    "stem_characteristics": "Woody climbing deciduous vine with leaf-opposed branched coiled tendrils, up to 15 m",
+    "flower_characteristics": "Dense panicles of tiny yellowish-green fragrant flowers",
+    "fruit_characteristics": "Globose to ellipsoid fleshy juicy berries in tight pendulous bunches (green, purple, red, black)",
+    "growth_habit": "Vigorous woody perennial climbing liana, trained on overhead pandals, 3–15 m",
+    "habitat_and_climate": "Warm dry Mediterranean to subtropical climate; dry rainless sunny weather during berry ripening is essential",
+    "sunlight_requirements": "Full intense sun",
+    "water_requirements": "Controlled drip irrigation; withholding water before harvest enhances Brix sugars",
+    "soil_preferences": "Deep, well-drained sandy loam or gravelly loam soils, pH 6.5–7.8",
+    "growing_season": "Double pruning system: Foundation pruning (April) and Forward fruiting pruning (October)",
+    "propagation_methods": [
+      "Hardwood cuttings grafted on Dog Ridge rootstock (Thomson Seedless, Sonaka, Sharad Seedless)"
+    ],
+    "uses": [
+      "Fresh table fruit, sweet raisins (kishmish), premium wine production",
+      "Grape seed oil and resveratrol antioxidant extract"
+    ],
+    "safety_notes": "Safe for human consumption. TOXIC to dogs (causes acute kidney failure).",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Downy Mildew (Plasmopara viticola)",
+        "type": "fungal",
+        "symptoms": "Yellowish translucent 'oil spots' on upper leaf surface with dense white cottony fungal growth on underside",
+        "management": "Spray Bordeaux mixture 1% or Metalaxyl + Mancozeb (2.5 g/L)"
+      },
+      {
+        "name": "Powdery Mildew (Uncinula necator)",
+        "type": "fungal",
+        "symptoms": "Ash-grey powdery coating on leaves and young berries causing berry cracking",
+        "management": "Foliar sulfur dust or Azoxystrobin (1 ml/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Train on Bower / Pergola trellises for optimal airflow and sunlight interception",
+      "Dip developing bunches in Gibberellic Acid (GA3 @ 10–40 ppm) for berry elongation"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/vitis-vinifera.jpg",
+        "local_path": "backend/data/plant_images/vitis-vinifera.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "citrus-limon",
+    "scientific_name": "Citrus limon",
+    "common_name": "Lemon / Nimbu / Baramasi Nimbu",
+    "hindi_name": "नींबू (Nimbu)",
+    "telugu_name": "నిమ్మకాయ (Nimmakaya)",
+    "tamil_name": "எலுமிச்சை (Elumichai)",
+    "other_regional_names": {
+      "kannada": "ನಿಂಬೆಹಣ್ಣು (Nimbehanu)",
+      "malayalam": "ചെറുനാരങ്ങ (Cherunaranga)",
+      "bengali": "লেবু (Lebu)",
+      "marathi": "लिंबू (Limbu)"
+    },
+    "synonyms": [],
+    "family": "Rutaceae",
+    "genus": "Citrus",
+    "species": "limon",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Maharashtra",
+      "Tamil Nadu",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple elliptic-ovate coriaceous leaves with narrowly winged petiole and citrus aroma",
+      "arrangement": "Alternate",
+      "margin": "Crenate to serrulate",
+      "venation": "Pinnate",
+      "color": "Glossy dark green with translucent oil glands"
+    },
+    "stem_characteristics": "Spreading thorny shrub or small tree with sharp axillary spines, 3–6 m",
+    "flower_characteristics": "Fragrant solitary or clustered white flowers with purplish-tinted exterior petals",
+    "fruit_characteristics": "Ovoid to ellipsoid hesperidium with distinct terminal nipple, yellow rind, and sour acidic juice",
+    "growth_habit": "Small evergreen thorny tree or spreading shrub, 3–6 meters",
+    "habitat_and_climate": "Sub-tropical and tropical climate; frost sensitive",
+    "sunlight_requirements": "Full sun (6–8 hours)",
+    "water_requirements": "Regular moderate watering; avoids soggy root zones",
+    "soil_preferences": "Well-drained light loamy soils to medium black soils, pH 6.0–7.5",
+    "growing_season": "Year-round flowering and fruiting with major flushes (Kagzi, Baramasi, Eureka)",
+    "propagation_methods": [
+      "T-budding, air layering, or seedling"
+    ],
+    "uses": [
+      "Universal culinary souring agent, fresh nimbu pani (lemonade), pickles",
+      "Rich source of Vitamin C and citric acid; preservation and cleansing"
+    ],
+    "safety_notes": "Plant has sharp axillary thorns. Peel contains photosensitizing psoralen oils.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Citrus Canker (Xanthomonas citri)",
+        "type": "bacterial",
+        "symptoms": "Raised, corky, rough brownish pustules surrounded by yellow chlorotic halo on leaves, twigs, and fruits",
+        "management": "Prune cankered twigs; spray Streptocycline (100 ppm) + Copper Oxychloride (2.5 g/L)"
+      },
+      {
+        "name": "Citrus Leaf Miner (Phyllocnistis citrella)",
+        "type": "pest",
+        "symptoms": "Silvery serpentine zigzag mines on tender young leaves causing severe leaf curling",
+        "management": "Spray Imidacloprid 17.8 SL (0.3 ml/L) or Neem oil (5 ml/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Prune interior water shoots and cross branches annually",
+      "Paint trunk base with Bordeaux paste to prevent gummosis"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/citrus-limon.jpg",
+        "local_path": "backend/data/plant_images/citrus-limon.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "citrus-aurantiifolia",
+    "scientific_name": "Citrus aurantiifolia",
+    "common_name": "Acid Lime / Kagzi Nimbu",
+    "hindi_name": "कागज़ी नींबू (Kagzi Nimbu)",
+    "telugu_name": "పుల్లనిమ్మ (Pullanimmma)",
+    "tamil_name": "எலுமிச்சம்பழம் (Elumichampazham)",
+    "other_regional_names": {
+      "kannada": "ಹುಳಿ ನಿಂಬೆ (Huli Nimbe)",
+      "malayalam": "നാരങ്ങ (Naranga)",
+      "bengali": "কাগজি লেবু (Kagzi Lebu)",
+      "marathi": "कागदी लिंबू (Kagadi Limbu)"
+    },
+    "synonyms": [],
+    "family": "Rutaceae",
+    "genus": "Citrus",
+    "species": "aurantiifolia",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Maharashtra",
+      "Tamil Nadu",
+      "Karnataka",
+      "Telangana",
+      "Bihar"
+    ],
+    "leaf_characteristics": {
+      "shape": "Elliptic-oval leathery aromatic leaves with narrowly spathulate-winged petioles",
+      "arrangement": "Alternate",
+      "margin": "Crenulate",
+      "venation": "Pinnate",
+      "color": "Bright shiny green"
+    },
+    "stem_characteristics": "Dense bushy spreading thorny shrub or small tree with short stiff sharp spines, 2–4 m",
+    "flower_characteristics": "Small pure white fragrant flowers in axillary clusters of 2–7",
+    "fruit_characteristics": "Small globose to sub-globose thin-skinned hesperidium (3–5 cm), greenish-yellow with intensely sour juice",
+    "growth_habit": "Small dense thorny evergreen bushy tree, 2.5–5 meters",
+    "habitat_and_climate": "Warm tropical and subtropical climate; heat tolerant but susceptible to frost",
+    "sunlight_requirements": "Full sunlight (8 hours)",
+    "water_requirements": "Regular moderate moisture; sensitive to drought at fruit set",
+    "soil_preferences": "Deep fertile well-drained sandy loam or light alluvial soils, pH 6.5–7.5",
+    "growing_season": "Year-round fruiting (major peaks in summer and monsoon)",
+    "propagation_methods": [
+      "Seedling propagation (polyembryonic) or T-budding"
+    ],
+    "uses": [
+      "Premier Indian lime for pickles, seasoning, cooling drinks, dal souring",
+      "High citric acid content"
+    ],
+    "safety_notes": "Thorns on branches. Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Citrus Canker",
+        "type": "bacterial",
+        "symptoms": "Corky eruptive spots on foliage and lime fruits",
+        "management": "Streptocycline + Copper Oxychloride"
+      }
+    ],
+    "prevention_guidance": [
+      "Mulch basin with organic matter",
+      "Maintain good drainage to prevent phytophthora gummosis"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/citrus-aurantiifolia.jpg",
+        "local_path": "backend/data/plant_images/citrus-aurantiifolia.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "citrus-sinensis",
+    "scientific_name": "Citrus sinensis",
+    "common_name": "Sweet Orange / Mosambi / Malta",
+    "hindi_name": "मौसंबी / माल्टा (Mosambi)",
+    "telugu_name": "బత్తాయి (Batthayi)",
+    "tamil_name": "சாத்துக்குடி (Saathukudi)",
+    "other_regional_names": {
+      "kannada": "ಮೋಸಂಬಿ (Mosambi)",
+      "malayalam": "മൊസമ്പി (Mosambi)",
+      "bengali": "মৌসম্বি (Moushambi)",
+      "marathi": "मोसंबी (Mosambi)"
+    },
+    "synonyms": [],
+    "family": "Rutaceae",
+    "genus": "Citrus",
+    "species": "sinensis",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra (Jalna, Aurangabad)",
+      "Andhra Pradesh",
+      "Telangana",
+      "Punjab",
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Elliptic-oblong glossy coriaceous leaves with medium-winged petiole and distinct citrus fragrance",
+      "arrangement": "Alternate",
+      "margin": "Entire to crenulate",
+      "venation": "Pinnate",
+      "color": "Dark glossy green"
+    },
+    "stem_characteristics": "Medium-sized compact evergreen tree with rounded canopy and slender thorns, 4–8 m",
+    "flower_characteristics": "Intensely fragrant solitary or clustered pure white waxy flowers",
+    "fruit_characteristics": "Globose hesperidium with smooth green to golden-yellow rind, sweet mild juice with low acidity",
+    "growth_habit": "Compact evergreen rounded fruit tree, 4–8 meters",
+    "habitat_and_climate": "Subtropical to tropical climate with dry winter and warm sunny summers",
+    "sunlight_requirements": "Full sun (8 hours)",
+    "water_requirements": "Moderate regular drip irrigation",
+    "soil_preferences": "Well-drained deep loamy and black soils with good aeration, pH 6.5–7.5",
+    "growing_season": "Ambe Bahar (Feb–March flower, Nov–Dec harvest) and Mrig Bahar",
+    "propagation_methods": [
+      "T-budding on Rangpur Lime or Jatti Khatti rootstock"
+    ],
+    "uses": [
+      "India's most popular fresh juice fruit (sweet mosambi juice, rich in Vitamin C and potassium)",
+      "Table fruit and therapeutic rehydration for convalescents"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Die-back / Gummosis (Phytophthora nicotianae)",
+        "type": "fungal",
+        "symptoms": "Gum exudation from trunk base, bark splitting, yellowing and dying back of twigs",
+        "management": "Scrape gummed bark; apply Bordeaux paste; drench with Fosetyl-Al (2 g/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Bud on Phytophthora-tolerant Rangpur Lime rootstock",
+      "Keep graft union at least 25 cm above ground level"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/citrus-sinensis.jpg",
+        "local_path": "backend/data/plant_images/citrus-sinensis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "manilkara-zapota",
+    "scientific_name": "Manilkara zapota",
+    "common_name": "Sapota / Chikoo",
+    "hindi_name": "चीकू (Chikoo)",
+    "telugu_name": "సపోటా (Sapota)",
+    "tamil_name": "சப்போட்டா (Sappotta)",
+    "other_regional_names": {
+      "kannada": "ಚಿಕ್ಕು (Chikku)",
+      "malayalam": "ചിക്കു (Chikku)",
+      "bengali": "সফেদা (Sofeda)",
+      "marathi": "चिकू (Chiku)"
+    },
+    "synonyms": [
+      "Achras zapota"
+    ],
+    "family": "Sapotaceae",
+    "genus": "Manilkara",
+    "species": "zapota",
+    "category": "fruit plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Gujarat (Navsari)",
+      "Maharashtra (Dahanu)",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Kerala",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), elliptic-lanceolate glossy dark green leaves crowded at twig ends",
+      "arrangement": "Alternate, clustered at branch tips",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dark lustrous green with prominent veins"
+    },
+    "stem_characteristics": "Stout, erect trunk with dark grey-brown rough fissured bark and horizontal branching, 8–15 m",
+    "flower_characteristics": "Small, bell-shaped solitary white or pale cream flowers on rusty-hairy pedicels in leaf axils",
+    "fruit_characteristics": "Globose to ovoid fleshy berry with rough scurfy brown rind; sweet, brown, granular, honey-sweet pulp with shiny black seeds",
+    "growth_habit": "Medium to large evergreen rounded tree, 8–15 meters tall",
+    "habitat_and_climate": "Warm humid tropical coastal climate; withstands coastal saline sea breezes and windstorms",
+    "sunlight_requirements": "Full sunlight (8 hours)",
+    "water_requirements": "Moderate; highly drought hardy once mature",
+    "soil_preferences": "Tolerates varied soils: coastal alluvium, sandy loams, deep black soils, and laterites, pH 6.0–8.0",
+    "growing_season": "Continuous year-round fruiting with two peak harvest seasons (Kalipatti, Cricket Ball, PKM-1)",
+    "propagation_methods": [
+      "Approach grafting (inarching) or softwood grafting on Khirni (Manilkara hexandra) rootstock"
+    ],
+    "uses": [
+      "Popular sweet table fruit (chikoo shakes, ice creams, halwa)",
+      "Natural source of sugars (fructose/sucrose) and dietary fiber",
+      "Traditional source of chicle latex used in chewing gum"
+    ],
+    "safety_notes": "Seeds have an apical hook that can catch in the throat if swallowed whole. Discard seeds.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Leaf Spot (Phaeophleospora indica)",
+        "type": "fungal",
+        "symptoms": "Small circular brown spots with whitish centers on leaves causing defoliation",
+        "management": "Spray Mancozeb (2 g/L) or Carbendazim (1 g/L)"
+      },
+      {
+        "name": "Bud Borer (Anarsia achrasella)",
+        "type": "pest",
+        "symptoms": "Caterpillar webs together buds and tender leaves, boring into flower buds",
+        "management": "Spray Quinalphos or Chlorpyrifos"
+      }
+    ],
+    "prevention_guidance": [
+      "Graft on hardy Khirni (Manilkara hexandra) rootstock for lifelong vigor",
+      "Harvest mature fruits when brown scurf rubs off easily and skin shows yellowish-green tinge underneath"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/manilkara-zapota.jpg",
+        "local_path": "backend/data/plant_images/manilkara-zapota.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "annona-squamosa",
+    "scientific_name": "Annona squamosa",
+    "common_name": "Custard Apple / Sugar Apple / Sitaphal",
+    "hindi_name": "सीताफल / शरीफा (Sitaphal)",
+    "telugu_name": "సీతాఫలం (Seethaphalam)",
+    "tamil_name": "சீத்தாப்பழம் (Seethappazham)",
+    "other_regional_names": {
+      "kannada": "ಸೀತಾಫಲ (Seethaphala)",
+      "malayalam": "ആത്തച്ചക്ക (Aathachakka)",
+      "bengali": "আতা (Aata)",
+      "marathi": "सीताफळ (Sitaphal)"
+    },
+    "synonyms": [],
+    "family": "Annonaceae",
+    "genus": "Annona",
+    "species": "squamosa",
+    "category": "fruit plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Maharashtra",
+      "Telangana",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Rajasthan",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, oblong-lanceolate smooth thin leaves with distinct aromatic odor when crushed",
+      "arrangement": "Alternate, 2-ranked",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dull blue-green above, paler glaucous beneath"
+    },
+    "stem_characteristics": "Slender, branched small deciduous tree or large shrub with thin grey bark, 3–6 m",
+    "flower_characteristics": "Solitary or clustered greenish-yellow drooping fleshy 3-petaled flowers with numerous stamens",
+    "fruit_characteristics": "Globose to heart-shaped tuberculate syncarp with prominent rounded polygonal knobs/segments (carpels); creamy sweet white pulp with glossy black seeds",
+    "growth_habit": "Small deciduous tree or sprawling shrub, 3–6 meters",
+    "habitat_and_climate": "Tropical and sub-tropical semi-arid climate; exceptionally drought hardy and heat tolerant",
+    "sunlight_requirements": "Full intense sun",
+    "water_requirements": "Low water requirement; survives in rainfed rocky terrain",
+    "soil_preferences": "Rocky, gravelly, shallow soils, light sandy loams, and red soils, pH 6.0–7.5",
+    "growing_season": "Autumn harvest (September–November) (Balanagar, Arka Sahan, NMK-1 Golden)",
+    "propagation_methods": [
+      "Seeds, wedge grafting, or budding on seedling rootstocks"
+    ],
+    "uses": [
+      "Delicious sweet dessert fruit; sitaphal ice cream, basundi, shakes",
+      "Seeds contain insecticidal acetogenins traditionally used against lice and crop pests"
+    ],
+    "safety_notes": "CRITICAL NOTE: Seeds are toxic and should not be crushed or chewed. Do not consume seeds.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Mealybug (Maconellicoccus hirsutus)",
+        "type": "pest",
+        "symptoms": "White waxy colonies clustered in grooves between fruit segments, producing sooty mold",
+        "management": "Release Cryptolaemus montrouzieri ladybird predator; spray Buprofezin (1 ml/L) or Neem oil"
+      }
+    ],
+    "prevention_guidance": [
+      "Hand pollination in morning hours increases fruit set by 60% and eliminates lopsided fruits"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/annona-squamosa.jpg",
+        "local_path": "backend/data/plant_images/annona-squamosa.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "phyllanthus-emblica",
+    "scientific_name": "Phyllanthus emblica",
+    "common_name": "Indian Gooseberry / Amla",
+    "hindi_name": "आंवला (Amla)",
+    "telugu_name": "ఉసిరికాయ (Usirikaya)",
+    "tamil_name": "நெல்லிக்காய் (Nellikai)",
+    "other_regional_names": {
+      "kannada": "ನೆಲ್ಲಿಕಾಯಿ (Nellikayi)",
+      "malayalam": "നെല്ലിക്ക (Nellikka)",
+      "bengali": "আমলকী (Amloki)",
+      "marathi": "आवळा (Aawla)"
+    },
+    "synonyms": [
+      "Emblica officinalis"
+    ],
+    "family": "Phyllanthaceae",
+    "genus": "Phyllanthus",
+    "species": "emblica",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Uttar Pradesh (Pratapgarh)",
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "leaf_characteristics": {
+      "shape": "Small, linear-oblong, closely spaced pinnately arranged leaves on deciduous branchlets resembling compound leaves",
+      "arrangement": "Alternate, 2-ranked on branchlets",
+      "margin": "Entire",
+      "venation": "Inconspicuous",
+      "color": "Light fresh green"
+    },
+    "stem_characteristics": "Small to medium deciduous tree with flaking greenish-grey bark revealing pinkish underbark, 6–12 m",
+    "flower_characteristics": "Small, inconspicuous greenish-yellow flowers in compact axillary clusters on lower branchlets",
+    "fruit_characteristics": "Depressed globose 6-lobed smooth fleshy berry (2–4 cm), pale yellow-green with 6-ribbed hard stone",
+    "growth_habit": "Small to medium deciduous tree, 6–12 meters",
+    "habitat_and_climate": "Sub-tropical and tropical semi-arid zones; highly drought hardy and tolerant of light frost",
+    "sunlight_requirements": "Full sun (8 hours)",
+    "water_requirements": "Low to moderate; withstands long dry spells",
+    "soil_preferences": "Highly versatile: thrives in sodic/alkaline soils (pH up to 9.0), gravelly red soils, and alluvium",
+    "growing_season": "Winter harvest (November–February) (NA-7, Chakaiya, Kanchan, Banarasi, Krishna)",
+    "propagation_methods": [
+      "Patch budding or shield budding on wild seedling rootstocks"
+    ],
+    "uses": [
+      "Premier Ayurvedic rasayana (rejuvenator); primary ingredient in Chyawanprash and Triphala",
+      "Richest natural source of Vitamin C (600–900 mg/100g, stabilized by tannins)",
+      "Amla murabba, candy, pickles, hair oil, digestive supari"
+    ],
+    "safety_notes": "Extremely safe and revered in traditional and modern nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Amla Rust (Ravenelia emblicae)",
+        "type": "fungal",
+        "symptoms": "Ring of brownish pustules on leaflets and circular black spots on fruits",
+        "management": "Spray Wettable Sulfur (2 g/L) or Mancozeb"
+      }
+    ],
+    "prevention_guidance": [
+      "Prune dead branches and thin crowded shoots annually after harvest",
+      "Mulch tree basin with paddy straw to conserve moisture"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/phyllanthus-emblica.jpg",
+        "local_path": "backend/data/plant_images/phyllanthus-emblica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "tamarindus-indica",
+    "scientific_name": "Tamarindus indica",
+    "common_name": "Tamarind / Imli",
+    "hindi_name": "इमली (Imli)",
+    "telugu_name": "చింతపండు (Chintapandu)",
+    "tamil_name": "புளி (Puli)",
+    "other_regional_names": {
+      "kannada": "ಹುಣಸೆಹಣ್ಣು (Hunasehannu)",
+      "malayalam": "പുളി (Puli)",
+      "bengali": "তেঁতুল (Tentul)",
+      "marathi": "चिंच (Chinch)"
+    },
+    "synonyms": [],
+    "family": "Fabaceae",
+    "genus": "Tamarindus",
+    "species": "indica",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Maharashtra",
+      "Telangana",
+      "Madhya Pradesh",
+      "Odisha",
+      "Chhattisgarh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Evenly pinnate compound leaves with 10–18 pairs of small oblong obtuse leaflets that fold at night",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Fresh pale to medium green"
+    },
+    "stem_characteristics": "Massive, imposing trunk with rough dark grey fissured bark and dense spreading rounded dome canopy, 12–25 m",
+    "flower_characteristics": "Small pale yellow 5-petaled flowers with reddish-orange veins in drooping racemes",
+    "fruit_characteristics": "Cinnamon-brown indehiscent curved pendulous pod with brittle shell, thick sour-sweet tart pulp, and glossy brown seeds",
+    "growth_habit": "Large, long-lived stately evergreen tree living over 200 years, 12–25 meters",
+    "habitat_and_climate": "Semi-arid tropical and subtropical plains; exceptionally drought and wind resistant",
+    "sunlight_requirements": "Full blazing sun",
+    "water_requirements": "Low; rainfed once established",
+    "soil_preferences": "Deep, well-drained loams, gravelly red soils, and riverbanks; tolerates salinity and pH 5.5–8.5",
+    "growing_season": "Winter flowering, late spring/summer harvest (March–May) (PKM-1, Urigam, Prathisthan)",
+    "propagation_methods": [
+      "Grafting, air layering, or seed"
+    ],
+    "uses": [
+      "Essential souring agent across South Indian cookery: sambar, rasam, puliyodharai, imli chutney",
+      "High in natural tartaric acid, potassium, and pectin",
+      "Valuable hard timber and shade avenue tree"
+    ],
+    "safety_notes": "Safe for culinary consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "White powdery fungal spots on tender leaves",
+        "management": "Sulfur spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant along field boundaries and road avenues as living windbreaks"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/tamarindus-indica.jpg",
+        "local_path": "backend/data/plant_images/tamarindus-indica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "syzygium-cumini",
+    "scientific_name": "Syzygium cumini",
+    "common_name": "Jamun / Black Plum / Java Plum",
+    "hindi_name": "जामुन (Jamun)",
+    "telugu_name": "నేరేడు (Neredu)",
+    "tamil_name": "நாவல்பழം (Navalpazham)",
+    "other_regional_names": {
+      "kannada": "ನೇರಳೆ ಹಣ್ಣು (Nerale Hannu)",
+      "malayalam": "ഞാവൽ (Njaval)",
+      "bengali": "জাম (Jaam)",
+      "marathi": "जांभूळ (Jambhul)"
+    },
+    "synonyms": [
+      "Eugenia jambolana"
+    ],
+    "family": "Myrtaceae",
+    "genus": "Syzygium",
+    "species": "cumini",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Gujarat",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Bihar",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Opposite, coriaceous (leathery), oblong-elliptic glossy dark green leaves with faint turpentine aroma",
+      "arrangement": "Opposite",
+      "margin": "Entire",
+      "venation": "Pinnate with numerous fine parallel lateral veins",
+      "color": "Lustrous dark green above, paler beneath"
+    },
+    "stem_characteristics": "Stout, majestic trunk with rough light grey-brown exfoliating bark and dense spreading canopy, 10–25 m",
+    "flower_characteristics": "Small, fragrant greenish-white flowers in branched cymes on older twigs",
+    "fruit_characteristics": "Oblong-ellipsoid fleshy berry (2–4 cm), green ripening to lustrous deep purple-black with pink-purple staining astringent-sweet juice",
+    "growth_habit": "Large handsome evergreen canopy tree, 10–25 meters",
+    "habitat_and_climate": "Tropical and sub-tropical plains, riverine tracts, and moist depressions; tolerates waterlogging",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Moderate; withstands seasonal flooding",
+    "soil_preferences": "Deep fertile alluvial loams and moist soils near watercourses, pH 6.0–7.5",
+    "growing_season": "Monsoon harvest (June–July) coinciding with onset of rains",
+    "propagation_methods": [
+      "Softwood grafting or seeds (CISH J-37, CISH J-42)"
+    ],
+    "uses": [
+      "Antioxidant-rich monsoon fruit (anthocyanins); fresh fruit with black salt",
+      "Seed powder widely used in Ayurveda for managing type 2 diabetes mellitus",
+      "Water-resistant timber traditionally used for well linings"
+    ],
+    "safety_notes": "Dark anthocyanin juice temporarily stains tongue and teeth deep purple. Safe.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Anthracnose",
+        "type": "fungal",
+        "symptoms": "Leaf spots and fruit rot",
+        "management": "Copper oxychloride spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Pick fruits manually when fully purple-black; fallen fruits bruise easily"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/syzygium-cumini.jpg",
+        "local_path": "backend/data/plant_images/syzygium-cumini.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "citrullus-lanatus",
+    "scientific_name": "Citrullus lanatus",
+    "common_name": "Watermelon / Tarbooz",
+    "hindi_name": "तरबूज (Tarbooz)",
+    "telugu_name": "పుచ్చకాయ (Pucchakaya)",
+    "tamil_name": "தர்பூசணி (Tharpoosani)",
+    "other_regional_names": {
+      "kannada": "ಕಲ್ಲಂಗಡಿ (Kallangadi)",
+      "malayalam": "തണ്ണിമത്തൻ (Thannimathan)",
+      "bengali": "তরমুজ (Tormuj)",
+      "marathi": "कलिंगड (Kalingad)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Citrullus",
+    "species": "lanatus",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, deeply pinnatifid 3–5 lobed leaves with undulating round-tipped lobes and rough hairs",
+      "arrangement": "Alternate",
+      "margin": "Pinnatifid lobed",
+      "venation": "Pinnate",
+      "color": "Greyish green with scabrid pubescence"
+    },
+    "stem_characteristics": "Trailing angular hairy grooved vine with 2–3 branched coiled tendrils, 2–4 m",
+    "flower_characteristics": "Solitary pale yellow 5-petaled flowers; female flowers have hairy inferior ovary",
+    "fruit_characteristics": "Large globose to oblong smooth pepo (3–12 kg) with green striped rind, deep crimson-red sugary pulp (92% water) and flat black seeds",
+    "growth_habit": "Annual trailing herbaceous sprawling vine, 2–4 meters",
+    "habitat_and_climate": "Warm, dry, sunny summer climate; requires hot days (28°C–35°C) and cool nights for high sugar accumulation",
+    "sunlight_requirements": "Full blazing sun (8 hours)",
+    "water_requirements": "Regular uniform irrigation; stop watering 7–10 days before harvest to build sweetness",
+    "soil_preferences": "Deep, well-drained sandy riverbeds and sandy loam soils, pH 6.0–7.0",
+    "growing_season": "Summer (Zaid) season (January–April in riverbeds)",
+    "propagation_methods": [
+      "Direct seed pit sowing on mounds or riverbed Diara farming"
+    ],
+    "uses": [
+      "India's premier summer hydrating fruit; rich in lycopene, citrulline, and electrolytes",
+      "Seeds roasted as nutritious protein-rich snack"
+    ],
+    "safety_notes": "Safe for human diet.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Fusarium Wilt (Fusarium oxysporum f. sp. niveum)",
+        "type": "fungal",
+        "symptoms": "Unilateral wilting of runner vines, vascular browning, sudden collapse",
+        "management": "Crop rotation with non-cucurbits; seed treatment with Trichoderma (5 g/kg)"
+      },
+      {
+        "name": "Downy Mildew",
+        "type": "fungal",
+        "symptoms": "Angular yellow patches on foliage",
+        "management": "Metalaxyl spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Riverbed 'Diara' cultivation utilizes natural subsoil moisture in dry sandy river courses",
+      "Tap fruit: dull hollow thumping sound indicates full ripeness"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/citrullus-lanatus.jpg",
+        "local_path": "backend/data/plant_images/citrullus-lanatus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cucumis-melo",
+    "scientific_name": "Cucumis melo",
+    "common_name": "Muskmelon / Kharbuja / Cantaloupe",
+    "hindi_name": "खरबूजा (Kharbuja)",
+    "telugu_name": "కర్బూజ (Karbhooja)",
+    "tamil_name": "முலாம் பழம் (Mulam Pazham)",
+    "other_regional_names": {
+      "kannada": "ಖರ್ಬೂಜ (Kharbuja)",
+      "malayalam": "തൈര്മത്തൻ (Thayirmathan)",
+      "bengali": "খরমুজ (Khormuj)",
+      "marathi": "खरबूज (Kharbuj)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Cucumis",
+    "species": "melo",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Punjab",
+      "Haryana",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "leaf_characteristics": {
+      "shape": "Sub-orbicular to reniform shallowly 3–5 angled cordate leaves with soft rough hairs",
+      "arrangement": "Alternate",
+      "margin": "Denticulate",
+      "venation": "Palmate",
+      "color": "Fresh green with rough hispid hairs"
+    },
+    "stem_characteristics": "Sprawling grooved hairy vine with simple unbranched tendrils, 1.5–3.0 m",
+    "flower_characteristics": "Small yellow bell-shaped flowers in leaf axils",
+    "fruit_characteristics": "Globose to oval fragrant pepo with netted (reticulate) or smooth ribbed rind; sweet orange or green flesh with central cavity of seeds",
+    "growth_habit": "Annual sprawling trailing vine, 1.5–3.0 meters",
+    "habitat_and_climate": "Hot, dry sunny summer climate; high humidity invites foliar diseases and reduces sugar content",
+    "sunlight_requirements": "Full blazing sun (8 hours)",
+    "water_requirements": "Moderate; avoid wetting developing fruits directly",
+    "soil_preferences": "Deep, well-drained sandy loams and river sand beds, pH 6.0–7.5",
+    "growing_season": "Summer (Zaid) (February–May)",
+    "propagation_methods": [
+      "Direct pit sowing on mounds"
+    ],
+    "uses": [
+      "Aromatic sweet summer fruit; cooling, rich in beta-carotene and potassium",
+      "Seeds dried and ground in traditional cooling thandai drink"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "White powdery fungal patches on foliage",
+        "management": "Wettable sulfur or Azoxystrobin spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Harvest at 'half-slip' to 'full-slip' stage when fruit easily detaches from vine with slight thumb pressure"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cucumis-melo.jpg",
+        "local_path": "backend/data/plant_images/cucumis-melo.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "ananas-comosus",
+    "scientific_name": "Ananas comosus",
+    "common_name": "Pineapple / Ananas",
+    "hindi_name": "अनानास (Ananas)",
+    "telugu_name": "అనాస (Anaasa)",
+    "tamil_name": "அன்னாசிப்பழம் (Annasippazham)",
+    "other_regional_names": {
+      "kannada": "ಅನಾನಸ್ (Ananas)",
+      "malayalam": "കൈതച്ചക്ക (Kaithachakka)",
+      "bengali": "আনারস (Anaros)",
+      "marathi": "अननस (Ananas)"
+    },
+    "synonyms": [],
+    "family": "Bromeliaceae",
+    "genus": "Ananas",
+    "species": "comosus",
+    "category": "fruit plant",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Assam",
+      "West Bengal",
+      "Tripura",
+      "Meghalaya",
+      "Kerala",
+      "Karnataka",
+      "Goa",
+      "Bihar"
+    ],
+    "leaf_characteristics": {
+      "shape": "Rosette of 30–50 sword-shaped rigid waxy trough-like leaves with sharp marginal spines and pointed tip",
+      "arrangement": "Spiral dense rosette",
+      "margin": "Spiny serrate with sharp teeth",
+      "venation": "Parallel",
+      "color": "Dark glossy green with reddish or silvery glaucous underside"
+    },
+    "stem_characteristics": "Short, stout fleshy unbranched stem terminating in central composite flower head, 0.8–1.2 m",
+    "flower_characteristics": "Compact dense cylindrical spike of 50–200 purplish-blue flowers topped by a crown of small leaves",
+    "fruit_characteristics": "Large cylindrical multiple fruit (syncarp, 1–2.5 kg) formed by fusion of berrylets around fibrous central core; crowned by leafy top",
+    "growth_habit": "Terrestrial evergreen perennial bromeliad herb, 0.8–1.2 meters",
+    "habitat_and_climate": "Warm, humid tropical climate with high rainfall; sensitive to frost and waterlogging",
+    "sunlight_requirements": "Filtered to full sun",
+    "water_requirements": "Moderate; trough leaves channel dew and rain directly into stem core",
+    "soil_preferences": "Well-drained light sandy loam and acidic lateritic soils, pH 4.5–5.5",
+    "growing_season": "Year-round fruiting with chemical induction (Giant Kew, Queen, Mauritius)",
+    "propagation_methods": [
+      "Slips, suckers, or fruit crowns"
+    ],
+    "uses": [
+      "Sweet-tart tropical fruit eaten fresh, canned slices, juice",
+      "Contains bromelain proteolytic enzyme used for tenderizing and anti-inflammatory therapy",
+      "Piña fiber extracted from leaves for textiles"
+    ],
+    "safety_notes": "Contains bromelain enzyme which may cause mild tingling sensation on tongue.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Heart Rot (Phytophthora cinnamomi)",
+        "type": "fungal",
+        "symptoms": "Heart leaves turn yellow, pull out easily from stem base with foul rotting odor",
+        "management": "Ensure elevated bed drainage; dip suckers in Metalaxyl (2 g/L) before planting"
+      }
+    ],
+    "prevention_guidance": [
+      "Spray Ethephon (100 ppm) into heart of 35-leaf plants to trigger synchronized flowering across orchard"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/ananas-comosus.jpg",
+        "local_path": "backend/data/plant_images/ananas-comosus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "ziziphus-mauritiana",
+    "scientific_name": "Ziziphus mauritiana",
+    "common_name": "Indian Jujube / Ber / Poor Man's Apple",
+    "hindi_name": "बेर (Ber)",
+    "telugu_name": "రేగు (Regu)",
+    "tamil_name": "இலந்தைப்பழம் (Ilandhai)",
+    "other_regional_names": {
+      "kannada": "ಬೋರೆ ಹಣ್ಣು (Borehannu)",
+      "malayalam": "എലന്ത (Elantha)",
+      "bengali": "কুল (Kul)",
+      "marathi": "बोर (Bor)"
+    },
+    "synonyms": [],
+    "family": "Rhamnaceae",
+    "genus": "Ziziphus",
+    "species": "mauritiana",
+    "category": "fruit plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Rajasthan",
+      "Haryana",
+      "Punjab",
+      "Gujarat",
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Andhra Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Small, ovate to elliptic glossy dark green leaves, densely covered with white/buff felted tomentum beneath",
+      "arrangement": "Alternate, 2-ranked",
+      "margin": "Finely serrate",
+      "venation": "3 prominent basal longitudinal veins",
+      "color": "Glossy dark green above, whitish woolly beneath"
+    },
+    "stem_characteristics": "Spreading thorny shrub or small tree with zigzag branchlets and sharp paired stipular spines (one straight, one hooked), 4–10 m",
+    "flower_characteristics": "Small inconspicuous greenish-yellow fragrant flowers in axillary cymes",
+    "fruit_characteristics": "Globose to oblong fleshy drupe (2–5 cm) with smooth shiny skin, green turning golden-yellow to reddish-brown; sweet-sour pulp with hard stone",
+    "growth_habit": "Extremely hardy spiny evergreen or semi-deciduous tree, 4–10 meters",
+    "habitat_and_climate": "Arid and semi-arid desert climate; extreme drought hardiness and heat tolerance (up to 48°C)",
+    "sunlight_requirements": "Full blazing sun",
+    "water_requirements": "Very low; survives where other fruit trees fail",
+    "soil_preferences": "Tolerates poor soils: sandy, gravelly, saline, and alkaline soils, pH 6.5–9.0",
+    "growing_season": "Winter harvest (December–March) (Gola, Seb, Umran, Kaithli, Apple Ber)",
+    "propagation_methods": [
+      "Ring budding or shield budding on wild Ziziphus rotundifolia rootstock"
+    ],
+    "uses": [
+      "Poor man's apple: eaten fresh, dried, candies, and pickles",
+      "Valuable source of Vitamin C and minerals in desert ecosystems",
+      "Host plant for lac insects (Kerria lacca) and silkworms; dry spiny branches for livestock fencing"
+    ],
+    "safety_notes": "Sharp paired hooked spines require careful manual picking. Safe.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew (Oidium erysiphoides f. sp. ziziphi)",
+        "type": "fungal",
+        "symptoms": "White powdery fungal growth on developing fruits causing skin corking and fruit drop",
+        "management": "Spray Wettable Sulfur (2 g/L) or Dinocap during marble stage"
+      }
+    ],
+    "prevention_guidance": [
+      "Annual severe pruning in May–June is essential to stimulate vigorous new fruiting wood for winter crop"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/ziziphus-mauritiana.jpg",
+        "local_path": "backend/data/plant_images/ziziphus-mauritiana.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  }
+]

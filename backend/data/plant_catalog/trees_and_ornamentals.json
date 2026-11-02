@@ -1,0 +1,1347 @@
+[
+  {
+    "id": "ficus-benghalensis",
+    "scientific_name": "Ficus benghalensis",
+    "common_name": "Banyan Tree / National Tree of India / Bargad",
+    "hindi_name": "बरगद / वटवृक्ष (Bargad)",
+    "telugu_name": "మర్రి చెట్టు (Marri Chettu)",
+    "tamil_name": "ஆலமரம் (Aalamaram)",
+    "other_regional_names": {
+      "kannada": "ಆಲದ ಮರ (Aalada Mara)",
+      "malayalam": "പേരാൽ (Peral)",
+      "bengali": "বটগাছ (Botgach)",
+      "marathi": "वड (Vad)"
+    },
+    "synonyms": [],
+    "family": "Moraceae",
+    "genus": "Ficus",
+    "species": "benghalensis",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India (Uttar Pradesh, Bihar, Andhra Pradesh, Tamil Nadu, Karnataka, Maharashtra, Gujarat, West Bengal)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, coriaceous (leathery), broadly ovate to elliptic glossy leaves with 5–7 prominent basal nerves and milky white latex",
+      "arrangement": "Alternate, spiral",
+      "margin": "Entire",
+      "venation": "Palmate-pinnate",
+      "color": "Glossy dark green with pale veins"
+    },
+    "stem_characteristics": "Massive, monumental trunk with smooth grey bark producing descending aerial prop roots from horizontal boughs that root into soil forming auxiliary supporting trunks, 15–30 m tall, spread >100 m",
+    "flower_characteristics": "Inconspicuous flowers enclosed inside specialized hollow fleshy receptacle (syconium / fig), pollinated by specialized mutualist fig wasps (Eupristina masoni)",
+    "fruit_characteristics": "Paired sessile globose figs (1.5–2.5 cm), scarlet-red when ripe in leaf axils",
+    "growth_habit": "Colossal spreading evergreen canopy tree living for over 500 years, 20–30 meters tall with canopy spread up to 2 hectares",
+    "habitat_and_climate": "Tropical and sub-tropical plains, roadsides, and village common lands; drought hardy",
+    "sunlight_requirements": "Full bright sun",
+    "water_requirements": "Low to moderate once established; deep taproots and prop roots reach deep water tables",
+    "soil_preferences": "Highly adaptable: alluvial loams, clay loams, rocky crevices, even masonry walls, pH 6.0–8.0",
+    "growing_season": "Year-round evergreen foliage; figs mature in spring and summer",
+    "propagation_methods": [
+      "Seeds spread by birds, air layering, or large hardwood truncheons"
+    ],
+    "uses": [
+      "National Tree of India: cultural symbol of immortality and shelter",
+      "Sacred in Hindu and Buddhist traditions (Vat Savitri puja)",
+      "Aerial prop roots used for traditional toothbrushes; milky latex in Ayurvedic medicine for joint pain",
+      "Massive wildlife refuge for birds, bats, and pollinators"
+    ],
+    "safety_notes": "Produces milky latex sap that may cause mild skin irritation in sensitive people. Safe shade tree.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Fig Wasp Mutualism",
+        "type": "info",
+        "symptoms": "Obligate mutualist fig wasps inhabit figs",
+        "management": "Natural ecological balance; do not spray pesticides on flowering figs"
+      }
+    ],
+    "prevention_guidance": [
+      "Needs very large open space; never plant within 20 meters of building foundations due to powerful invasive roots"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/ficus-benghalensis.jpg",
+        "local_path": "backend/data/plant_images/ficus-benghalensis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "ficus-religiosa",
+    "scientific_name": "Ficus religiosa",
+    "common_name": "Sacred Fig / Peepal / Bodhi Tree",
+    "hindi_name": "पीपल (Peepal)",
+    "telugu_name": "రావి చెట్టు (Raavi Chettu)",
+    "tamil_name": "அரசமரம் (Arasamaram)",
+    "other_regional_names": {
+      "kannada": "ಅರಳಿ ಮರ (Arali Mara)",
+      "malayalam": "അരയാൽ (Arayal)",
+      "bengali": "অশ্বত্থ (Oshwottho)",
+      "marathi": "पिंपळ (Pimpal)"
+    },
+    "synonyms": [],
+    "family": "Moraceae",
+    "genus": "Ficus",
+    "species": "religiosa",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India (Bihar - Bodh Gaya, Uttar Pradesh, Madhya Pradesh, Maharashtra, Andhra Pradesh, Tamil Nadu, Karnataka, Punjab)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Distinctive broadly ovate cordate leaves with a remarkable long, slender, tapering tail-like drip tip (caudate apex, 2–5 cm) that rustles in the slightest breeze",
+      "arrangement": "Alternate, spiral",
+      "margin": "Entire, undulate with elongated caudate drip tip",
+      "venation": "Palmate with 5–7 basal veins",
+      "color": "Pinkish-copper when young, turning lustrous dark green with ivory veins"
+    },
+    "stem_characteristics": "Large, massive trunk with smooth grey bark that turns flaking with age, wide spreading irregular canopy, 20–30 m",
+    "flower_characteristics": "Inconspicuous flowers enclosed inside hollow syconium, pollinated by specialized fig wasp (Blastophaga quadriceps)",
+    "fruit_characteristics": "Sessile paired axillary sub-globose figs (1–1.5 cm), green ripening to dark purple-black",
+    "growth_habit": "Large spreading semi-deciduous to evergreen tree, living for over 1000 years, 20–30 meters",
+    "habitat_and_climate": "Sub-tropical and tropical climate; extreme heat and drought hardiness",
+    "sunlight_requirements": "Full blazing sun",
+    "water_requirements": "Low; exceptionally drought resilient",
+    "soil_preferences": "Tolerates varied soils: rocks, dry gravel, alkaline soils, brick masonry, pH 6.0–8.5",
+    "growing_season": "New copper-pink leaf flush in spring (March–April)",
+    "propagation_methods": [
+      "Seeds (spread by birds) or hardwood cuttings"
+    ],
+    "uses": [
+      "Supreme sacred tree in Hinduism, Buddhism (Bodhi Tree of Buddha's enlightenment), and Jainism",
+      "Exceptional oxygen release through Crassulacean Acid Metabolism (CAM) pathway at night",
+      "Bark decoction used in Ayurveda for diabetes and wound healing",
+      "Sacred temple tree across India"
+    ],
+    "safety_notes": "Extremely powerful roots can crack concrete foundations and walls. Plant away from buildings.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Natural Ecological Host",
+        "type": "info",
+        "symptoms": "Hosts diverse wild avian species and pollinators",
+        "management": "Conserve as vital biodiversity keystone species"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant along temple perimeters, village squares, and rural avenues rather than near urban buildings"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/ficus-religiosa.jpg",
+        "local_path": "backend/data/plant_images/ficus-religiosa.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "tectona-grandis",
+    "scientific_name": "Tectona grandis",
+    "common_name": "Indian Teak / Sagwan",
+    "hindi_name": "सागवान / सागौन (Sagwan)",
+    "telugu_name": "టేకు (Teku)",
+    "tamil_name": "தேக்கு (Thekku)",
+    "other_regional_names": {
+      "kannada": "ತೇಗ (Tega)",
+      "malayalam": "തേക്ക് (Thekku)",
+      "bengali": "সেগুন (Segun)",
+      "marathi": "सागवान (Sagwan)"
+    },
+    "synonyms": [],
+    "family": "Lamiaceae",
+    "genus": "Tectona",
+    "species": "grandis",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Madhya Pradesh (Hoshangabad)",
+      "Maharashtra",
+      "Kerala (Nilambur Teak)",
+      "Karnataka",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Odisha"
+    ],
+    "leaf_characteristics": {
+      "shape": "Huge, opposite, ovate-elliptic coriaceous leaves (30–60 cm long) with dense whitish-grey stellate tomentum beneath, yielding blood-red sap when crushed",
+      "arrangement": "Opposite, decussate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Rough dark green above, pale woolly beneath"
+    },
+    "stem_characteristics": "Tall, straight, majestic cylindrical trunk with thick grey-brown fibrous vertically fissured bark, 20–40 m",
+    "flower_characteristics": "Large, erect, branched terminal panicles (40–80 cm) with thousands of small fragrant white flowers",
+    "fruit_characteristics": "Sub-globose hard bony 4-celled nut enclosed in inflated papery bladder-like calyx (2–3 cm)",
+    "growth_habit": "Large deciduous timber tree, 20–40 meters tall",
+    "habitat_and_climate": "Tropical moist and dry deciduous forests with warm monsoon climate and distinct dry season",
+    "sunlight_requirements": "Full intense sun (strictly light-demanding pioneer tree)",
+    "water_requirements": "Moderate (1200–2500 mm rain); deep taproot",
+    "soil_preferences": "Deep, fertile, well-drained alluvial and volcanic black loam soils rich in calcium, pH 6.5–7.5",
+    "growing_season": "Deciduous in dry season (Dec–Feb); new flushes in monsoon; harvest timber at 20–30 years",
+    "propagation_methods": [
+      "Stump planting (root-shoot cuttings from 1-year nursery seedlings)"
+    ],
+    "uses": [
+      "World's premier luxury timber: naturally weather-proof, termite-resistant, dimensionally stable due to natural tectoquinones and silica",
+      "Shipbuilding, yacht decking, fine furniture, architectural joinery"
+    ],
+    "safety_notes": "Safe for cultivation.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Teak Defoliator (Hyblaea puera)",
+        "type": "pest",
+        "symptoms": "Massive caterpillar outbreaks defoliating entire teak forests in early monsoon",
+        "management": "Release biological parasitoids; aerial Bt spray in commercial plantations"
+      },
+      {
+        "name": "Teak Skeletonizer (Eutectona machaeralis)",
+        "type": "pest",
+        "symptoms": "Larvae eat leaf tissue leaving only skeleton veins",
+        "management": "Light traps; microbial control"
+      }
+    ],
+    "prevention_guidance": [
+      "Stump planting (20 cm taproot + 2 cm shoot collar) ensures 95% survival and rapid growth"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/tectona-grandis.jpg",
+        "local_path": "backend/data/plant_images/tectona-grandis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "shorea-robusta",
+    "scientific_name": "Shorea robusta",
+    "common_name": "Sal Tree / Sakhu",
+    "hindi_name": "साल / साखू (Sal)",
+    "telugu_name": "గుగ్గిలం / సాల వృక్షం (Guggilam)",
+    "tamil_name": "குங்கிலியம் (Kungiliyam)",
+    "other_regional_names": {
+      "kannada": "ಸಾಲ ಮರ (Saala Mara)",
+      "malayalam": "മരുത് / സാൽ (Sal)",
+      "bengali": "শালগাছ (Shalgach)",
+      "marathi": "राळ (Ral)"
+    },
+    "synonyms": [],
+    "family": "Dipterocarpaceae",
+    "genus": "Shorea",
+    "species": "robusta",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Central & Eastern India (Madhya Pradesh, Chhattisgarh, Odisha, Jharkhand, West Bengal, Assam, Uttar Pradesh Terai)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), ovate-oblong glossy leaves with pale prominent veins",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate with 12–16 pairs of secondary veins",
+      "color": "Glossy dark green"
+    },
+    "stem_characteristics": "Tall, massive straight cylindrical trunk with thick dark brown deeply furrowed bark, 20–35 m",
+    "flower_characteristics": "Yellowish-white fragrant flowers in large terminal and axillary racemose panicles",
+    "fruit_characteristics": "Ovoid nut enclosed by 5 enlarged persistent wing-like calyx lobes (3 long, 2 short) facilitating wind dispersal",
+    "growth_habit": "Large, slow-growing semi-deciduous climax forest tree, 20–35 meters",
+    "habitat_and_climate": "Sub-tropical and tropical moist deciduous belt; frost-tolerant in Terai foothills",
+    "sunlight_requirements": "Moderate to full sun",
+    "water_requirements": "Moderate to high (1000–2000 mm rain)",
+    "soil_preferences": "Deep, well-drained sandy loam to gravelly lateritic forest soils, pH 5.5–6.8",
+    "growing_season": "Flowering in spring (Feb–April), seed fall in May",
+    "propagation_methods": [
+      "Fresh recalcitrant seeds sown immediately after falling"
+    ],
+    "uses": [
+      "Heavy construction timber for railway sleepers, bridges, house construction (second only to teak)",
+      "Sal resin (dammar) burned as fragrant incense (dhoop)",
+      "Sal seeds yield edible sal butter used in confectionery and cosmetics",
+      "Leaves stitched into traditional disposable dining plates (patravali / dona)"
+    ],
+    "safety_notes": "Safe for forest ecology.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Sal Heartwood Borer (Hoplocerambyx spinicornis)",
+        "type": "pest",
+        "symptoms": "Grubs bore massive galleries into heartwood of mature trees causing tree death and timber destruction",
+        "management": "Trap-tree operation during monsoon to collect and destroy adult beetles"
+      }
+    ],
+    "prevention_guidance": [
+      "Seeds have zero dormancy (recalcitrant); must be sown within 7 days of collection"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/shorea-robusta.jpg",
+        "local_path": "backend/data/plant_images/shorea-robusta.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "terminalia-arjuna",
+    "scientific_name": "Terminalia arjuna",
+    "common_name": "Arjuna Tree / Kahua",
+    "hindi_name": "अर्जुन (Arjuna)",
+    "telugu_name": "మద్ది చెట్టు (Maddi Chettu)",
+    "tamil_name": "மருத மரம் (Marutha Maram)",
+    "other_regional_names": {
+      "kannada": "ಮತ್ತಿ ಮರ (Matti Mara)",
+      "malayalam": "നീർമരുത് (Neermaruthu)",
+      "bengali": "অর্জুন (Arjun)",
+      "marathi": "अर्जुन (Arjun)"
+    },
+    "synonyms": [],
+    "family": "Combretaceae",
+    "genus": "Terminalia",
+    "species": "arjuna",
+    "category": "medicinal plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Madhya Pradesh, Uttar Pradesh, Bihar, Maharashtra, Andhra Pradesh, Tamil Nadu, Karnataka, Odisha, West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Sub-opposite, oblong-elliptic coriaceous leaves with 1–2 prominent round glands at base of blade",
+      "arrangement": "Sub-opposite",
+      "margin": "Entire to crenulate",
+      "venation": "Pinnate",
+      "color": "Dull green above, pale green beneath"
+    },
+    "stem_characteristics": "Massive buttressed trunk with remarkably smooth pinkish-grey peeling bark and spreading canopy, 15–25 m",
+    "flower_characteristics": "Small, pale yellowish-white sessile flowers in drooping axillary spikes and terminal panicles",
+    "fruit_characteristics": "Ovoid-oblong fibrous woody drupe (2.5–5 cm) with 5 prominent hard longitudinal wings",
+    "growth_habit": "Large majestic buttressed semi-evergreen riverine tree, 15–25 meters",
+    "habitat_and_climate": "Riverbanks, ravines, and moist stream valleys across peninsular India",
+    "sunlight_requirements": "Full sun to light shade",
+    "water_requirements": "Moderate; thrives along rivercourses with permanent groundwater",
+    "soil_preferences": "Fertile alluvial soils, river silts, and moist loams, pH 6.0–8.0",
+    "growing_season": "Flowering in April–July, fruit maturation in winter",
+    "propagation_methods": [
+      "Seeds (presoaked for 48 hours)"
+    ],
+    "uses": [
+      "Premier Ayurvedic cardioprotective cardiotonic: bark decoction strengthens cardiac muscles, regulates blood pressure, lowers cholesterol (arjunolic acid, flavonoids)",
+      "Host plant for tropical Tasar silkworms (Antheraea mylitta)",
+      "Heavy timber and avenue shade tree"
+    ],
+    "safety_notes": "Safe in traditional Ayurvedic dosage under guidance.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Bark Regrowth",
+        "type": "info",
+        "symptoms": "Bark regenerates naturally if harvested sustainably in vertical strips without girdling",
+        "management": "Harvest bark sustainably leaving 50% circumference intact"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant along riverbanks and farm pond boundaries to prevent severe soil erosion"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/terminalia-arjuna.jpg",
+        "local_path": "backend/data/plant_images/terminalia-arjuna.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "delonix-regia",
+    "scientific_name": "Delonix regia",
+    "common_name": "Gulmohar / Royal Poinciana / Flame Tree",
+    "hindi_name": "गुलमोहर (Gulmohar)",
+    "telugu_name": "తురాయి చెట్టు (Thurayi Chettu)",
+    "tamil_name": "செம்மயிர்க்கொன்றை (Semmayirkkondrai)",
+    "other_regional_names": {
+      "kannada": "ಕತ್ತಿಕಾಯಿ ಮರ (Katthikayi Mara)",
+      "malayalam": "ഗുൽമോഹർ (Gulmohar)",
+      "bengali": "কৃষ্ণচূড়া (Krishnachura)",
+      "marathi": "गुलमोहर (Gulmohar)"
+    },
+    "synonyms": [],
+    "family": "Fabaceae",
+    "genus": "Delonix",
+    "species": "regia",
+    "category": "ornamental",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (Maharashtra, Karnataka, Tamil Nadu, West Bengal, Uttar Pradesh, Delhi, Andhra Pradesh, Gujarat)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Bipinnate feathery compound leaves (30–50 cm) with 20–40 pairs of pinnae and hundreds of tiny oblong leaflets that fold at sunset",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate feathery",
+      "color": "Fresh vibrant light green"
+    },
+    "stem_characteristics": "Broad spreading umbrella-like flat-topped canopy with smooth grey bark and buttressed base, 10–18 m",
+    "flower_characteristics": "Spectacular mass displays of large brilliant scarlet-orange 5-petaled flowers; fifth petal (standard) is white-streaked with red and yellow",
+    "fruit_characteristics": "Massive, woody, flattened pendulous dark brown/black pod (30–65 cm long) persisting on tree",
+    "growth_habit": "Spreading flat-topped umbrella-canopy deciduous ornamental tree, 10–18 meters",
+    "habitat_and_climate": "Warm tropical and sub-tropical plains; flourishes in hot dry summers",
+    "sunlight_requirements": "Full bright sun (8 hours)",
+    "water_requirements": "Low to moderate once established; drought hardy",
+    "soil_preferences": "Well-drained sandy, loamy, or gravelly soils, pH 6.0–7.5",
+    "growing_season": "Spectacular blooming in peak summer heat (April–June)",
+    "propagation_methods": [
+      "Seeds (presoaked in hot water to soften hard seed coat)"
+    ],
+    "uses": [
+      "One of the world's most spectacular ornamental flowering avenue trees (Flame of the Forest)",
+      "Provides expansive cooling shade in hot Indian summers"
+    ],
+    "safety_notes": "Superficial spreading root system; can lift pavements if planted too close to walkways.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Wind Damage",
+        "type": "physiological",
+        "symptoms": "Brittle branches can snap in severe monsoon squalls",
+        "management": "Prune weak crotches in young trees"
+      }
+    ],
+    "prevention_guidance": [
+      "Soak hard seeds in boiling water for 10 seconds then warm water for 24 hours to trigger 90% germination"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/delonix-regia.jpg",
+        "local_path": "backend/data/plant_images/delonix-regia.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "samanea-saman",
+    "scientific_name": "Samanea saman",
+    "common_name": "Rain Tree / Vilayati Siris",
+    "hindi_name": "विलायती सिरिस / रेन ट्री (Rain Tree)",
+    "telugu_name": "నిద్రగన్నేరు (Nidraganneru)",
+    "tamil_name": "தூங்குமூஞ்சி மரம் (Thoongumoonji Maram)",
+    "other_regional_names": {
+      "kannada": "ಮಳೆ ಮರ (Male Mara)",
+      "malayalam": "മഴമരം (Mazhamaram)",
+      "bengali": "শিরীষ / রেনট্রি (Raintree)",
+      "marathi": "रेन ट्री (Rain Tree)"
+    },
+    "synonyms": [
+      "Albizia saman"
+    ],
+    "family": "Fabaceae",
+    "genus": "Samanea",
+    "species": "saman",
+    "category": "tree",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (West Bengal, Tamil Nadu, Maharashtra, Karnataka, Kerala, Andhra Pradesh)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Bipinnate compound leaves with 2–6 pairs of pinnae; leaflets fold together during cloudy overcast weather and at night (giving name 'sleeping tree')",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dark green above, finely downy beneath"
+    },
+    "stem_characteristics": "Short stout trunk with dark grey rough fissured bark and an immense, broad dome-shaped spreading canopy (up to 40 m wide), 15–25 m",
+    "flower_characteristics": "Showy powder-puff clusters of bi-colored pink and white flowers with numerous long silky stamens",
+    "fruit_characteristics": "Thick, oblong, flattened black woody pod (15–20 cm) with sweet sticky pulp and brown seeds",
+    "growth_habit": "Giant umbrella-canopy spreading semi-deciduous tree, 15–25 meters tall with 30–50 m crown",
+    "habitat_and_climate": "Warm humid tropical plains and coastal cities",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Moderate; deep root system",
+    "soil_preferences": "Fertile alluvial loams and urban soils, pH 6.0–7.5",
+    "growing_season": "Spring and summer flowering flush",
+    "propagation_methods": [
+      "Seeds"
+    ],
+    "uses": [
+      "Monumental shade and avenue tree for wide boulevards, public parks, and campus grounds",
+      "Sweet pods eaten by cattle (monkeys and livestock)"
+    ],
+    "safety_notes": "Safe avenue tree.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "Mild foliar mildew in humid seasons",
+        "management": "Natural biocontrol"
+      }
+    ],
+    "prevention_guidance": [
+      "Needs very wide avenues due to immense horizontal branch spread (over 30 meters)"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/samanea-saman.jpg",
+        "local_path": "backend/data/plant_images/samanea-saman.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "eucalyptus-globulus",
+    "scientific_name": "Eucalyptus globulus",
+    "common_name": "Tasmanian Blue Gum / Nilgiri Eucalyptus",
+    "hindi_name": "नीलगिरी (Nilgiri)",
+    "telugu_name": "నీలగిరి చెట్టు (Neelagiri Chettu)",
+    "tamil_name": "நீலகிரி மரம் (Neelagiri Maram)",
+    "other_regional_names": {
+      "kannada": "ನೀಲಗಿರಿ (Neelagiri)",
+      "malayalam": "യൂക്കാലിപ്റ്റസ് (Eucalyptus)",
+      "bengali": "ইউক্যালিপটাস (Eucalyptus)",
+      "marathi": "निलगिरी (Nilgiri)"
+    },
+    "synonyms": [],
+    "family": "Myrtaceae",
+    "genus": "Eucalyptus",
+    "species": "globulus",
+    "category": "tree",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Tamil Nadu (Nilgiris, Kodaikanal)",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Punjab",
+      "Haryana",
+      "Himachal Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Dimorphic: juvenile leaves opposite, sessile, ovate, glaucous silvery-blue; adult leaves alternate, falcate (curved sickle-shaped) lanceolate, coriaceous, aromatic with cineole",
+      "arrangement": "Alternate (adult)",
+      "margin": "Entire",
+      "venation": "Pinnate with intramarginal vein",
+      "color": "Silvery-blue (juvenile) to dark green (adult)"
+    },
+    "stem_characteristics": "Exceptionally tall, straight cylindrical trunk with peeling ribbons of smooth bluish-white and grey bark, 20–55 m",
+    "flower_characteristics": "Solitary or clustered cream-white flowers with operculum (cap) and numerous showy stamens",
+    "fruit_characteristics": "Hard woody 4-ribbed top-shaped warty capsule releasing minute seeds",
+    "growth_habit": "Gigantic fast-growing evergreen hardwood tree, 20–55 meters",
+    "habitat_and_climate": "Sub-tropical and temperate mountain plateaus (Nilgiri hills, 1500–2500 m) and irrigated plains",
+    "sunlight_requirements": "Full intense sun",
+    "water_requirements": "High water uptake capacity; deep taproot extracts subsoil water",
+    "soil_preferences": "Deep, well-drained loamy soils; avoids waterlogged poorly drained pans, pH 5.0–7.0",
+    "growing_season": "Harvested for pulpwood on 5–7 year short coppice rotation",
+    "propagation_methods": [
+      "Seeds or clonal rooted ramets"
+    ],
+    "uses": [
+      "Commercial paper pulpwood and rayon manufacture",
+      "Nilgiri eucalyptus essential oil (cineole/eucalyptol) for cold decongestants, balms, and liniments",
+      "Poles for scaffolding and rural construction"
+    ],
+    "safety_notes": "Concentrated pure eucalyptus oil is toxic if swallowed in quantity. High water consumption makes it unsuitable directly adjacent to water-sensitive field crops.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Gall Wasp (Leptocybe invasa)",
+        "type": "pest",
+        "symptoms": "Swollen galls on midribs and young petioles causing leaf curl and stunting",
+        "management": "Release Quadrastichus mendeli parasitoid; plant tolerant clones"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant as agroforestry windbreak along field edges with deep root barriers"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/eucalyptus-globulus.jpg",
+        "local_path": "backend/data/plant_images/eucalyptus-globulus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "bambusa-vulgaris",
+    "scientific_name": "Bambusa vulgaris",
+    "common_name": "Common Bamboo / Golden Bamboo / Bans",
+    "hindi_name": "बांस (Bans)",
+    "telugu_name": "వెదురు (Veduru)",
+    "tamil_name": "மூங்கில் (Moongil)",
+    "other_regional_names": {
+      "kannada": "ಬಿದಿರು (Bidiru)",
+      "malayalam": "മുള (Mula)",
+      "bengali": "বাঁশ (Bansh)",
+      "marathi": "बांबू (Bambu)"
+    },
+    "synonyms": [],
+    "family": "Poaceae",
+    "genus": "Bambusa",
+    "species": "vulgaris",
+    "category": "grass",
+    "status_in_india": "native",
+    "indian_states": [
+      "Assam",
+      "West Bengal",
+      "Odisha",
+      "Madhya Pradesh",
+      "Karnataka",
+      "Kerala",
+      "Maharashtra",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Linear-lanceolate smooth leaves with short petiole and hairy sheaths on branching nodes",
+      "arrangement": "Alternate, 2-ranked",
+      "margin": "Scabrous entire",
+      "venation": "Parallel with cross veinlets",
+      "color": "Lustrous green or green with yellow striping"
+    },
+    "stem_characteristics": "Giant clump-forming woody jointed culms (stems) with thick walls and prominent ring nodes, 10–20 m tall, 4–10 cm diameter",
+    "flower_characteristics": "Large leafless compound panicles with clusters of spikelets (flowers once in several decades: gregarious monocarpic flowering)",
+    "fruit_characteristics": "Caryopsis (bamboo rice, produced once in 30–50 years after mass flowering)",
+    "growth_habit": "Giant clump-forming woody perennial arborescent grass, 10–20 meters",
+    "habitat_and_climate": "Humid tropical and subtropical riverbanks, moist valleys, and forest margins",
+    "sunlight_requirements": "Full sun to light shade",
+    "water_requirements": "Moderate to high; responds rapidly to monsoon moisture",
+    "soil_preferences": "Fertile, well-drained alluvial loams and river silts; avoids heavy poorly drained clays, pH 5.5–7.0",
+    "growing_season": "New shoots emerge rapidly during monsoon (June–September)",
+    "propagation_methods": [
+      "Rhizome offsets, culm cuttings, or tissue culture"
+    ],
+    "uses": [
+      "'Green Gold': scaffolding, construction poles, furniture, handicraft baskets, paper pulp",
+      "Tender young bamboo shoots cooked in Northeast Indian cuisine (bamboo shoot curry)",
+      "Soil erosion control on riverbanks"
+    ],
+    "safety_notes": "Raw shoots contain cyanogenic glycosides; must be boiled thoroughly with water discarded before consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Bamboo Borer (Dinoderus minutus)",
+        "type": "pest",
+        "symptoms": "Fine powder falling from harvested dry bamboo culms",
+        "management": "Soak harvested culms in boric acid-borax solution (1:1 @ 2%) for 48 hours"
+      }
+    ],
+    "prevention_guidance": [
+      "Harvest mature 3–4 year old culms while leaving young 1–2 year culms to nourish clump"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/bambusa-vulgaris.jpg",
+        "local_path": "backend/data/plant_images/bambusa-vulgaris.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "vachellia-nilotica",
+    "scientific_name": "Vachellia nilotica",
+    "common_name": "Babool / Gum Arabic Tree / Kikar",
+    "hindi_name": "बबूल / कीकर (Babool)",
+    "telugu_name": "తుమ్మ చెట్టు (Thumma Chettu)",
+    "tamil_name": "கருவேலம் (Karuvelam)",
+    "other_regional_names": {
+      "kannada": "ಜಾಲಿ ಮರ (Jali Mara)",
+      "malayalam": "കരിവേലം (Karivelam)",
+      "bengali": "বাবলা (Babla)",
+      "marathi": "बाभळ (Babhul)"
+    },
+    "synonyms": [
+      "Acacia nilotica",
+      "Acacia arabica"
+    ],
+    "family": "Fabaceae",
+    "genus": "Vachellia",
+    "species": "nilotica",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Punjab",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Bipinnate feathery compound leaves with 3–6 pairs of pinnae and 10–25 pairs of minute oblong leaflets; sharp paired straight white stipular spines at nodes",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dark grey-green"
+    },
+    "stem_characteristics": "Stout, crooked trunk with blackish deeply fissured rough bark and rounded crown, 6–15 m",
+    "flower_characteristics": "Globose fluffy bright golden-yellow fragrant flower heads clustered in leaf axils",
+    "fruit_characteristics": "Constricted, deeply lobed grey-white felted indehiscent pod (necklace-like necklace pod, 10–15 cm) with brown seeds",
+    "growth_habit": "Hardy spiny evergreen or semi-deciduous tree, 6–15 meters",
+    "habitat_and_climate": "Arid and semi-arid desert plains, black cotton soil tracts, and saline wastelands; heat and drought champion",
+    "sunlight_requirements": "Full blazing sun",
+    "water_requirements": "Low; exceptional drought hardiness; tolerates seasonal flooding",
+    "soil_preferences": "Deep black cotton soils, saline-alkaline tracts, and gravelly alluvium, pH 6.5–9.0",
+    "growing_season": "Flowering in monsoon (June–Sept), pods ripen in winter",
+    "propagation_methods": [
+      "Seeds (presoaked in sulfuric acid or cow dung slurry)"
+    ],
+    "uses": [
+      "Ayurvedic dental twig (babool datun) for oral hygiene and gum strengthening",
+      "High-tannin bark used for leather tanning",
+      "Nutritious protein pods and foliage for goats and camels in arid zones",
+      "Natural Gum Arabic (babul gond) used in sweets (gond ke laddu) and pharmaceuticals"
+    ],
+    "safety_notes": "Sharp straight white thorns (1–5 cm long). Wear thick gloves when handling.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "White fungal coating on young leaves",
+        "management": "Natural tolerance in arid conditions"
+      }
+    ],
+    "prevention_guidance": [
+      "Outstanding species for reclaiming degraded sodic soils and barren ravines"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/vachellia-nilotica.jpg",
+        "local_path": "backend/data/plant_images/vachellia-nilotica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "bougainvillea-spectabilis",
+    "scientific_name": "Bougainvillea spectabilis",
+    "common_name": "Bougainvillea / Paper Flower",
+    "hindi_name": "बोगनवेलिया (Bougainvillea)",
+    "telugu_name": "కాగితాల పూలు (Kagithala Poolu)",
+    "tamil_name": "காகிதப்பூ (Kagithapoo)",
+    "other_regional_names": {
+      "kannada": "ಕಾಗದದ ಹೂವು (Kagadada Huvu)",
+      "malayalam": "കടലാസുപൂവ് (Kadalasoopoovu)",
+      "bengali": "বাগানবিলাস (Baganbilas)",
+      "marathi": "बोगनवेल (Boganvel)"
+    },
+    "synonyms": [],
+    "family": "Nyctaginaceae",
+    "genus": "Bougainvillea",
+    "species": "spectabilis",
+    "category": "ornamental",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (Delhi, Mumbai, Bengaluru, Chennai, Hyderabad, Kolkata, Jaipur, Lucknow)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, ovate to broadly elliptic leaves with soft pubescence and sharp curved axillary thorns",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Rich green with distinct veins"
+    },
+    "stem_characteristics": "Vigorous scrambling woody climbing liana or trained hedge shrub with sharp curved spines, 3–12 m",
+    "flower_characteristics": "Small tubular creamy-white flowers surrounded by 3 large, papery, brightly colored petal-like bracts (magenta, purple, red, orange, pink, white)",
+    "fruit_characteristics": "Inconspicuous ribbed achene (rarely sets seed under cultivation)",
+    "growth_habit": "Vigorous woody perennial scrambling thorny climber or pruned shrub, 3–12 meters",
+    "habitat_and_climate": "Tropical and sub-tropical plains; withstands extreme heat, dry weather, and urban traffic pollution",
+    "sunlight_requirements": "Full blazing sun (needs 6+ hours of intense sun for heavy blooming)",
+    "water_requirements": "Low; drought stress triggers profuse flower bract emergence",
+    "soil_preferences": "Well-drained sandy loam or garden soil; dislikes heavy waterlogged soil, pH 5.5–7.0",
+    "growing_season": "Year-round blooming with peak flushes in dry summer and winter",
+    "propagation_methods": [
+      "Hardwood or semi-hardwood stem cuttings"
+    ],
+    "uses": [
+      "India's most popular colorful ornamental boundary hedge, compound wall cover, and pergola climber",
+      "Air pollution tolerant and livestock-resistant living fence"
+    ],
+    "safety_notes": "Equipped with sharp curved thorns. Safe ornamental.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Leaf-eating Caterpillars",
+        "type": "pest",
+        "symptoms": "Chewed holes in colorful bracts",
+        "management": "Hand picking or neem spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Withhold water slightly to induce spectacular mass blooming flushes",
+      "Prune hard after flowering flushes"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/bougainvillea-spectabilis.jpg",
+        "local_path": "backend/data/plant_images/bougainvillea-spectabilis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "epipremnum-aureum",
+    "scientific_name": "Epipremnum aureum",
+    "common_name": "Money Plant / Golden Pothos / Devil's Ivy",
+    "hindi_name": "मनी प्लांट (Money Plant)",
+    "telugu_name": "మనీ ప్లాంట్ (Money Plant)",
+    "tamil_name": "மணி பிளான்ட் (Money Plant)",
+    "other_regional_names": {
+      "kannada": "ಮನಿ ಪ್ಲಾಂಟ್ (Money Plant)",
+      "malayalam": "മണി പ്ലാന്റ് (Money Plant)",
+      "bengali": "মানিপ্ল্যান্ট (Money Plant)",
+      "marathi": "मनी प्लांट (Money Plant)"
+    },
+    "synonyms": [],
+    "family": "Araceae",
+    "genus": "Epipremnum",
+    "species": "aureum",
+    "category": "ornamental",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (ubiquitous indoor houseplant and shaded garden climber across all states)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Heart-shaped (cordate) glossy waxy leaves with golden-yellow or creamy-white variegated marbling; juvenile leaves small (10–15 cm), climbing adult leaves gigantic (up to 1 m) with natural perforations",
+      "arrangement": "Alternate",
+      "margin": "Entire (juvenile) to pinnatifid (mature climbing)",
+      "venation": "Palmate-pinnate",
+      "color": "Lustrous emerald green with yellow/cream variegation"
+    },
+    "stem_characteristics": "Succulent climbing or trailing vine with aerial adventitious clinging roots at every node, 2–15 m",
+    "flower_characteristics": "Spadix in spathe (rarely or never flowers in cultivation; blind liana)",
+    "fruit_characteristics": "Propagated exclusively vegetatively via stem cuttings",
+    "growth_habit": "Trailing evergreen perennial climber or indoor pot vine, 1–15 meters",
+    "habitat_and_climate": "Tropical warm humid climate; thrives in indoors room temperature (18°C–32°C)",
+    "sunlight_requirements": "Bright indirect light to partial shade (leaves burn in direct midday scorching sun)",
+    "water_requirements": "Moderate; allow top 2 inches of soil to dry between waterings; also thrives purely in clean water jars",
+    "soil_preferences": "Porous, well-drained potting mix (soil, cocopeat, compost 1:1:1), pH 6.0–7.0",
+    "growing_season": "Year-round continuous indoor/outdoor vegetative growth",
+    "propagation_methods": [
+      "Single-node stem cuttings rooted in soil or water"
+    ],
+    "uses": [
+      "India's most famous indoor lucky plant; associated with positive Vastu and prosperity",
+      "NASA Clean Air study top indoor air purifier (removes formaldehyde, benzene, xylene)",
+      "Trailing hanging baskets, moss-stick vertical poles"
+    ],
+    "safety_notes": "Contains insoluble calcium oxalate needle crystals. Chewing leaves causes oral swelling and burning. Keep away from chewing pets (cats and dogs).",
+    "is_toxic": true,
+    "common_pests_and_diseases": [
+      {
+        "name": "Root Rot",
+        "type": "fungal",
+        "symptoms": "Yellowing mushy leaves from overwatering in non-draining pots",
+        "management": "Reduce watering; use pots with drainage holes"
+      }
+    ],
+    "prevention_guidance": [
+      "Grows indefinitely in simple glass jars filled with clean water changed weekly",
+      "Train on moss pole to double leaf size"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/epipremnum-aureum.jpg",
+        "local_path": "backend/data/plant_images/epipremnum-aureum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "dracaena-trifasciata",
+    "scientific_name": "Dracaena trifasciata",
+    "common_name": "Snake Plant / Mother-in-Law's Tongue",
+    "hindi_name": "स्नेक प्लांट (Snake Plant)",
+    "telugu_name": "స్నేక్ ప్లాంట్ (Snake Plant)",
+    "tamil_name": "பாம்பு செடி (Snake Plant)",
+    "other_regional_names": {
+      "kannada": "ಸ್ನೇಕ್ ಪ್ಲಾಂಟ್ (Snake Plant)",
+      "malayalam": "പാമ്പ് ചെടി (Snake Plant)",
+      "bengali": "স্নেক প্ল্যান্ট (Snake Plant)",
+      "marathi": "स्नेक प्लांट (Snake Plant)"
+    },
+    "synonyms": [
+      "Sansevieria trifasciata"
+    ],
+    "family": "Asparagaceae",
+    "genus": "Dracaena",
+    "species": "trifasciata",
+    "category": "ornamental",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (popular indoor plant across all Indian cities and corporate workspaces)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Rigid, erect, sword-shaped thick succulent fibrous leaves with sharp fibrous tips and dark green zigzag cross-banding, often with creamy-yellow golden margins (Laurentii)",
+      "arrangement": "Basal rosette",
+      "margin": "Entire",
+      "venation": "Parallel fibrous",
+      "color": "Dark green with light grey-green transverse bands and yellow margins"
+    },
+    "stem_characteristics": "Stemless succulent perennial arising from tough creeping horizontal underground orange rhizome, 40–120 cm",
+    "flower_characteristics": "Slender raceme of fragrant greenish-white tubular flowers (infrequent indoors)",
+    "fruit_characteristics": "Small globose orange-red berry",
+    "growth_habit": "Erect architectural clump-forming evergreen succulent, 40–120 cm",
+    "habitat_and_climate": "Warm tropical and sub-tropical indoor/outdoor climate; near indestructible",
+    "sunlight_requirements": "Extremely versatile: thrives in low light, fluorescent office lights, to full bright sun",
+    "water_requirements": "Very low; allow potting mix to dry out completely between waterings (once every 2–3 weeks)",
+    "soil_preferences": "Very well-drained sandy potting soil, cactus mix, or perlite-rich loam, pH 6.0–7.5",
+    "growing_season": "Year-round evergreen architectural plant",
+    "propagation_methods": [
+      "Rhizome division or leaf blade cuttings"
+    ],
+    "uses": [
+      "Top-ranked NASA air-purifying plant: removes airborne toxins (benzene, formaldehyde, trichloroethylene)",
+      "Produces oxygen at night via Crassulacean Acid Metabolism (ideal bedroom plant)",
+      "Modern indoor architecture and low-maintenance landscaping"
+    ],
+    "safety_notes": "Contains saponins; mildly toxic to dogs and cats if chewed in quantity.",
+    "is_toxic": true,
+    "common_pests_and_diseases": [
+      {
+        "name": "Overwatering Soft Rot",
+        "type": "fungal",
+        "symptoms": "Mushy brown leaves collapsing at base",
+        "management": "Withhold water; ensure drainage hole is never blocked"
+      }
+    ],
+    "prevention_guidance": [
+      "The number one rule: when in doubt, do not water. Snake plants thrive on neglect"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/dracaena-trifasciata.jpg",
+        "local_path": "backend/data/plant_images/dracaena-trifasciata.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "dypsis-lutescens",
+    "scientific_name": "Dypsis lutescens",
+    "common_name": "Areca Palm / Butterfly Palm / Golden Cane Palm",
+    "hindi_name": "अरेका पाम (Areca Palm)",
+    "telugu_name": "అరెకా పామ్ (Areca Palm)",
+    "tamil_name": "அரேகா பாம் (Areca Palm)",
+    "other_regional_names": {
+      "kannada": "ಅರೆಕಾ ಪಾಮ್ (Areca Palm)",
+      "malayalam": "അരെക്ക പാം (Areca Palm)",
+      "bengali": "আরেকা পাম (Areca Palm)",
+      "marathi": "अरेका पाम (Areca Palm)"
+    },
+    "synonyms": [
+      "Chrysalidocarpus lutescens"
+    ],
+    "family": "Arecaceae",
+    "genus": "Dypsis",
+    "species": "lutescens",
+    "category": "ornamental",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (popular ornamental clumping landscape and indoor container palm)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnate arching graceful feathery fronds (1.5–2 m) with 40–60 pairs of narrow lanceolate leaflets and golden-yellow petioles",
+      "arrangement": "Clustered crown",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Vibrant bright green with yellow-green midribs"
+    },
+    "stem_characteristics": "Multi-stemmed clump-forming clustered bamboo-like ringed canes, golden-yellow to green, 2–6 m",
+    "flower_characteristics": "Branched panicles of small yellow flowers emerging below leaf crown",
+    "fruit_characteristics": "Small oblong yellowish fruit turning black when ripe",
+    "growth_habit": "Multi-stemmed clumping evergreen feather palm, 2–6 meters",
+    "habitat_and_climate": "Warm, humid tropical climate; sensitive to dry scorching hot winds and frost",
+    "sunlight_requirements": "Bright indirect filtered sunlight (direct harsh midday summer sun scorches foliage)",
+    "water_requirements": "Moderate regular moisture; keep root ball evenly moist with good drainage",
+    "soil_preferences": "Rich, loose, well-drained potting mix with compost and cocopeat, pH 6.0–7.0",
+    "growing_season": "Year-round evergreen ornamental growth",
+    "propagation_methods": [
+      "Clump division or fresh seeds"
+    ],
+    "uses": [
+      "India's most popular indoor luxury container palm and garden border screening palm",
+      "Top-rated indoor humidifier and air purifier (removes airborne xylene and toluene)",
+      "Non-toxic to pets"
+    ],
+    "safety_notes": "Completely non-toxic to dogs, cats, and humans. Safe indoor plant.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Spider Mites (Tetranychidae)",
+        "type": "pest",
+        "symptoms": "Fine webbing beneath fronds, stippled yellowing foliage in dry indoor air",
+        "management": "Mist fronds regularly; spray neem oil or water jet"
+      }
+    ],
+    "prevention_guidance": [
+      "Use filtered or rested tap water to avoid brown crispy leaf tips from fluoride/chlorine salts",
+      "Wipe dust off fronds monthly"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/dypsis-lutescens.jpg",
+        "local_path": "backend/data/plant_images/dypsis-lutescens.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  }
+]

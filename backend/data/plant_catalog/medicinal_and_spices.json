@@ -1,0 +1,1780 @@
+[
+  {
+    "id": "ocimum-tenuiflorum",
+    "scientific_name": "Ocimum tenuiflorum",
+    "common_name": "Tulsi / Holy Basil",
+    "hindi_name": "तुलसी (Tulsi)",
+    "telugu_name": "తులసి (Tulasi)",
+    "tamil_name": "துளசி (Thulasi)",
+    "other_regional_names": {
+      "kannada": "ತುಳಸಿ (Tulasi)",
+      "malayalam": "തുളസി (Thulasi)",
+      "bengali": "তুলসী (Tulsi)",
+      "marathi": "तुळस (Tulas)"
+    },
+    "synonyms": [
+      "Ocimum sanctum"
+    ],
+    "family": "Lamiaceae",
+    "genus": "Ocimum",
+    "species": "tenuiflorum",
+    "category": "medicinal plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India (Uttar Pradesh, Madhya Pradesh, Andhra Pradesh, Tamil Nadu, Karnataka, Maharashtra, West Bengal)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, ovate-elliptic leaves with glandular hairs, pungent aromatic fragrance, green (Rama Tulsi) or purple-tinted (Krishna Tulsi)",
+      "arrangement": "Opposite, decussate",
+      "margin": "Serrate to dentate",
+      "venation": "Pinnate",
+      "color": "Green or deep purplish green"
+    },
+    "stem_characteristics": "Erect, much-branched quadrangular pubescent woody stem, 30–75 cm",
+    "flower_characteristics": "Small purplish-pink or white 2-lipped flowers in terminal verticillaster racemes",
+    "fruit_characteristics": "Small subglobose nutlets enclosed in persistent calyx",
+    "growth_habit": "Erect aromatic perennial herb/subshrub, 30–80 cm",
+    "habitat_and_climate": "Tropical and sub-tropical climate across India; revered sacred courtyard plant",
+    "sunlight_requirements": "Full sunlight (6–8 hours)",
+    "water_requirements": "Moderate regular watering; avoids water stagnation",
+    "soil_preferences": "Well-drained rich sandy loam or fertile potting soil, pH 6.0–7.5",
+    "growing_season": "Year-round cultivation",
+    "propagation_methods": [
+      "Seeds or semi-hardwood stem cuttings"
+    ],
+    "uses": [
+      "Queen of Ayurvedic herbs: adaptogen, respiratory decongestant (eugenol), immune booster, herbal teas (tulsi green tea)",
+      "Sacred worship in Hindu households and courtyards"
+    ],
+    "safety_notes": "Safe for daily culinary herbal infusion. Avoid excessive concentrated medicinal extracts during pregnancy.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "White powdery coating on aromatic leaves",
+        "management": "Neem oil spray (3 ml/L) or baking soda solution"
+      }
+    ],
+    "prevention_guidance": [
+      "Pinch flower spikes (manjari) regularly to encourage bushy vegetative leaf growth",
+      "Water at soil level to prevent fungal leaf spot"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/ocimum-tenuiflorum.jpg",
+        "local_path": "backend/data/plant_images/ocimum-tenuiflorum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "azadirachta-indica",
+    "scientific_name": "Azadirachta indica",
+    "common_name": "Neem / Indian Lilac",
+    "hindi_name": "नीम (Neem)",
+    "telugu_name": "వేప (Vepa)",
+    "tamil_name": "வேம்பு (Vembu)",
+    "other_regional_names": {
+      "kannada": "ಬೇವು (Bevu)",
+      "malayalam": "വേപ്പ് (Veppu)",
+      "bengali": "নিম (Nim)",
+      "marathi": "कडुनिंब (Kadunimb)"
+    },
+    "synonyms": [
+      "Melia azadirachta"
+    ],
+    "family": "Meliaceae",
+    "genus": "Azadirachta",
+    "species": "indica",
+    "category": "tree",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India (Rajasthan, Uttar Pradesh, Maharashtra, Andhra Pradesh, Tamil Nadu, Karnataka, Gujarat, Madhya Pradesh)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnately compound with 20–30 falcate (curved sickle-shaped) asymmetric lanceolate leaflets, intensely bitter",
+      "arrangement": "Alternate",
+      "margin": "Coarsely serrate",
+      "venation": "Pinnate",
+      "color": "Lustrous medium green"
+    },
+    "stem_characteristics": "Stout, straight trunk with dark grey-brown rough deeply grooved furrowed bark and broad rounded canopy, 15–25 m",
+    "flower_characteristics": "Small, fragrant white star-shaped bisexual and male flowers in drooping axillary panicles",
+    "fruit_characteristics": "Ellipsoid smooth glabrous drupe (1–2 cm), green ripening to golden-yellow with sweetish pulp and single hard seed",
+    "growth_habit": "Large, deep-rooted evergreen to semi-deciduous tree, 15–25 meters",
+    "habitat_and_climate": "Semi-arid tropical and subtropical plains; extreme drought and heat tolerance",
+    "sunlight_requirements": "Full blazing sun",
+    "water_requirements": "Low; rainfed once established",
+    "soil_preferences": "Thrives in varied soils: rocky, dry, shallow soils, sandy loams, and black soils, pH 5.5–8.5",
+    "growing_season": "Spring flowering (March–April), summer fruiting (June–August)",
+    "propagation_methods": [
+      "Fresh seeds or root suckers"
+    ],
+    "uses": [
+      "Village pharmacy: organic biopesticide (azadirachtin), neem oil foliar spray for organic farming",
+      "Neem-coated urea fertilizer inhibitor",
+      "Ayurvedic antibacterial skin remedies, dental twig (datun), soaps"
+    ],
+    "safety_notes": "Neem oil and concentrated seed extracts are not for direct oral ingestion by infants or pregnant women.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Tea Mosquito Bug (Helopeltis antonii)",
+        "type": "pest",
+        "symptoms": "Necrotic brownish-black spots on tender shoots and panicles",
+        "management": "Foliar spray of Quinalphos or Dimethoate"
+      }
+    ],
+    "prevention_guidance": [
+      "Extract neem seed kernel extract (NSKE 5%) as non-toxic broad-spectrum organic insect repellent across agricultural crops"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/azadirachta-indica.jpg",
+        "local_path": "backend/data/plant_images/azadirachta-indica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "aloe-barbadensis",
+    "scientific_name": "Aloe vera",
+    "common_name": "Aloe Vera / Ghritkumari",
+    "hindi_name": "घृतकुमारी / एलोवेरा (Ghritkumari)",
+    "telugu_name": "కలబంద (Kalabanda)",
+    "tamil_name": "சோற்றுக்கற்றாழை (Sotrukatraazhai)",
+    "other_regional_names": {
+      "kannada": "ಲೋಳೆಸರ (Lolesara)",
+      "malayalam": "കറ്റാർവാഴ (Kattarvazha)",
+      "bengali": "ঘৃতকুমারী (Ghritokumari)",
+      "marathi": "कोरफड (Korphad)"
+    },
+    "synonyms": [
+      "Aloe barbadensis"
+    ],
+    "family": "Asphodelaceae",
+    "genus": "Aloe",
+    "species": "vera",
+    "category": "medicinal plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Rajasthan",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Karnataka"
+    ],
+    "leaf_characteristics": {
+      "shape": "Thick, fleshy, succulent ensiform (sword-shaped) dagger-like leaves filled with clear soothing mucilaginous gel and yellow latex (aloin)",
+      "arrangement": "Dense basal rosette",
+      "margin": "Spiny dentate with white marginal teeth",
+      "venation": "Parallel",
+      "color": "Greyish green with occasional white spots when young"
+    },
+    "stem_characteristics": "Stemless (acaulescent) or very short woody stock with prolific basal offshoots (pups), 40–80 cm",
+    "flower_characteristics": "Tubular pendulous bright yellow to orange flowers in dense terminal raceme on tall central scape",
+    "fruit_characteristics": "3-valved triangular capsule holding winged seeds (rarely sets in cultivated clumps)",
+    "growth_habit": "Stemless xerophytic succulent perennial herb, 40–90 cm",
+    "habitat_and_climate": "Arid and semi-arid desert and coastal zones; exceptional drought and heat resilience",
+    "sunlight_requirements": "Bright indirect to full sunlight",
+    "water_requirements": "Low; allow soil to dry completely between waterings",
+    "soil_preferences": "Well-drained porous sandy, gravelly, or cactus potting mix, pH 6.0–8.0",
+    "growing_season": "Year-round vegetative growth",
+    "propagation_methods": [
+      "Basal offshoots (pups / suckers) division"
+    ],
+    "uses": [
+      "Clear inner gel used globally for skincare, sunburn relief, wound healing, cosmetic moisturizers",
+      "Aloe juice for digestive soothing",
+      "Commercial extraction of acemannan and anthraquinones"
+    ],
+    "safety_notes": "The yellow bitter sap (aloin latex) directly under the green skin is a strong laxative. Wash clear gel thoroughly before internal use.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Root Rot / Soft Rot (Erwinia chrysanthemi)",
+        "type": "bacterial",
+        "symptoms": "Water-soaked soft brown decay at base of leaves caused by overwatering",
+        "management": "Withhold water; improve drainage; drench with Copper Oxychloride"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant in terracotta pots or raised sandy beds with gravel drainage hole",
+      "Never let water stand in central leaf crown"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/aloe-barbadensis.jpg",
+        "local_path": "backend/data/plant_images/aloe-barbadensis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "curcuma-longa",
+    "scientific_name": "Curcuma longa",
+    "common_name": "Turmeric / Haldi",
+    "hindi_name": "हल्दी (Haldi)",
+    "telugu_name": "పసుపు (Pasupu)",
+    "tamil_name": "மஞ்சள் (Manjal)",
+    "other_regional_names": {
+      "kannada": "ಅರಿಶಿನ (Arishina)",
+      "malayalam": "മഞ്ഞൾ (Manjal)",
+      "bengali": "হলুদ (Holud)",
+      "marathi": "हळद (Halad)"
+    },
+    "synonyms": [
+      "Curcuma domestica"
+    ],
+    "family": "Zingiberaceae",
+    "genus": "Curcuma",
+    "species": "longa",
+    "category": "spice",
+    "status_in_india": "native",
+    "indian_states": [
+      "Telangana",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Odisha",
+      "Karnataka",
+      "West Bengal",
+      "Maharashtra"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, oblong-lanceolate smooth bright green leaves with long channeled petiole arising from underground rhizome",
+      "arrangement": "Alternate, 2-ranked",
+      "margin": "Entire",
+      "venation": "Parallel-pinnate",
+      "color": "Lush vibrant green"
+    },
+    "stem_characteristics": "Pseudostem formed by overlapping leaf sheaths (1 m) arising from thick aromatic golden-orange underground rhizome",
+    "flower_characteristics": "Dense cylindrical terminal spike of pale yellow flowers surrounded by large pinkish-white bracts",
+    "fruit_characteristics": "Rarely sets fruit; propagation is purely vegetative via rhizomes",
+    "growth_habit": "Perennial rhizomatous erect herb grown as annual, 80–120 cm",
+    "habitat_and_climate": "Warm humid tropical monsoon climate with rich rainfall and filtered sunlight",
+    "sunlight_requirements": "Partial shade to filtered sun",
+    "water_requirements": "High; requires regular uniform moisture during vegetative phase",
+    "soil_preferences": "Deep, friable, fertile sandy loam or clay loam rich in organic humus, pH 6.0–7.5",
+    "growing_season": "Kharif planting (May–June), harvested in 8–9 months (Jan–March) (Prathiba, IISR Alleppey Supreme, Duggirala)",
+    "propagation_methods": [
+      "Mother or finger rhizome setts (20–40 g) with prominent buds"
+    ],
+    "uses": [
+      "Golden spice of India: curries, preservative, yellow natural food coloring",
+      "Medicinal powerhouse: potent anti-inflammatory curcumin, wound healing, golden turmeric milk",
+      "Sacred ceremonial paste in Indian rituals (haldi ceremony)"
+    ],
+    "safety_notes": "Safe for human nutrition. Concentrated curcumin supplements should be taken with caution alongside anticoagulant medication.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Rhizome Rot (Pythium aphanidermatum)",
+        "type": "fungal",
+        "symptoms": "Water-soaked soft rotting of rhizomes with yellowing and drying of foliage from margins inwards",
+        "management": "Treat seed rhizomes with Metalaxyl (2 g/L) before planting; provide deep drainage ridges"
+      }
+    ],
+    "prevention_guidance": [
+      "Mulch heavily with green leaves (15 t/ha at planting and 7.5 t/ha at 50 and 90 DAS) to conserve moisture and suppress weeds"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/curcuma-longa.jpg",
+        "local_path": "backend/data/plant_images/curcuma-longa.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "zingiber-officinale",
+    "scientific_name": "Zingiber officinale",
+    "common_name": "Ginger / Adrak",
+    "hindi_name": "अदरक (Adrak)",
+    "telugu_name": "అల్లం (Allam)",
+    "tamil_name": "இஞ்சி (Inji)",
+    "other_regional_names": {
+      "kannada": "ಶುಂಠಿ (Shunti)",
+      "malayalam": "ഇഞ്ചി (Inji)",
+      "bengali": "আদা (Aada)",
+      "marathi": "आले (Aale)"
+    },
+    "synonyms": [],
+    "family": "Zingiberaceae",
+    "genus": "Zingiber",
+    "species": "officinale",
+    "category": "spice",
+    "status_in_india": "native",
+    "indian_states": [
+      "Assam",
+      "Kerala",
+      "Meghalaya",
+      "Karnataka",
+      "West Bengal",
+      "Odisha",
+      "Himachal Pradesh",
+      "Sikkim"
+    ],
+    "leaf_characteristics": {
+      "shape": "Linear-lanceolate smooth grass-like leaves with sheathing bases arising from underground aromatic rhizome",
+      "arrangement": "Alternate, distichous",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Deep glossy green with distinct spicy scent"
+    },
+    "stem_characteristics": "Slender leafy pseudostem formed by leaf sheaths, 60–100 cm tall, rising from subterranean branched tuberous rhizome",
+    "flower_characteristics": "Dense conical spike with green bracts and yellowish-green flowers with purple lips (rarely blooms)",
+    "fruit_characteristics": "Vegetatively propagated via rhizomes",
+    "growth_habit": "Erect perennial rhizomatous herb grown as annual, 60–100 cm",
+    "habitat_and_climate": "Warm humid tropical and sub-tropical climate with abundant rainfall and warm shade",
+    "sunlight_requirements": "Partial shade (thrives under 25–50% shade or agroforestry intercropping)",
+    "water_requirements": "High; regular soil moisture essential; highly sensitive to waterlogging",
+    "soil_preferences": "Rich, loose, well-drained friable sandy loam or forest loam high in organic humus, pH 5.5–6.8",
+    "growing_season": "Planted with pre-monsoon showers (April–May), harvested at 8–10 months (IISR Rejatha, Varada, Mahima)",
+    "propagation_methods": [
+      "Rhizome seed pieces (bits) with 1–2 viable sprouts"
+    ],
+    "uses": [
+      "Essential aromatic culinary rhizome (adrak chai, ginger garlic paste, curries)",
+      "Medicinal: gingerol and shogaol soothe nausea, morning sickness, digestive indigestion, and throat irritation",
+      "Dry ginger (sonth) for spice blends"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Soft Rot / Rhizome Rot (Pythium myriotylum)",
+        "type": "fungal",
+        "symptoms": "Water-soaked basal leaf sheaths, yellowing and sudden wilting of tillers, foul soft rot of underground rhizome",
+        "management": "Seed rhizome dip in Metalaxyl (2 g/L); drench affected beds; ensure high raised beds"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant on 15–20 cm raised beds to ensure rapid excess water drainage",
+      "Mulch with 12 t/ha green tree leaves in three split applications"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/zingiber-officinale.jpg",
+        "local_path": "backend/data/plant_images/zingiber-officinale.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "piper-nigrum",
+    "scientific_name": "Piper nigrum",
+    "common_name": "Black Pepper / King of Spices / Kali Mirch",
+    "hindi_name": "काली मिर्च (Kali Mirch)",
+    "telugu_name": "మిరియాలు (Miriyalu)",
+    "tamil_name": "மிளகு (Milagu)",
+    "other_regional_names": {
+      "kannada": "ಕಾಳುಮೆಣಸು (Kalumenasu)",
+      "malayalam": "കുരുമുളക് (Kurumulaku)",
+      "bengali": "গোলমরিচ (Golmorich)",
+      "marathi": "काळी मिरी (Kali Miri)"
+    },
+    "synonyms": [],
+    "family": "Piperaceae",
+    "genus": "Piper",
+    "species": "nigrum",
+    "category": "spice",
+    "status_in_india": "native",
+    "indian_states": [
+      "Kerala",
+      "Karnataka (Kodagu, Malnad)",
+      "Tamil Nadu",
+      "Goa",
+      "Assam",
+      "Meghalaya"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), broadly ovate to cordate leaves with acuminate tip and prominent sunken veins",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Curved palmate-pinnate",
+      "color": "Dark lustrous green above, paler beneath"
+    },
+    "stem_characteristics": "Woody perennial evergreen climbing liana with swollen nodes producing adventitious clinging roots, 4–10 m",
+    "flower_characteristics": "Slender, pendulous catkin-like spikes (8–15 cm) with 50–150 tiny unisexual or bisexual flowers",
+    "fruit_characteristics": "Globose sessile berry (drupe, 4–6 mm), green turning orange-red when ripe; dried with wrinkled black skin enclosing white seed",
+    "growth_habit": "Woody evergreen climbing vine trained on support trees/standards, 4–10 meters",
+    "habitat_and_climate": "Hot, humid tropical Western Ghats rainforest climate with 2000–3000 mm rainfall and 20°C–35°C",
+    "sunlight_requirements": "Filtered dappled shade to partial sun",
+    "water_requirements": "High; requires humid atmosphere; sensitive to prolonged drought",
+    "soil_preferences": "Rich, deep, well-drained fertile forest lateritic loams and red clay loams, pH 5.5–6.5",
+    "growing_season": "Flowering with onset of monsoon (May–June), harvesting Dec–March (Panniyur-1, Panniyur-5, Karimunda)",
+    "propagation_methods": [
+      "Rooted runner shoot cuttings in polybags"
+    ],
+    "uses": [
+      "King of spices: global seasoning, piperine alkaloid enhances bioavailability of turmeric curcumin by 2000%",
+      "Black pepper (harvested green and sun-dried), White pepper (fully ripe skin removed)",
+      "Ayurvedic respiratory Trikatu formula"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Quick Wilt / Foot Rot (Phytophthora capsici)",
+        "type": "fungal",
+        "symptoms": "Sudden black necrotic lesions on collar, leaf drop, rapid death of entire vine within 15–20 days of monsoon",
+        "management": "Drench basin with 1% Bordeaux mixture or Potassium Phosphonate (3 ml/L) in May and August"
+      },
+      {
+        "name": "Pollu Beetle (Longitarsus nigripennis)",
+        "type": "pest",
+        "symptoms": "Larvae bore into tender berries rendering them hollow and black (pollu)",
+        "management": "Spray Quinalphos (2 ml/L) in July and October"
+      }
+    ],
+    "prevention_guidance": [
+      "Train vines on living tree standards (Silver Oak, Arecanut, Erythrina)",
+      "Prune top shade of standards before monsoon"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/piper-nigrum.jpg",
+        "local_path": "backend/data/plant_images/piper-nigrum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "elettaria-cardamomum",
+    "scientific_name": "Elettaria cardamomum",
+    "common_name": "Small Cardamom / Queen of Spices / Elaichi",
+    "hindi_name": "इलायची (Elaichi)",
+    "telugu_name": "ఏలకులు (Yelakulu)",
+    "tamil_name": "ஏலக்காய் (Yelakkai)",
+    "other_regional_names": {
+      "kannada": "ಏಲಕ್ಕಿ (Elakki)",
+      "malayalam": "ഏലം (Elam)",
+      "bengali": "এলাচ (Elach)",
+      "marathi": "वेलची (Velchi)"
+    },
+    "synonyms": [],
+    "family": "Zingiberaceae",
+    "genus": "Elettaria",
+    "species": "cardamomum",
+    "category": "spice",
+    "status_in_india": "native",
+    "indian_states": [
+      "Kerala (Idukki - Cardamom Hills)",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Long, lanceolate smooth arching dark green leaves with aromatic pungent aroma",
+      "arrangement": "Alternate, 2-ranked",
+      "margin": "Entire",
+      "venation": "Parallel-pinnate",
+      "color": "Dark glossy green"
+    },
+    "stem_characteristics": "Erect leafy pseudostem formed by sheaths (2–4 m), subterranean rhizome producing prostrate or erect flowering panicles",
+    "flower_characteristics": "Spreading prostrate panicles arising from base of pseudostem; white or pale violet labellum with purplish-blue streaks",
+    "fruit_characteristics": "Small, 3-sided ovoid-trilocular capsule (1–2 cm), green with thin ribbed shell holding aromatic angular black seeds",
+    "growth_habit": "Robust perennial shade-loving rhizomatous herb, 2–4 meters",
+    "habitat_and_climate": "High-elevation (600–1500 m) evergreen Western Ghats shola forest climate with cool temperatures (10°C–35°C) and heavy mist",
+    "sunlight_requirements": "Deep dappled forest shade (50–60% overhead shade)",
+    "water_requirements": "High; requires consistent soil moisture and atmospheric humidity; avoids drought",
+    "soil_preferences": "Rich forest humus, loamy laterites, and well-drained forest soils, pH 4.5–6.0",
+    "growing_season": "Flowering throughout monsoon, harvesting August–February (Malabar, Mysore, Vazhukka)",
+    "propagation_methods": [
+      "Rhizome divisions or sucker splits (ICRI-1, PV-1)"
+    ],
+    "uses": [
+      "Queen of spices: intensely aromatic flavoring in biryani, sweets, chai, garam masala, desserts",
+      "Natural breath freshener, digestive carminative, essential oils"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Katte Disease / Mosaic Virus",
+        "type": "viral",
+        "symptoms": "Discontinuous chlorotic stripes on young leaves, stunted tillers, slender capsules",
+        "management": "Vector aphid (Pentalonia nigronervosa) control with Dimethoate; rogue diseased clumps"
+      },
+      {
+        "name": "Cardamom Thrips (Sciothrips cardamomi)",
+        "type": "pest",
+        "symptoms": "Thrips lacerate flower buds and capsule rind causing scabby, warted corky fruit skin",
+        "management": "Spray Quinalphos (2 ml/L) or Spinosad"
+      }
+    ],
+    "prevention_guidance": [
+      "Maintain 50% overhead forest canopy shade using indigenous trees (Jackfruit, Red Cedar)",
+      "Cure harvested green capsules in specialized curing chambers at 45°C–50°C to preserve vivid green color"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/elettaria-cardamomum.jpg",
+        "local_path": "backend/data/plant_images/elettaria-cardamomum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cinnamomum-verum",
+    "scientific_name": "Cinnamomum verum",
+    "common_name": "True Cinnamon / Dalchini",
+    "hindi_name": "दालचीनी (Dalchini)",
+    "telugu_name": "దాల్చిన చెక్క (Dalchina Chekka)",
+    "tamil_name": "இலவங்கப்பட்டை (Ilavangapattai)",
+    "other_regional_names": {
+      "kannada": "ದಾಲ್ಚಿನ್ನಿ (Dalchinni)",
+      "malayalam": "കറുവാപ്പട്ട (Karuvapatta)",
+      "bengali": "দারুচিনি (Daruchini)",
+      "marathi": "दालचिनी (Dalchini)"
+    },
+    "synonyms": [
+      "Cinnamomum zeylanicum"
+    ],
+    "family": "Lauraceae",
+    "genus": "Cinnamomum",
+    "species": "verum",
+    "category": "spice",
+    "status_in_india": "native",
+    "indian_states": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Goa",
+      "Maharashtra"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, coriaceous (leathery), ovate-lanceolate leaves with 3–5 prominent pale longitudinal veins, aromatic when bruised",
+      "arrangement": "Opposite or sub-opposite",
+      "margin": "Entire",
+      "venation": "3–5 prominent longitudinal basal veins",
+      "color": "Pinkish-red when young, mature glossy dark green"
+    },
+    "stem_characteristics": "Medium evergreen tree coppiced into dense bush of straight slender poles with smooth aromatic bark, 6–12 m",
+    "flower_characteristics": "Small, inconspicuous pale yellowish-white flowers in silky axillary and terminal panicles",
+    "fruit_characteristics": "Small dark purple ovoid fleshy berry resting in persistent cup-like calyx with single seed",
+    "growth_habit": "Medium evergreen tree coppiced to commercial bush, 6–12 m (coppiced to 2 m)",
+    "habitat_and_climate": "Warm humid tropical rainforest climate with abundant rainfall (2000–2500 mm)",
+    "sunlight_requirements": "Filtered sunlight to full sun",
+    "water_requirements": "High; requires moist well-drained root zone",
+    "soil_preferences": "Well-drained sandy loam or lateritic soil rich in organic humus, pH 5.5–6.5",
+    "growing_season": "Harvested twice yearly after monsoon flushes (IISR Nithyashree, Navashree)",
+    "propagation_methods": [
+      "Seeds or semi-hardwood stem cuttings"
+    ],
+    "uses": [
+      "Prized aromatic culinary spice (true Ceylon cinnamon with delicate sweet cinnamaldehyde flavor)",
+      "Inner bark peeled and curled into concentric quills",
+      "Regulates blood glucose, antioxidant, antimicrobial"
+    ],
+    "safety_notes": "True Ceylon cinnamon (C. verum) contains very low coumarin (<0.004%), unlike Cassia (C. cassia) which has high coumarin harmful to liver.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Leaf Spot and Die-back (Colletotrichum gloeosporioides)",
+        "type": "fungal",
+        "symptoms": "Brown necrotic spots on leaves and drying of shoot tips",
+        "management": "Spray 1% Bordeaux mixture"
+      }
+    ],
+    "prevention_guidance": [
+      "Coppice stems at 2 years by cutting near base to induce multiple straight slender shoots for high-grade quill peeling"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cinnamomum-verum.jpg",
+        "local_path": "backend/data/plant_images/cinnamomum-verum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "syzygium-aromaticum",
+    "scientific_name": "Syzygium aromaticum",
+    "common_name": "Clove / Laung",
+    "hindi_name": "लौंग (Laung)",
+    "telugu_name": "లవంగాలు (Lavangalu)",
+    "tamil_name": "கிராம்பு (Krambu)",
+    "other_regional_names": {
+      "kannada": "ಲವಂಗ (Lavanga)",
+      "malayalam": "ഗ്രാമ്പൂ (Grampoo)",
+      "bengali": "লবঙ্গ (Lobongo)",
+      "marathi": "लवंग (Lavang)"
+    },
+    "synonyms": [
+      "Eugenia caryophyllata"
+    ],
+    "family": "Myrtaceae",
+    "genus": "Syzygium",
+    "species": "aromaticum",
+    "category": "spice",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Tamil Nadu (Kanyakumari, Nilgiris)",
+      "Kerala (Kottayam, Kollam)",
+      "Karnataka"
+    ],
+    "leaf_characteristics": {
+      "shape": "Opposite, coriaceous, lanceolate-elliptic glossy leaves densely dotted with translucent aromatic oil glands",
+      "arrangement": "Opposite",
+      "margin": "Entire",
+      "venation": "Pinnate with numerous fine veins",
+      "color": "Copper-red when young, turning dark lustrous green"
+    },
+    "stem_characteristics": "Medium conical evergreen tree with smooth grey bark and dense ascending canopy, 8–15 m",
+    "flower_characteristics": "Terminal trichotomous cymes of unopened flower buds; unopened bud comprises long fleshy calyx tube topped by 4 unopened petals",
+    "fruit_characteristics": "Oblong-obovate fleshy dark purple drupe (mother of clove) containing 1–2 seeds",
+    "growth_habit": "Pyramidal evergreen canopy tree, 8–15 meters",
+    "habitat_and_climate": "Warm, humid tropical island and coastal hill climate with sea breezes and rainfall over 1500 mm",
+    "sunlight_requirements": "Full sun when mature; partial shade during first 3–4 years",
+    "water_requirements": "Moderate to high; avoids waterlogging",
+    "soil_preferences": "Rich, deep, well-drained red lateritic and forest loams, pH 5.5–6.5",
+    "growing_season": "Harvesting unopened buds before flower opens (Dec–March)",
+    "propagation_methods": [
+      "Ripe seed nursery germination"
+    ],
+    "uses": [
+      "Unopened dried flower bud is world's most pungent aromatic spice (eugenol)",
+      "Essential ingredient in garam masala, biryani, curries",
+      "Clove oil used globally in dental analgesia and toothache remedies"
+    ],
+    "safety_notes": "Clove oil is intensely concentrated; do not apply undiluted oil directly to mucous membranes.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Leaf Rot / Die-back (Corticium salmonicolor)",
+        "type": "fungal",
+        "symptoms": "Pinkish fungal crust on twigs causing die-back of branches",
+        "management": "Prune affected twigs; apply Bordeaux paste to cut ends"
+      }
+    ],
+    "prevention_guidance": [
+      "Harvest buds precisely when green calyx turns pinkish-red before white petals open"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/syzygium-aromaticum.jpg",
+        "local_path": "backend/data/plant_images/syzygium-aromaticum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "murraya-koenigii",
+    "scientific_name": "Murraya koenigii",
+    "common_name": "Curry Leaf / Kadi Patta",
+    "hindi_name": "कढ़ी पत्ता (Kadi Patta)",
+    "telugu_name": "కరివేపాకు (Karivepaku)",
+    "tamil_name": "கறிவேப்பிலை (Kariveppilai)",
+    "other_regional_names": {
+      "kannada": "ಕರಿಬೇವಿನ ಸೊಪ್ಪು (Karibevina Soppu)",
+      "malayalam": "കറിവേപ്പില (Kariveppila)",
+      "bengali": "কারিপাতা (Karipata)",
+      "marathi": "कढीपत्ता (Kadipatta)"
+    },
+    "synonyms": [],
+    "family": "Rutaceae",
+    "genus": "Murraya",
+    "species": "koenigii",
+    "category": "herb",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India (Tamil Nadu, Andhra Pradesh, Karnataka, Kerala, Maharashtra, Gujarat, Uttar Pradesh, West Bengal)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnate compound leaves with 11–25 small asymmetric ovate leaflets with intensely aromatic citrus-pungent odor",
+      "arrangement": "Alternate",
+      "margin": "Obliquely ovate, crenulate",
+      "venation": "Pinnate",
+      "color": "Bright to dark shiny green with oil glands"
+    },
+    "stem_characteristics": "Slender, branched small aromatic evergreen tree or large shrub with dark brown bark, 2–5 m",
+    "flower_characteristics": "Small fragrant white flowers in terminal corymbose cymes",
+    "fruit_characteristics": "Small sub-globose fleshy berry (1 cm), green ripening to lustrous purple-black with single large seed",
+    "growth_habit": "Small aromatic evergreen tree or shrub, 2–5 meters",
+    "habitat_and_climate": "Tropical and sub-tropical plains; drought hardy once established",
+    "sunlight_requirements": "Full sun to light afternoon shade",
+    "water_requirements": "Regular moderate watering; avoids soggy root zone",
+    "soil_preferences": "Well-drained fertile loamy to red soil rich in organic matter, pH 6.0–7.5",
+    "growing_season": "Year-round continuous harvesting (DWD-1, DWD-2, Suwasini)",
+    "propagation_methods": [
+      "Seeds (fresh) or root suckers"
+    ],
+    "uses": [
+      "Indispensable aromatic tempering spice (tadka) in South and West Indian cooking",
+      "Promotes digestion, hair health, rich in iron, folic acid, and carbazole alkaloids",
+      "Natural antioxidant and hypoglycemic properties"
+    ],
+    "safety_notes": "Safe for daily culinary consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Citrus Psyllid (Diaphorina citri)",
+        "type": "pest",
+        "symptoms": "Nymphs secrete white waxy filaments, suck sap curling young shoots",
+        "management": "Spray Dimethoate (1.5 ml/L) or Neem oil (3 ml/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Prune shoot tips regularly to maintain bushy productive branching",
+      "Apply well-decomposed cow dung manure monthly"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/murraya-koenigii.jpg",
+        "local_path": "backend/data/plant_images/murraya-koenigii.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cymbopogon-citratus",
+    "scientific_name": "Cymbopogon citratus",
+    "common_name": "Lemongrass / Lemon Grass",
+    "hindi_name": "नींबू घास (Nimbu Ghas)",
+    "telugu_name": "నిమ్మగడ్డి (Nimmagaddi)",
+    "tamil_name": "எலுமிச்சம்புல் (Elumichampul)",
+    "other_regional_names": {
+      "kannada": "ಮಜ್ಜಿಗೆ ಹುಲ್ಲು (Majjige Hullu)",
+      "malayalam": "വാസനപ്പുല്ല് (Vasanappullu)",
+      "bengali": "লেমনগ্রাস (Lemongrass)",
+      "marathi": "गवती चहा (Gavati Chaha)"
+    },
+    "synonyms": [],
+    "family": "Poaceae",
+    "genus": "Cymbopogon",
+    "species": "citratus",
+    "category": "herb",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka",
+      "Assam",
+      "Uttar Pradesh",
+      "Odisha",
+      "Maharashtra"
+    ],
+    "leaf_characteristics": {
+      "shape": "Long, linear strap-like arching leaves (1 m) with sharp rough margins emitting powerful lemon-citral fragrance when rubbed",
+      "arrangement": "Clustered basal clumps",
+      "margin": "Scabrous sharp",
+      "venation": "Parallel",
+      "color": "Vibrant light to bluish green"
+    },
+    "stem_characteristics": "Short underground rhizome producing dense multi-tillered clump of leafy culms with swollen base, 1–1.8 m",
+    "flower_characteristics": "Large loose nodding compound panicle (rarely flowers under regular cutting)",
+    "fruit_characteristics": "Propagated vegetatively via slip division",
+    "growth_habit": "Dense perennial clump-forming aromatic tussock grass, 1–1.8 meters",
+    "habitat_and_climate": "Warm tropical and sub-tropical climate with abundant sunshine and warm temperatures",
+    "sunlight_requirements": "Full blazing sun (8 hours)",
+    "water_requirements": "Low to moderate; highly drought resilient",
+    "soil_preferences": "Well-drained sandy loam, gravelly red soils, and laterites, pH 5.5–7.5",
+    "growing_season": "Perennial with 4–5 harvests per year (Krishna, Cauvery, Pragati)",
+    "propagation_methods": [
+      "Division of rooted slips from mature clumps"
+    ],
+    "uses": [
+      "Fresh leaves brewed in traditional herbal teas (Gavati Chaha, green tea)",
+      "Commercial distillation of lemongrass essential oil (75–85% citral)",
+      "Natural mosquito repellent and aromatherapy"
+    ],
+    "safety_notes": "Leaf margins are sharp; wear gloves during bulk harvesting.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Rust (Puccinia nakanishikii)",
+        "type": "fungal",
+        "symptoms": "Brown linear rust pustules on leaf blades",
+        "management": "Harvest mature foliage; spray Mancozeb if severe"
+      }
+    ],
+    "prevention_guidance": [
+      "Cut foliage 10 cm above ground level every 60–75 days to stimulate fresh shoots"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cymbopogon-citratus.jpg",
+        "local_path": "backend/data/plant_images/cymbopogon-citratus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "withania-somnifera",
+    "scientific_name": "Withania somnifera",
+    "common_name": "Ashwagandha / Indian Ginseng",
+    "hindi_name": "अश्वगंधा (Ashwagandha)",
+    "telugu_name": "అశ్వగంధ / పెన్నేరు (Aswagandha)",
+    "tamil_name": "அமுக்கிராங்கிழங்கு (Amukkira)",
+    "other_regional_names": {
+      "kannada": "ಅಶ್ವಗಂಧ (Ashwagandha)",
+      "malayalam": "അമുക്കുരം (Amukkiram)",
+      "bengali": "অশ্বগন্ধা (Oshwagandha)",
+      "marathi": "अश्वगंधा (Ashwagandha)"
+    },
+    "synonyms": [],
+    "family": "Solanaceae",
+    "genus": "Withania",
+    "species": "somnifera",
+    "category": "medicinal plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Madhya Pradesh (Neemuch, Mandsaur)",
+      "Rajasthan",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Punjab",
+      "Haryana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, ovate to elliptic dull green leaves covered with fine starry tomentose hairs with characteristic horse-like aroma",
+      "arrangement": "Alternate or sub-opposite",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dull greyish-green with starry hairs"
+    },
+    "stem_characteristics": "Erect, branching tomentose semi-woody shrub with pale green-brown stem, 30–120 cm",
+    "flower_characteristics": "Small greenish-yellow bell-shaped flowers clustered in axils (3–6 flowers)",
+    "fruit_characteristics": "Globose smooth berry (6 mm), bright orange-red when ripe, enclosed inside an enlarged papery inflated calyx",
+    "growth_habit": "Erect branching semi-woody perennial shrub grown as annual, 30–120 cm",
+    "habitat_and_climate": "Semi-arid subtropical and tropical dry climate; dry weather required for root development",
+    "sunlight_requirements": "Full bright sun",
+    "water_requirements": "Low; highly drought hardy",
+    "soil_preferences": "Well-drained light sandy loam or red gravelly soils, pH 7.0–8.0",
+    "growing_season": "Late Kharif sowing (July–August), harvested 150–180 days in winter (JA-20, Poshita)",
+    "propagation_methods": [
+      "Direct seed line sowing"
+    ],
+    "uses": [
+      "Premier Ayurvedic adaptogen: reduces cortisol stress, enhances vitality and endurance (withanolides)",
+      "Tuberous roots dried and powdered for medicinal formulations",
+      "Leaves used in traditional poultices for joint swelling"
+    ],
+    "safety_notes": "Roots have strong adaptogenic potency; pregnant women should avoid unprescribed medicinal doses.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Seedling Blight (Alternaria alternata)",
+        "type": "fungal",
+        "symptoms": "Brown circular spots on leaves and seedling damping-off",
+        "management": "Seed treatment with Trichoderma (4 g/kg)"
+      }
+    ],
+    "prevention_guidance": [
+      "Harvest roots when berries turn orange-red and leaves begin drying",
+      "Grade roots based on diameter (A, B, C grade)"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/withania-somnifera.jpg",
+        "local_path": "backend/data/plant_images/withania-somnifera.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "bacopa-monnieri",
+    "scientific_name": "Bacopa monnieri",
+    "common_name": "Brahmi / Water Hyssop",
+    "hindi_name": "ब्राह्मी (Brahmi)",
+    "telugu_name": "సరస్వతీ ఆకు (Saraswathi Aaku)",
+    "tamil_name": "பிராமி / வல்லாரை (Brahmi)",
+    "other_regional_names": {
+      "kannada": "ಬ್ರಾಹ್ಮಿ (Brahmi)",
+      "malayalam": "ബ്രഹ്മി (Brahmi)",
+      "bengali": "ব্রাহ্মী (Brahmi)",
+      "marathi": "ब्राह्मी (Brahmi)"
+    },
+    "synonyms": [],
+    "family": "Plantaginaceae",
+    "genus": "Bacopa",
+    "species": "monnieri",
+    "category": "medicinal plant",
+    "status_in_india": "native",
+    "indian_states": [
+      "Pan-India wetlands (Kerala, West Bengal, Odisha, Uttar Pradesh, Tamil Nadu, Karnataka)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Small, succulent, oblanceolate to spatulate sessile leaves (1–2 cm) dotted with minute black specks",
+      "arrangement": "Opposite",
+      "margin": "Entire",
+      "venation": "Inconspicuous",
+      "color": "Bright emerald green"
+    },
+    "stem_characteristics": "Slender, succulent creeping prostrate stem rooting at every node forming dense carpets, 10–30 cm",
+    "flower_characteristics": "Small solitary pale blue, pink, or white 5-lobed flowers on slender axillary pedicels",
+    "fruit_characteristics": "Ovoid-globose 2-grooved capsule holding numerous minute seeds",
+    "growth_habit": "Prostrate creeping succulent wetland perennial herb, 10–30 cm",
+    "habitat_and_climate": "Warm humid tropical and sub-tropical wetlands, marsh edges, and riverbanks",
+    "sunlight_requirements": "Full sunlight to partial shade",
+    "water_requirements": "High; requires consistently saturated, marshy, or waterlogged soil",
+    "soil_preferences": "Wet alluvial loams, clayey marsh soils rich in organic matter, pH 6.0–7.5",
+    "growing_season": "Year-round cultivation under wet conditions",
+    "propagation_methods": [
+      "Stem cuttings with root nodes"
+    ],
+    "uses": [
+      "Renowned Ayurvedic medhya rasayana (brain tonic): enhances memory, cognitive clarity, and neuroplasticity (bacosides A & B)",
+      "Traditional memory syrup (Brahmi Ghrita), herbal teas"
+    ],
+    "safety_notes": "Safe in dietary and herbal amounts.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Damping Off",
+        "type": "fungal",
+        "symptoms": "Rotting of creeping runners in stagnant foul water",
+        "management": "Maintain fresh water flow; avoid foul water stagnation"
+      }
+    ],
+    "prevention_guidance": [
+      "Maintain standing water layer of 2–3 cm in cultivated paddy-like beds"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/bacopa-monnieri.jpg",
+        "local_path": "backend/data/plant_images/bacopa-monnieri.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "hibiscus-rosa-sinensis",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "common_name": "Hibiscus / China Rose / Gudhal",
+    "hindi_name": "गुड़हल (Gudhal)",
+    "telugu_name": "మందారం (Mandaram)",
+    "tamil_name": "செம்பருத்தி (Sembaruthi)",
+    "other_regional_names": {
+      "kannada": "ದಾಸವಾಳ (Dasavala)",
+      "malayalam": "ചെമ്പരത്തി (Chembarathi)",
+      "bengali": "জবা (Joba)",
+      "marathi": "जास्वंद (Jaswand)"
+    },
+    "synonyms": [],
+    "family": "Malvaceae",
+    "genus": "Hibiscus",
+    "species": "rosa-sinensis",
+    "category": "flower",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Pan-India (Tamil Nadu, West Bengal, Kerala, Andhra Pradesh, Maharashtra, Karnataka, Uttar Pradesh)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, ovate to broadly lanceolate glossy dark green leaves with distinct serrate margins",
+      "arrangement": "Alternate, spiral",
+      "margin": "Serrate to dentate",
+      "venation": "Palmate-pinnate",
+      "color": "Dark glossy green"
+    },
+    "stem_characteristics": "Multi-stemmed woody erect branching evergreen shrub, 1.5–4.0 m",
+    "flower_characteristics": "Large, showy solitary funnel-shaped 5-petaled flowers (crimson, red, yellow, pink) with long protruding staminal column",
+    "fruit_characteristics": "Rarely sets capsule under cultivation in India",
+    "growth_habit": "Vigorous bushy evergreen woody ornamental and medicinal shrub, 1.5–4.0 meters",
+    "habitat_and_climate": "Warm tropical and sub-tropical climate; completely frost-tender",
+    "sunlight_requirements": "Full bright sun (6+ hours daily)",
+    "water_requirements": "Regular moderate watering; keep moist but well-drained",
+    "soil_preferences": "Fertile, rich, well-drained loamy soil rich in organic compost, pH 6.0–7.0",
+    "growing_season": "Year-round continuous blooming in tropics",
+    "propagation_methods": [
+      "Semi-hardwood stem cuttings or air layering"
+    ],
+    "uses": [
+      "Revered sacred flower offered to deities (Goddess Kali, Lord Ganesha)",
+      "Traditional hair care: petals and leaves crushed into natural conditioning shampoo and hair growth oil",
+      "Hibiscus sour tea rich in Vitamin C and anthocyanins"
+    ],
+    "safety_notes": "Safe for topical and dietary culinary use.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Mealybug (Ferrisia virgata)",
+        "type": "pest",
+        "symptoms": "White waxy clusters on flower buds and leaf axils causing bud drop",
+        "management": "Spray Neem oil (5 ml/L) + liquid soap or Imidacloprid"
+      }
+    ],
+    "prevention_guidance": [
+      "Prune in early spring to stimulate vigorous new flowering shoots",
+      "Spray iron chelate if interveinal yellowing (chlorosis) appears"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/hibiscus-rosa-sinensis.jpg",
+        "local_path": "backend/data/plant_images/hibiscus-rosa-sinensis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "jasminum-sambac",
+    "scientific_name": "Jasminum sambac",
+    "common_name": "Arabian Jasmine / Mogra / Chameli",
+    "hindi_name": "मोगरा / चमेली (Mogra)",
+    "telugu_name": "మల్లెపువ్వు (Mallepuvvu)",
+    "tamil_name": "மல்லிகை (Malligai / Madurai Malli)",
+    "other_regional_names": {
+      "kannada": "ಮಲ್ಲಿಗೆ (Mallige)",
+      "malayalam": "മുല്ല (Mulla)",
+      "bengali": "বেলি ফুল (Beli Phul)",
+      "marathi": "मोगरा (Mogra)"
+    },
+    "synonyms": [],
+    "family": "Oleaceae",
+    "genus": "Jasminum",
+    "species": "sambac",
+    "category": "flower",
+    "status_in_india": "native",
+    "indian_states": [
+      "Tamil Nadu (Madurai)",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "West Bengal",
+      "Gujarat"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, broadly ovate to elliptic glossy dark green opposite leaves with prominent veins",
+      "arrangement": "Opposite or in whorls of 3",
+      "margin": "Entire, slightly undulate",
+      "venation": "Pinnate",
+      "color": "Dark lustrous green"
+    },
+    "stem_characteristics": "Erect or scrambling woody perennial shrub or twining climber, 1–3 m",
+    "flower_characteristics": "Intensely fragrant solitary or clustered pure white waxy flowers opening at dusk (single or multi-whorled double petals)",
+    "fruit_characteristics": "Small globose purple-black berry (rarely produces seeds under cultivation)",
+    "growth_habit": "Dense bushy evergreen woody shrub or scrambling climber, 1–3 meters",
+    "habitat_and_climate": "Warm tropical and sub-tropical plains; flourishes in hot sunny summers",
+    "sunlight_requirements": "Full blazing sun (6–8 hours)",
+    "water_requirements": "Regular moderate watering; withstands brief drying",
+    "soil_preferences": "Well-drained rich sandy loam to clay loam rich in organic manure, pH 6.5–7.5",
+    "growing_season": "Summer and Monsoon blooming flush (March–September)",
+    "propagation_methods": [
+      "Semi-hardwood stem cuttings or ground layering"
+    ],
+    "uses": [
+      "World-renowned aromatic floral crop: Madurai Malli garland flowers for temple rituals and weddings",
+      "Mogra attar and perfume extraction, jasmine green tea",
+      "Aromatherapy for relaxation and stress relief"
+    ],
+    "safety_notes": "Safe and celebrated in traditional culture.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Bud Worm (Hendecasis duplifascialis)",
+        "type": "pest",
+        "symptoms": "Caterpillar bores inside unopened white flower buds causing reddish-brown discoloration and bud drop",
+        "management": "Foliar spray of Spinosad 45 SC (0.3 ml/L) or Neem oil"
+      }
+    ],
+    "prevention_guidance": [
+      "Annual pruning to 45 cm height in November–December is mandatory for profuse summer flowering flushes"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/jasminum-sambac.jpg",
+        "local_path": "backend/data/plant_images/jasminum-sambac.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "rosa-indica",
+    "scientific_name": "Rosa indica",
+    "common_name": "Rose / Gulab / Desi Gulab",
+    "hindi_name": "गुलाब (Gulab)",
+    "telugu_name": "గులాబీ (Gulabi)",
+    "tamil_name": "ரோஜா (Roja)",
+    "other_regional_names": {
+      "kannada": "ಗುಲಾಬಿ (Gulabi)",
+      "malayalam": "റോസാപ്പൂവ് (Rosappoovu)",
+      "bengali": "গোলাপ (Golap)",
+      "marathi": "गुलाब (Gulab)"
+    },
+    "synonyms": [
+      "Rosa chinensis",
+      "Rosa damascena"
+    ],
+    "family": "Rosaceae",
+    "genus": "Rosa",
+    "species": "indica",
+    "category": "flower",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh (Kannauj)",
+      "Rajasthan (Pushkar)",
+      "Karnataka",
+      "Tamil Nadu",
+      "Maharashtra (Pune)",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Odd-pinnate compound leaves with 3–7 ovate serrate leaflets and spiny glandular petioles",
+      "arrangement": "Alternate",
+      "margin": "Serrate sharp",
+      "venation": "Pinnate",
+      "color": "Rich dark green with reddish flush on young growth"
+    },
+    "stem_characteristics": "Woody, prickly erect or scrambling shrub with curved prickles (thorns) on green stems, 1–2.5 m",
+    "flower_characteristics": "Exquisitely fragrant solitary or clustered multi-petaled flowers (pink, red, white, yellow) with numerous stamens",
+    "fruit_characteristics": "Fleshy red to orange globose hypanthium (rose hip) holding achene seeds",
+    "growth_habit": "Prickly deciduous or semi-evergreen woody perennial shrub, 1–2.5 meters",
+    "habitat_and_climate": "Mild temperate to subtropical climate; requires warm sunny days and cool nights for maximum fragrance",
+    "sunlight_requirements": "Full sunlight (6–8 hours daily)",
+    "water_requirements": "Regular moderate watering; keep root zone moist but never waterlogged",
+    "soil_preferences": "Deep, rich, well-drained fertile loamy soil high in organic humus, pH 6.0–6.8",
+    "growing_season": "Winter and Spring peak blooming (Desi Gulab, Damask Rose, Hybrid Teas)",
+    "propagation_methods": [
+      "T-budding on Rosa multiflora rootstock or hardwood cuttings"
+    ],
+    "uses": [
+      "Desi Gulab / Damask Rose for Kannauj rose water (gulab jal) and pure rose attar",
+      "Sweet gulkand (rose petal preserve) for cooling Ayurvedic health",
+      "Commercial cut flower bouquets and garlands"
+    ],
+    "safety_notes": "Stems have sharp prickles (thorns). Wear protective gloves.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Black Spot (Diplocarpon rosae)",
+        "type": "fungal",
+        "symptoms": "Fringed circular black spots on leaves leading to severe yellowing and premature leaf drop",
+        "management": "Foliar spray of Mancozeb (2 g/L) or Trifloxystrobin; water at base, not on leaves"
+      },
+      {
+        "name": "Powdery Mildew (Podosphaera pannosa)",
+        "type": "fungal",
+        "symptoms": "White talc-like powdery fungal growth on young leaves, buds, and stems causing distortion",
+        "management": "Spray Wettable Sulfur (2 g/L) or Hexaconazole"
+      }
+    ],
+    "prevention_guidance": [
+      "Annual pruning in October (cut back to 40 cm with angled cuts) stimulates vigorous winter blooming",
+      "Apply mustard oil cake and bone meal around root basin"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/rosa-indica.jpg",
+        "local_path": "backend/data/plant_images/rosa-indica.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "tagetes-erecta",
+    "scientific_name": "Tagetes erecta",
+    "common_name": "Marigold / Genda",
+    "hindi_name": "गेंदा (Genda)",
+    "telugu_name": "బంతిపువ్వు (Banthipuvvu)",
+    "tamil_name": "சாமந்தி / செண்டுமல்லி (Chendumalli)",
+    "other_regional_names": {
+      "kannada": "ಚೆಂಡುಹೂ (Chenduhu)",
+      "malayalam": "ചെണ്ടുമല്ലി (Chendumalli)",
+      "bengali": "গাঁদা ফুল (Gada Phul)",
+      "marathi": "झेंडू (Zendu)"
+    },
+    "synonyms": [],
+    "family": "Asteraceae",
+    "genus": "Tagetes",
+    "species": "erecta",
+    "category": "flower",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra",
+      "Karnataka",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Telangana",
+      "Haryana",
+      "West Bengal",
+      "Uttar Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnately divided feathery aromatic leaves with narrow lanceolate serrate segments dotted with oil glands",
+      "arrangement": "Opposite below, alternate above",
+      "margin": "Deeply serrate / pinnatifid",
+      "venation": "Pinnate",
+      "color": "Dark green with pungent distinctive aroma"
+    },
+    "stem_characteristics": "Erect, grooved herbaceous branching stem with strong aromatic scent, 30–100 cm",
+    "flower_characteristics": "Large, dense, globose composite flower heads (capitulum) packed with bright orange or yellow ray florets",
+    "fruit_characteristics": "Slender, compressed black cypsela (achene) topped by pappus bristles",
+    "growth_habit": "Erect bushy annual herbaceous flowering plant, 30–100 cm",
+    "habitat_and_climate": "Warm sub-tropical and tropical climate; performs outstandingly in bright dry sunny weather",
+    "sunlight_requirements": "Full blazing sun (6–8 hours)",
+    "water_requirements": "Moderate regular watering; avoids wet soggy soil",
+    "soil_preferences": "Well-drained fertile sandy loam to clay loam rich in organic matter, pH 6.5–7.5",
+    "growing_season": "All three seasons (Kharif, Winter, and Summer for festive demand)",
+    "propagation_methods": [
+      "Certified seed sowing or terminal cuttings"
+    ],
+    "uses": [
+      "Major commercial garland flower for Diwali, Dussehra, pujas, weddings",
+      "Rich source of natural lutein pigment used in eye health supplements and poultry feed",
+      "Potent nematicidal root exudates (alpha-terthienyl) suppress root-knot nematodes in soil"
+    ],
+    "safety_notes": "Safe for cultivation.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Leaf Spot / Blight (Alternaria tagetica)",
+        "type": "fungal",
+        "symptoms": "Circular brownish-black necrotic spots on leaves and flower ray florets",
+        "management": "Foliar spray of Mancozeb (2 g/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Plant as companion trap crop around tomato, brinjal, and chilli borders to eliminate parasitic nematodes",
+      "Pinch terminal growing tip at 30 days to stimulate 15–20 productive lateral branches"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/tagetes-erecta.jpg",
+        "local_path": "backend/data/plant_images/tagetes-erecta.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "catharanthus-roseus",
+    "scientific_name": "Catharanthus roseus",
+    "common_name": "Madagascar Periwinkle / Sadabahar",
+    "hindi_name": "सदाबहार (Sadabahar)",
+    "telugu_name": "బిళ్ళగన్నేరు (Billa Ganneru)",
+    "tamil_name": "நித்திய கல்யாணி (Nithya Kalyani)",
+    "other_regional_names": {
+      "kannada": "ಸದಾಪುಷ್ಪ (Sadapushpa)",
+      "malayalam": "ശവംനാറി / നിത്യകല്യാണി (Nithyakalyani)",
+      "bengali": "নয়নতারা (Nayantora)",
+      "marathi": "सदाफुली (Sadaphuli)"
+    },
+    "synonyms": [
+      "Vinca rosea"
+    ],
+    "family": "Apocynaceae",
+    "genus": "Catharanthus",
+    "species": "roseus",
+    "category": "medicinal plant",
+    "status_in_india": "naturalized",
+    "indian_states": [
+      "Pan-India (Tamil Nadu, Karnataka, Andhra Pradesh, Gujarat, Maharashtra, Rajasthan, Uttar Pradesh, West Bengal)"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, opposite, elliptic-obovate glossy dark green leaves with pale midrib and milky sap",
+      "arrangement": "Opposite, decussate",
+      "margin": "Entire",
+      "venation": "Pinnate with distinct pale midrib",
+      "color": "Glossy dark green"
+    },
+    "stem_characteristics": "Erect herbaceous to semi-woody branched subshrub with smooth green or purplish stems, 30–90 cm",
+    "flower_characteristics": "Salverform 5-lobed flat flowers, pure white or vivid rosy-pink with dark reddish-purple eye",
+    "fruit_characteristics": "Paired cylindrical dehiscent follicles (2–4 cm) holding small black grooved seeds",
+    "growth_habit": "Hardy erect bushy perennial subshrub, 30–90 cm",
+    "habitat_and_climate": "Tropical and sub-tropical semi-arid climate; extraordinary drought and heat tolerance",
+    "sunlight_requirements": "Full blazing sun to light shade",
+    "water_requirements": "Very low; highly drought resistant",
+    "soil_preferences": "Thrives in poor, sandy, gravelly, rocky, and saline soils, pH 6.0–8.0",
+    "growing_season": "Year-round continuous flowering (Sadabahar literally means 'ever-blooming')",
+    "propagation_methods": [
+      "Seeds or soft-wood stem cuttings"
+    ],
+    "uses": [
+      "Commercial source of life-saving vinca alkaloids (vincristine and vinblastine used in chemotherapy for leukemia and Hodgkin's lymphoma)",
+      "Ayurvedic remedies for type 2 diabetes and hypertension",
+      "Hardy ornamental border plant"
+    ],
+    "safety_notes": "CRITICAL TOXICITY WARNING: Contains over 130 powerful cytotoxic indole alkaloids. Plant is poisonous if ingested in unprescribed quantities. Keep away from pets and small children.",
+    "is_toxic": true,
+    "common_pests_and_diseases": [
+      {
+        "name": "Die-back / Twig Blight (Colletotrichum gloeosporioides)",
+        "type": "fungal",
+        "symptoms": "Drying of upper twigs during heavy monsoon",
+        "management": "Ensure good drainage; spray Copper Oxychloride"
+      }
+    ],
+    "prevention_guidance": [
+      "Thrives in neglected sunny dry gardens with near-zero maintenance"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/catharanthus-roseus.jpg",
+        "local_path": "backend/data/plant_images/catharanthus-roseus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  }
+]

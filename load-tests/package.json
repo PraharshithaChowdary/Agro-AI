@@ -1,0 +1,38 @@
+{
+  "name": "@agro-ai/load-tests",
+  "version": "1.0.0",
+  "description": "k6 load & stress tests for the AGRO AI FastAPI backend with Excel report generation",
+  "private": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "baseline": "k6 run --out json=reports/baseline-result.json baseline-test.js",
+    "baseline:quiet": "k6 run --quiet --out json=reports/baseline-result.json baseline-test.js",
+    "baseline:html": "k6 run --out json=reports/baseline-result.json --summary-export=reports/baseline-summary.json baseline-test.js",
+
+    "stress": "k6 run --out json=reports/stress-result.json stress-test.js",
+    "stress:quiet": "k6 run --quiet --out json=reports/stress-result.json stress-test.js",
+    "stress:html": "k6 run --out json=reports/stress-result.json --summary-export=reports/stress-summary.json stress-test.js",
+
+    "report": "node generate-report.js --input reports/baseline-result.json --output reports/load-test-report.xlsx --name \"AGRO AI Baseline\"",
+    "report:stress": "node generate-report.js --input reports/stress-result.json --output reports/stress-report.xlsx --name \"AGRO AI Stress\"",
+
+    "run:all": "npm run baseline && npm run report",
+    "run:stress:report": "npm run stress && npm run report:stress"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "axios": "^1.7.7"
+  },
+  "keywords": [
+    "k6",
+    "load-testing",
+    "stress-testing",
+    "agro-ai",
+    "fastapi",
+    "performance"
+  ],
+  "author": "AGRO AI Engineering",
+  "license": "MIT"
+}

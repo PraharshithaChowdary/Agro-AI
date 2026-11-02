@@ -1,0 +1,370 @@
+{
+  "total_tests": 36,
+  "unsupported_rejection_rate": 88.88888888888889,
+  "supported_accuracy": 100.0,
+  "organ_integrity_rate": 91.66666666666666,
+  "adversarial_immunity": false,
+  "non_plant_rejection": true,
+  "results": [
+    {
+      "species": "Tulip",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.6%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Rose",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.6%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Jasmine",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.4%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Hibiscus",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.4%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Sunflower",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "30.2%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Lily",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.5%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Orchid",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.8%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Marigold",
+      "group": "Flower",
+      "organ": "flower",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "29.6%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Neem",
+      "group": "Tree",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.1%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Banyan",
+      "group": "Tree",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.3%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Mango",
+      "group": "Tree",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.0%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Coconut",
+      "group": "Tree",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "18.9%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Guava",
+      "group": "Tree",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "citrus-sinensis",
+      "confidence": "11.3%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Tulsi",
+      "group": "Medicinal Herb",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.4%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Aloe Vera",
+      "group": "Medicinal Herb",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "20.4%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Mint",
+      "group": "Medicinal Herb",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "zea-mays",
+      "confidence": "21.9%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Turmeric",
+      "group": "Medicinal Herb",
+      "organ": "root",
+      "is_supported": false,
+      "is_ambiguous": false,
+      "top_candidate": "none",
+      "confidence": "0.0%",
+      "status": "FAIL (False certainty on unsupported species)"
+    },
+    {
+      "species": "Ginger",
+      "group": "Medicinal Herb",
+      "organ": "root",
+      "is_supported": false,
+      "is_ambiguous": false,
+      "top_candidate": "none",
+      "confidence": "0.0%",
+      "status": "FAIL (False certainty on unsupported species)"
+    },
+    {
+      "species": "Corn / Maize",
+      "group": "Cereal Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "18.0%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Tomato",
+      "group": "Vegetable Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.1%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Potato",
+      "group": "Tuber Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.2%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Chilli / Pepper",
+      "group": "Vegetable Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "citrus-sinensis",
+      "confidence": "11.3%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Soybean",
+      "group": "Legume Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.3%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Grape",
+      "group": "Fruit Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.0%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Orange / Citrus",
+      "group": "Fruit Crop",
+      "organ": "leaf",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "citrus-sinensis",
+      "confidence": "11.2%",
+      "status": "PASS (Recognized in-domain)"
+    },
+    {
+      "species": "Rice",
+      "group": "Cereal Crop",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "18.3%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Wheat",
+      "group": "Cereal Crop",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "18.1%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Cotton",
+      "group": "Fiber Crop",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "fragaria-ananassa",
+      "confidence": "11.0%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Banana",
+      "group": "Fruit",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "18.7%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Brinjal / Eggplant",
+      "group": "Vegetable",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "citrus-sinensis",
+      "confidence": "11.4%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Okra / Ladyfinger",
+      "group": "Vegetable",
+      "organ": "leaf",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "citrus-sinensis",
+      "confidence": "11.2%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Apple Fruit",
+      "group": "Fruit",
+      "organ": "fruit",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "25.5%",
+      "status": "INFO (Non-foliar supported organ)"
+    },
+    {
+      "species": "Tomato Fruit",
+      "group": "Vegetable",
+      "organ": "fruit",
+      "is_supported": true,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "25.8%",
+      "status": "INFO (Non-foliar supported organ)"
+    },
+    {
+      "species": "Tree Stem / Bark",
+      "group": "Woody Stem",
+      "organ": "stem",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "11.0%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    },
+    {
+      "species": "Plant Taproot",
+      "group": "Root System",
+      "organ": "root",
+      "is_supported": false,
+      "is_ambiguous": false,
+      "top_candidate": "none",
+      "confidence": "0.0%",
+      "status": "FAIL (False certainty on unsupported species)"
+    },
+    {
+      "species": "Whole Plant Canopy",
+      "group": "Habit",
+      "organ": "whole_plant",
+      "is_supported": false,
+      "is_ambiguous": true,
+      "top_candidate": "solanum-lycopersicum",
+      "confidence": "15.3%",
+      "status": "PASS (Correctly flagged ambiguous)"
+    }
+  ]
+}

@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "solanum-lycopersicum",
+    "scientific_name": "Solanum lycopersicum",
+    "common_name": "Tomato",
+    "hindi_name": "टमाटर (Tamatar)",
+    "telugu_name": "టమాటా (Tamata)",
+    "tamil_name": "தக்காளி (Thakkali)",
+    "other_regional_names": {
+      "kannada": "ಟೊಮೆಟೊ (Tomato)",
+      "malayalam": "തക്കാളി (Thakkali)",
+      "bengali": "টমেটো (Tomato)",
+      "marathi": "टोमॅटो (Tomato)"
+    },
+    "synonyms": [
+      "Lycopersicon esculentum"
+    ],
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "species": "lycopersicum",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Madhya Pradesh",
+      "Karnataka",
+      "Gujarat",
+      "Odisha",
+      "West Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "leaf_characteristics": {
+      "shape": "Imparipinnate compound with 5–9 lobed glandular-pubescent ovate leaflets",
+      "arrangement": "Alternate",
+      "margin": "Dentate to lobed",
+      "venation": "Pinnate",
+      "color": "Medium to dark green, pungent solanaceous aroma"
+    },
+    "stem_characteristics": "Herbaceous, branched, glandular-hairy, erect or decumbent, 0.5–2.0 m",
+    "flower_characteristics": "Cymes of yellow 5-lobed star-shaped flowers with reflexed petals",
+    "fruit_characteristics": "Fleshy berry, globose or pyriform, ripening from green to lustrous red",
+    "growth_habit": "Erect to sprawling short-lived perennial herb grown as annual, 60–180 cm",
+    "habitat_and_climate": "Warm temperate to sub-tropical climate, frost-sensitive, optimal 20°C–27°C",
+    "sunlight_requirements": "Full sun (6–8 hours daily)",
+    "water_requirements": "Regular moderate watering; avoid wetting foliage",
+    "soil_preferences": "Well-drained fertile sandy loam to clay loam rich in organic matter, pH 6.0–7.0",
+    "growing_season": "Autumn-Winter (Rabi), Spring-Summer, and Rainy (Kharif)",
+    "propagation_methods": [
+      "Seed nursery transplanting (25–30 days)"
+    ],
+    "uses": [
+      "Fresh culinary fruit/vegetable, curries, chutneys, salads",
+      "Commercial processing: purees, sauces, ketchups, lycopene extract"
+    ],
+    "safety_notes": "Green unripe leaves and stems contain tomatine and solanine alkaloids. Do not consume foliage.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "type": "fungal",
+        "symptoms": "Concentric target-board rings on older lower leaves with yellow halo",
+        "management": "Foliar Mancozeb (2 g/L) or Azoxystrobin"
+      },
+      {
+        "name": "Late Blight (Phytophthora infestans)",
+        "type": "fungal",
+        "symptoms": "Water-soaked dark lesions rapidly turning necrotic with white fungal down on leaf undersides",
+        "management": "Metalaxyl + Mancozeb (2.5 g/L) spray"
+      },
+      {
+        "name": "Tomato Leaf Curl Virus (ToLCV)",
+        "type": "viral",
+        "symptoms": "Severe upward leaf curling, puckering, vein clearing, stunted bushy growth",
+        "management": "Control whitefly vector with Imidacloprid (0.3 ml/L); grow ToLCV-resistant hybrids"
+      }
+    ],
+    "prevention_guidance": [
+      "Stake indeterminate plants with bamboo trellising",
+      "Mulch around roots with straw to prevent soil splashing",
+      "Avoid overhead irrigation"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/solanum-lycopersicum.jpg",
+        "local_path": "backend/data/plant_images/solanum-lycopersicum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "solanum-tuberosum",
+    "scientific_name": "Solanum tuberosum",
+    "common_name": "Potato",
+    "hindi_name": "आलू (Aloo)",
+    "telugu_name": "బంగాళాదుంప (Bangaladumpa)",
+    "tamil_name": "உருளைக்கிழங்கு (Urulaikizhangu)",
+    "other_regional_names": {
+      "kannada": "ಆಲೂಗಡ್ಡೆ (Aaloogadde)",
+      "malayalam": "ഉരുളക്കിഴങ്ങ് (Urulakkizhangu)",
+      "bengali": "আলু (Aloo)",
+      "marathi": "बटाटा (Batata)"
+    },
+    "synonyms": [],
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "species": "tuberosum",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "West Bengal",
+      "Bihar",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Punjab",
+      "Assam"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnately compound with alternate large and small ovate leaflets",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Dark green with soft pubescence"
+    },
+    "stem_characteristics": "Herbaceous branched aerial stems rising from underground rhizomatous stolons, 30–80 cm",
+    "flower_characteristics": "White, pink, or purplish star-shaped flowers with yellow stamens",
+    "fruit_characteristics": "Underground modified stem tuber with 'eyes' (buds); aerial small green poisonous berry",
+    "growth_habit": "Erect to spreading annual tuberous herb, 30–80 cm",
+    "habitat_and_climate": "Cool winter climate; requires night temperature of 15°C–20°C for tuberization",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Moderate; regular light irrigations until 10 days before harvest",
+    "soil_preferences": "Loose, friable well-drained fertile sandy loam with high organic humus, pH 5.2–6.5",
+    "growing_season": "Rabi (October/November to January/February)",
+    "propagation_methods": [
+      "Sprouted seed tuber pieces with eyes"
+    ],
+    "uses": [
+      "World's major non-cereal carbohydrate staple",
+      "Boiled, fried, curries (aloo paratha, samosa, chips)"
+    ],
+    "safety_notes": "Green potatoes and sprouted shoots contain toxic solanine. Never eat green tubers.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Late Blight (Phytophthora infestans)",
+        "type": "fungal",
+        "symptoms": "Dark water-soaked lesions on leaf tips turning black, purplish white mildew underneath",
+        "management": "Prophylactic Mancozeb spray; Cymoxanil + Mancozeb at infection"
+      },
+      {
+        "name": "Early Blight (Alternaria solani)",
+        "type": "fungal",
+        "symptoms": "Brown target-ring spots on leaves",
+        "management": "Chlorothalonil or Mancozeb"
+      }
+    ],
+    "prevention_guidance": [
+      "Earth up ridges twice (at 25 and 45 DAS) to prevent tubers from greening under sunlight",
+      "Use certified disease-free seed tubers (Kufri Pukhraj, Kufri Jyoti)"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/solanum-tuberosum.jpg",
+        "local_path": "backend/data/plant_images/solanum-tuberosum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "allium-cepa",
+    "scientific_name": "Allium cepa",
+    "common_name": "Onion",
+    "hindi_name": "प्याज़ (Pyaz)",
+    "telugu_name": "ఉల్లిపాయ (Ullipaya)",
+    "tamil_name": "வெங்காயம் (Vengayam)",
+    "other_regional_names": {
+      "kannada": "ಈರುಳ್ಳಿ (Eerulli)",
+      "malayalam": "സവാള / ഉള്ളി (Savala)",
+      "bengali": "পেঁয়াজ (Penyaj)",
+      "marathi": "कांदा (Kanda)"
+    },
+    "synonyms": [],
+    "family": "Amaryllidaceae",
+    "genus": "Allium",
+    "species": "cepa",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Karnataka",
+      "Gujarat",
+      "Rajasthan",
+      "Bihar",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Hollow, cylindrical (fistular) glaucous leaves with flattened upper surface",
+      "arrangement": "Alternate, basal distichous",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Glaucous bluish-green"
+    },
+    "stem_characteristics": "Reduced underground discoid stem plate bearing concentric fleshy leaf sheaths forming bulb",
+    "flower_characteristics": "Dense terminal globose umbel on hollow flowering scape, small white or greenish flowers",
+    "fruit_characteristics": "3-valved capsule holding small angled black seeds",
+    "growth_habit": "Biennial bulb-forming herb grown as annual, 30–60 cm",
+    "habitat_and_climate": "Mild temperate to subtropical climate; requires warm dry weather for bulb curing",
+    "sunlight_requirements": "Full sunlight (6–8 hours)",
+    "water_requirements": "Frequent light irrigations; withhold water 15 days before harvest",
+    "soil_preferences": "Well-drained loose fertile sandy loam or silty loam rich in humus, pH 6.0–7.5",
+    "growing_season": "Kharif, Late Kharif, and Rabi",
+    "propagation_methods": [
+      "Seedling transplanting (6–8 week old) or small bulblets (sets)"
+    ],
+    "uses": [
+      "Essential culinary foundation across all Indian cuisines",
+      "Raw in salads, cooked in gravies, dehydrated flakes",
+      "Natural source of quercetin and organosulfur compounds"
+    ],
+    "safety_notes": "Safe for human nutrition. Toxic to dogs and cats.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Purple Blotch (Alternaria porri)",
+        "type": "fungal",
+        "symptoms": "Sunken whitish flecks turning purple-brown with yellow borders on leaves",
+        "management": "Foliar Mancozeb (2.5 g/L) or Tebuconazole"
+      },
+      {
+        "name": "Thrips (Thrips tabaci)",
+        "type": "pest",
+        "symptoms": "Silver mottling and distortion of leaves caused by sap-sucking nymphs",
+        "management": "Spray Fipronil 5 SC (1 ml/L) or spinosad"
+      }
+    ],
+    "prevention_guidance": [
+      "Cure harvested bulbs in shade for 10–12 days before storage",
+      "Plant on raised beds to avoid collar rot"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/allium-cepa.jpg",
+        "local_path": "backend/data/plant_images/allium-cepa.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "allium-sativum",
+    "scientific_name": "Allium sativum",
+    "common_name": "Garlic",
+    "hindi_name": "लहसुन (Lahsun)",
+    "telugu_name": "వెల్లుల్లి (Vellulli)",
+    "tamil_name": "பூண்டு (Poondu)",
+    "other_regional_names": {
+      "kannada": "ಬೆಳ್ಳುಳ್ಳಿ (Bellulli)",
+      "malayalam": "വെളുത്തുള്ളി (Veluthulli)",
+      "bengali": "রসুন (Roshun)",
+      "marathi": "लसूण (Lasun)"
+    },
+    "synonyms": [],
+    "family": "Amaryllidaceae",
+    "genus": "Allium",
+    "species": "sativum",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Odisha"
+    ],
+    "leaf_characteristics": {
+      "shape": "Flat, solid, linear-lanceolate keeled blades with distinct midline fold",
+      "arrangement": "Alternate, basal distichous",
+      "margin": "Entire",
+      "venation": "Parallel",
+      "color": "Greyish green"
+    },
+    "stem_characteristics": "Flattened basal stem plate bearing 10–25 fleshy cloves (bulblets) enclosed in papery tunic",
+    "flower_characteristics": "Small whitish flowers and bulbils in terminal umbel on solid flowering scape",
+    "fruit_characteristics": "Capsule (rarely sets fertile seed)",
+    "growth_habit": "Perennial bulbous herb grown as annual, 30–60 cm",
+    "habitat_and_climate": "Cool winter climate for vegetative growth, followed by warm dry weather for bulb maturation",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular light irrigations; stop 2 weeks prior to harvest",
+    "soil_preferences": "Rich, friable loamy soil with high organic matter and good drainage, pH 6.0–7.5",
+    "growing_season": "Rabi (October–November to March–April)",
+    "propagation_methods": [
+      "Planting individual healthy cloves with tip facing up"
+    ],
+    "uses": [
+      "Universal aromatic culinary seasoning and spice",
+      "Medicinal: cardioprotective, lowers blood pressure, antimicrobial (allicin)"
+    ],
+    "safety_notes": "Safe for human consumption. Toxic to pets (dogs and cats).",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Purple Blotch",
+        "type": "fungal",
+        "symptoms": "Purplish oval lesions on foliage",
+        "management": "Mancozeb (2 g/L) + sticker"
+      },
+      {
+        "name": "Stem & Bulb Nematode",
+        "type": "pest",
+        "symptoms": "Stunted, twisted swollen foliage",
+        "management": "Crop rotation with non-host crops"
+      }
+    ],
+    "prevention_guidance": [
+      "Select bold exterior cloves for planting",
+      "Dip cloves in carbendazim (1 g/L) before planting"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/allium-sativum.jpg",
+        "local_path": "backend/data/plant_images/allium-sativum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "solanum-melongena",
+    "scientific_name": "Solanum melongena",
+    "common_name": "Brinjal / Eggplant / Aubergine",
+    "hindi_name": "बैंगन (Baingan)",
+    "telugu_name": "వంకాయ (Vankaya)",
+    "tamil_name": "கத்தரிக்காய் (Kathirikkai)",
+    "other_regional_names": {
+      "kannada": "ಬದನೆಕಾಯಿ (Badanekayi)",
+      "malayalam": "വഴുതനങ്ങ (Vazhuthananga)",
+      "bengali": "বেগুন (Begun)",
+      "marathi": "वांगे (Vange)"
+    },
+    "synonyms": [],
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "species": "melongena",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "West Bengal",
+      "Odisha",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Bihar",
+      "Karnataka",
+      "Maharashtra",
+      "Andhra Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, ovate to oblong coarsely lobed pubescent leaves; sometimes prickly along veins",
+      "arrangement": "Alternate",
+      "margin": "Coarsely lobed to sinuate",
+      "venation": "Pinnate",
+      "color": "Dull greyish green with starry pubescence"
+    },
+    "stem_characteristics": "Herbaceous, semi-woody branching erect stem, often equipped with spines, 0.6–1.5 m",
+    "flower_characteristics": "Solitary or clustered violet-purple star-shaped flowers with prominent yellow anthers",
+    "fruit_characteristics": "Large fleshy pendulous berry, spherical to oblong, glossy purple, green, or variegated",
+    "growth_habit": "Semi-woody erect perennial herb grown as annual, 60–150 cm",
+    "habitat_and_climate": "Warm tropical and subtropical seasons; highly susceptible to frost",
+    "sunlight_requirements": "Full sun (6–8 hours)",
+    "water_requirements": "Regular moderate irrigation",
+    "soil_preferences": "Deep fertile well-drained silt loam to clay loam, pH 5.5–6.8",
+    "growing_season": "All three seasons (Kharif, Rabi, Summer)",
+    "propagation_methods": [
+      "Seedling transplanting (4–5 week old)"
+    ],
+    "uses": [
+      "Major Indian vegetable; curries (baingan bharta, gutti vankaya, sambar)",
+      "Rich in dietary fiber, polyphenols, and nasunin antioxidant"
+    ],
+    "safety_notes": "Raw green fruit and leaves contain solanine; consume cooked.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Shoot and Fruit Borer (Leucinodes orbonalis)",
+        "type": "pest",
+        "symptoms": "Wilted drooping shoot tips in vegetative stage; bore holes and frass in fruits",
+        "management": "Clip wilted shoots weekly; install sex pheromone traps (10/acre); spray Chlorantraniliprole 18.5 SC (0.4 ml/L)"
+      },
+      {
+        "name": "Phomopsis Blight",
+        "type": "fungal",
+        "symptoms": "Circular brown leaf spots with pycnidia; soft rot on fruits",
+        "management": "Spray Zineb or Copper Oxychloride"
+      },
+      {
+        "name": "Little Leaf of Brinjal",
+        "type": "phytoplasma",
+        "symptoms": "Extremely reduced tiny clustered leaves, phyllody, bush-like appearance",
+        "management": "Rogue infected plants; control vector leafhopper with Dimethoate"
+      }
+    ],
+    "prevention_guidance": [
+      "Adopt regular clipping of infested shoots every 7 days",
+      "Intercrop with Coriander or Fennel to attract beneficial predators"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/solanum-melongena.jpg",
+        "local_path": "backend/data/plant_images/solanum-melongena.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "capsicum-annuum",
+    "scientific_name": "Capsicum annuum",
+    "common_name": "Chilli / Hot Pepper",
+    "hindi_name": "मिर्च (Mirch)",
+    "telugu_name": "మిరపకాయ (Mirapakaya)",
+    "tamil_name": "பச்சை மிளகாய் (Pachai Milagai)",
+    "other_regional_names": {
+      "kannada": "ಮೆಣಸಿನಕಾಯಿ (Menasinakayi)",
+      "malayalam": "പച്ചമുളക് (Pachamulaku)",
+      "bengali": "লঙ্কা (Lanka)",
+      "marathi": "मिरची (Mirchi)"
+    },
+    "synonyms": [
+      "Capsicum frutescens"
+    ],
+    "family": "Solanaceae",
+    "genus": "Capsicum",
+    "species": "annuum",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Gujarat",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Simple, ovate to elliptic lanceolate smooth leaves with acute apex",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Lustrous bright to dark green"
+    },
+    "stem_characteristics": "Herbaceous to semi-woody angular erect branched stem, 40–120 cm",
+    "flower_characteristics": "Small solitary or paired white star-shaped flowers with purplish-blue anthers",
+    "fruit_characteristics": "Pungent elongate berry with persistent green calyx, turning green to fiery red",
+    "growth_habit": "Erect branching subshrub grown as annual, 40–120 cm",
+    "habitat_and_climate": "Warm tropical and sub-tropical climate; 20°C–30°C optimal for fruit set",
+    "sunlight_requirements": "Full sunlight (6–8 hours)",
+    "water_requirements": "Regular moderate moisture; sensitive to both waterlogging and drought stress",
+    "soil_preferences": "Well-drained light loamy and black soils with good aeration, pH 6.0–7.5",
+    "growing_season": "Kharif, Rabi, and Summer",
+    "propagation_methods": [
+      "Seedling nursery transplanting (30–35 days)"
+    ],
+    "uses": [
+      "Essential spice imparting pungency and color (capsaicin, capsanthin)",
+      "Green chillies fresh in food; red dry chillies powdered for curries",
+      "Industrial oleoresin extraction"
+    ],
+    "safety_notes": "Capsaicin causes intense burning sensation on skin and eyes. Wear gloves during harvest/processing.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Chilli Leaf Curl Virus (ChiLCV)",
+        "type": "viral",
+        "symptoms": "Upward curling of leaves, puckering, reduction of leaf blade, bushy stunted plant",
+        "management": "Whitefly vector management with Diafenthiuron 50 WP (1 g/L); yellow sticky traps (15/acre)"
+      },
+      {
+        "name": "Anthracnose / Die-back (Colletotrichum capsici)",
+        "type": "fungal",
+        "symptoms": "Necrotic black spots on mature fruits with concentric rings; terminal twigs dry from top down",
+        "management": "Spray Azoxystrobin (1 ml/L) or Copper Oxychloride (2.5 g/L)"
+      },
+      {
+        "name": "Thrips and Mites Complex",
+        "type": "pest",
+        "symptoms": "Upward cup-like leaf curling (thrips) or downward boat-like curling (mites)",
+        "management": "Fipronil 5 SC (1.5 ml/L) or Spiromesifen 22.9 SC (1 ml/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Install yellow and blue sticky traps (20 each/ha)",
+      "Practice border cropping with maize or sorghum to impede vector entry"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/capsicum-annuum.jpg",
+        "local_path": "backend/data/plant_images/capsicum-annuum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "abelmoschus-esculentus",
+    "scientific_name": "Abelmoschus esculentus",
+    "common_name": "Okra / Lady's Finger / Bhindi",
+    "hindi_name": "भिंडी (Bhindi)",
+    "telugu_name": "బెండకాయ (Bendakaya)",
+    "tamil_name": "வெண்டைக்காய் (Vendaikkai)",
+    "other_regional_names": {
+      "kannada": "ಬೆಂಡೆಕಾಯಿ (Bendekayi)",
+      "malayalam": "വെണ്ടയ്ക്ക (Vendakka)",
+      "bengali": "ঢেঁড়শ (Dhyarosh)",
+      "marathi": "भेंडी (Bhendi)"
+    },
+    "synonyms": [
+      "Hibiscus esculentus"
+    ],
+    "family": "Malvaceae",
+    "genus": "Abelmoschus",
+    "species": "esculentus",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Gujarat",
+      "West Bengal",
+      "Bihar",
+      "Madhya Pradesh",
+      "Andhra Pradesh",
+      "Odisha",
+      "Maharashtra"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large palmately 5–7 lobed cordate leaves with rough hispid hairs",
+      "arrangement": "Alternate",
+      "margin": "Coarsely serrate / toothed",
+      "venation": "Palmate",
+      "color": "Vibrant green with prominent light green veins"
+    },
+    "stem_characteristics": "Erect semi-woody fibrous stem with hispid bristly hairs, 1.0–2.0 m",
+    "flower_characteristics": "Large showy solitary yellow flowers with dark crimson-purple center",
+    "fruit_characteristics": "Elongate 5–8 ridged beaked mucilaginous capsule containing spherical seeds",
+    "growth_habit": "Stout erect annual fibrous herb, 1.0–2.2 meters",
+    "habitat_and_climate": "Warm tropical and sub-tropical climate; optimal temperature 24°C–35°C",
+    "sunlight_requirements": "Full sunshine (8 hours)",
+    "water_requirements": "Regular weekly irrigations during dry periods",
+    "soil_preferences": "Loose fertile sandy loam to clay loam rich in organic matter, pH 6.0–7.5",
+    "growing_season": "Kharif (June–July) and Summer (February–March)",
+    "propagation_methods": [
+      "Direct seed line sowing"
+    ],
+    "uses": [
+      "Tender pods cooked as vegetable (bhindi masala, sambar, kurkuri bhindi)",
+      "Mucilage used as clarifying agent in sugarcane jaggery making"
+    ],
+    "safety_notes": "Surface hairs may cause mild contact skin irritation during harvest.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Yellow Vein Mosaic Virus (YVMV)",
+        "type": "viral",
+        "symptoms": "Vein clearing turning completely yellow, whole leaf chlorotic with stunted growth and fibrous yellow pods",
+        "management": "Cultivate resistant varieties (Parbhani Kranti, Arka Anamika); spray Acetamiprid against whitefly"
+      },
+      {
+        "name": "Fruit Borer (Earias vittella)",
+        "type": "pest",
+        "symptoms": "Bored holes plugged with excreta in fruits, deformed twisted pods",
+        "management": "Pheromone traps; spray Spinosad 45 SC (0.3 ml/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Soak seeds in water for 12 hours before sowing for uniform germination",
+      "Pick pods every 2–3 days while tender (8–10 cm length)"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/abelmoschus-esculentus.jpg",
+        "local_path": "backend/data/plant_images/abelmoschus-esculentus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "moringa-oleifera",
+    "scientific_name": "Moringa oleifera",
+    "common_name": "Drumstick / Moringa / Sahjan",
+    "hindi_name": "सहजन / मुनगा (Sahjan)",
+    "telugu_name": "మునగకాయ (Munagakaya)",
+    "tamil_name": "முருங்கைக்காய் (Murungaikkai)",
+    "other_regional_names": {
+      "kannada": "ನುಗ್ಗೆಕಾಯಿ (Nuggekayi)",
+      "malayalam": "മുരിങ്ങക്കായ (Muringakka)",
+      "bengali": "সজনে ডাঁটা (Sojne data)",
+      "marathi": "शेवगा (Shevga)"
+    },
+    "synonyms": [
+      "Moringa pterygosperma"
+    ],
+    "family": "Moringaceae",
+    "genus": "Moringa",
+    "species": "oleifera",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Telangana",
+      "Gujarat",
+      "Maharashtra",
+      "Odisha"
+    ],
+    "leaf_characteristics": {
+      "shape": "Tripinnate compound feathery leaves with small obovate leaflets",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Bright lush green"
+    },
+    "stem_characteristics": "Soft-wooded, corky whitish-grey bark with brittle branches, 4–10 m",
+    "flower_characteristics": "Fragrant yellowish-white bisexual flowers in spreading drooping panicles",
+    "fruit_characteristics": "Long, 3-sided pendulous pendular ribbed pods (20–60 cm) with 3-winged seeds",
+    "growth_habit": "Fast-growing soft-wooded deciduous perennial tree, 4–10 m",
+    "habitat_and_climate": "Tropical and sub-tropical semi-arid climate; exceptionally drought resilient",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Low to moderate once established",
+    "soil_preferences": "Well-drained sandy loam or alluvial soil; avoids waterlogging",
+    "growing_season": "Perennial fruiting twice a year",
+    "propagation_methods": [
+      "Air layering, seeds, or limb cuttings (PKM-1, PKM-2)"
+    ],
+    "uses": [
+      "Pods cooked in sambar and curries",
+      "Leaves highly nutritious superfood (rich in vitamin A, C, calcium, iron)",
+      "Purifying water with seed powder"
+    ],
+    "safety_notes": "Root bark contains alkaloids (moringinine); avoid excessive root ingestion.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Hairy Caterpillar (Eupterote mollifera)",
+        "type": "pest",
+        "symptoms": "Massive nocturnal swarms defoliating tree canopy, congregating on trunk",
+        "management": "Collect egg masses; flame congregate colonies on trunk; spray Dichlorvos"
+      }
+    ],
+    "prevention_guidance": [
+      "Pinch main shoot at 1 m height to stimulate multiple bushy fruiting laterals",
+      "Harvest pods before seeds become hard"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/moringa-oleifera.jpg",
+        "local_path": "backend/data/plant_images/moringa-oleifera.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "brassica-oleracea-capitata",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "common_name": "Cabbage / Patta Gobhi",
+    "hindi_name": "पत्ता गोभी (Patta Gobhi)",
+    "telugu_name": "క్యాబేజీ (Cabbage)",
+    "tamil_name": "முட்டைக்கோஸ் (Muttaikkose)",
+    "other_regional_names": {
+      "kannada": "ಕೋಸು (Kosu)",
+      "malayalam": "മുട്ടക്കോസ് (Muttakkos)",
+      "bengali": "বাঁধাকপি (Badhakopi)",
+      "marathi": "कोबी (Kobi)"
+    },
+    "synonyms": [],
+    "family": "Brassicaceae",
+    "genus": "Brassica",
+    "species": "oleracea",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "West Bengal",
+      "Odisha",
+      "Bihar",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Karnataka",
+      "Assam"
+    ],
+    "leaf_characteristics": {
+      "shape": "Broad, fleshy, glaucous obovate leaves tightly packed into a dense compact spherical head",
+      "arrangement": "Basal spiral rosette",
+      "margin": "Wavy, dentate",
+      "venation": "Pinnate",
+      "color": "Glaucous light green to bluish green"
+    },
+    "stem_characteristics": "Short, thickened fleshy stem supporting the terminal compact head",
+    "flower_characteristics": "Yellow 4-petaled cross-shaped flowers on elongated flowering raceme (second year)",
+    "fruit_characteristics": "Slender cylindrical 2-valved silique with spherical dark brown seeds",
+    "growth_habit": "Biennial herbaceous vegetable grown as annual head crop, 30–50 cm",
+    "habitat_and_climate": "Cool temperate to sub-tropical winter climate; optimal head formation at 15°C–20°C",
+    "sunlight_requirements": "Full sun (6 hours)",
+    "water_requirements": "Moderate regular moisture; avoid water stress during head formation",
+    "soil_preferences": "Rich, fertile loamy soil with high moisture retention and good drainage, pH 6.0–6.8",
+    "growing_season": "Rabi (Winter season in plains, year-round in hills)",
+    "propagation_methods": [
+      "Seedling nursery transplanting (25–30 days)"
+    ],
+    "uses": [
+      "Fresh salad, stir-fries, curries, sabzi, coleslaw",
+      "Rich source of Vitamin C, K, and indole-3-carbinol"
+    ],
+    "safety_notes": "Wash thoroughly to remove surface insects.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Diamondback Moth (Plutella xylostella)",
+        "type": "pest",
+        "symptoms": "Larvae skeletonize leaves leaving transparent parchment-like patches and shot holes",
+        "management": "Install pheromone traps (5/acre); spray Bacillus thuringiensis (Bt @ 1 g/L) or Spinosad"
+      },
+      {
+        "name": "Black Rot (Xanthomonas campestris pv. campestris)",
+        "type": "bacterial",
+        "symptoms": "Characteristic V-shaped yellow chlorotic lesions from leaf margins with blackened veinlets",
+        "management": "Seed treatment with hot water (50°C for 30 min) + Streptocycline (100 ppm)"
+      }
+    ],
+    "prevention_guidance": [
+      "Use mustard as trap crop (sow 2 rows of mustard for every 25 rows of cabbage)",
+      "Harvest firm heads before bursting occurs"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/brassica-oleracea-capitata.jpg",
+        "local_path": "backend/data/plant_images/brassica-oleracea-capitata.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "brassica-oleracea-botrytis",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "common_name": "Cauliflower / Phool Gobhi",
+    "hindi_name": "फूल गोभी (Phool Gobhi)",
+    "telugu_name": "క్యాలీఫ్లవర్ (Cauliflower)",
+    "tamil_name": "காலிஃபிளவர் (Cauliflower)",
+    "other_regional_names": {
+      "kannada": "ಹೂಕೋಸು (Hukosu)",
+      "malayalam": "കോളിഫ്ലവർ (Cauliflower)",
+      "bengali": "ফুলকপি (Phulkopi)",
+      "marathi": "फ्लॉवर (Flower)"
+    },
+    "synonyms": [],
+    "family": "Brassicaceae",
+    "genus": "Brassica",
+    "species": "oleracea",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Bihar",
+      "Uttar Pradesh",
+      "West Bengal",
+      "Madhya Pradesh",
+      "Odisha",
+      "Gujarat",
+      "Haryana",
+      "Punjab"
+    ],
+    "leaf_characteristics": {
+      "shape": "Long, oblong-elliptic erect leaves with prominent pale midrib enclosing curd",
+      "arrangement": "Rosette",
+      "margin": "Entire to slightly dentate",
+      "venation": "Pinnate",
+      "color": "Dark grey-green with glaucous waxy bloom"
+    },
+    "stem_characteristics": "Short, stout fleshy unbranched stem terminating in dense hypertrophied inflorescence",
+    "flower_characteristics": "Compact dense aborted pre-floral fleshy curd made of tightly packed meristems",
+    "fruit_characteristics": "Silique with small globose seeds (produced only when curd bolts)",
+    "growth_habit": "Annual cool-season herbaceous crop, 40–60 cm",
+    "habitat_and_climate": "Cool, moist climate; sensitive to both extreme cold and hot dry spells during curd initiation",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular uniform irrigation; sensitive to drought during curd development",
+    "soil_preferences": "Deep fertile well-drained sandy loam or clay loam rich in organic matter, pH 6.0–7.0",
+    "growing_season": "Rabi (Early, mid, and late varieties spanning September to March)",
+    "propagation_methods": [
+      "Seedling nursery transplanting"
+    ],
+    "uses": [
+      "Staple winter vegetable (aloo gobhi, gobhi paratha, mixed vegetable, pakoras)",
+      "Rich in choline, antioxidants, glucosinolates"
+    ],
+    "safety_notes": "Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Buttoning",
+        "type": "physiological",
+        "symptoms": "Development of tiny, premature button-like curds due to transplanting aged seedlings or nitrogen deficiency",
+        "management": "Transplant 25-day old vigorous seedlings; apply balanced nitrogen"
+      },
+      {
+        "name": "Whiptail",
+        "type": "physiological",
+        "symptoms": "Leaf blades fail to expand properly leaving only thin distorted midribs like whip tails (Molybdenum deficiency in acidic soils)",
+        "management": "Liming acidic soil; foliar spray of Sodium Molybdate (1 g/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Blanch curds by tying outer leaves over developing curd to keep it creamy white",
+      "Harvest compact heads before curds loosen (riciness)"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/brassica-oleracea-botrytis.jpg",
+        "local_path": "backend/data/plant_images/brassica-oleracea-botrytis.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "spinacia-oleracea",
+    "scientific_name": "Spinacia oleracea",
+    "common_name": "Spinach / Palak",
+    "hindi_name": "पालक (Palak)",
+    "telugu_name": "పాలకూర (Palakura)",
+    "tamil_name": "பசலைக் கீரை (Pasalai Keerai)",
+    "other_regional_names": {
+      "kannada": "ಪಾಲಕ್ ಸೊಪ್ಪು (Palak Soppu)",
+      "malayalam": "പാലക്ക് ചീര (Palak Cheera)",
+      "bengali": "পালং শাক (Palong Shaak)",
+      "marathi": "पालक (Palak)"
+    },
+    "synonyms": [],
+    "family": "Amaranthaceae",
+    "genus": "Spinacia",
+    "species": "oleracea",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "West Bengal",
+      "Maharashtra",
+      "Punjab",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "leaf_characteristics": {
+      "shape": "Fleshy, succulent ovate to triangular-hastate tender leaves with long petiole",
+      "arrangement": "Basal rosette",
+      "margin": "Entire to wavy sinuate",
+      "venation": "Pinnate",
+      "color": "Glossy dark green"
+    },
+    "stem_characteristics": "Short crown stem during vegetative phase; rapidly elongates into hollow flowering scape in long days",
+    "flower_characteristics": "Dioecious; small inconspicuous greenish flowers in axillary clusters",
+    "fruit_characteristics": "Small hard spiny or smooth utricle enclosing round seed",
+    "growth_habit": "Fast-growing cool-season annual leafy green, 20–40 cm",
+    "habitat_and_climate": "Cool climate; easily bolts (premature flowering) in hot long summer days",
+    "sunlight_requirements": "Full sun to light afternoon shade",
+    "water_requirements": "Regular frequent light irrigations; keep soil moist",
+    "soil_preferences": "Fertile, moisture-retentive sandy loam or silt loam high in organic matter, pH 6.5–7.5",
+    "growing_season": "Winter (September–November) and early Spring",
+    "propagation_methods": [
+      "Direct line sowing in beds"
+    ],
+    "uses": [
+      "Nutrient-dense leafy green; palak paneer, dal palak, saag, smoothies",
+      "High source of dietary iron, folate, lutein, and Vitamin K"
+    ],
+    "safety_notes": "Contains oxalates. People prone to calcium-oxalate kidney stones should boil and drain cooking water.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Downy Mildew (Peronospora effusa)",
+        "type": "fungal",
+        "symptoms": "Yellowish chlorotic angular spots on upper leaf surface, purplish grey downy mold beneath",
+        "management": "Spray Metalaxyl or Mancozeb; ensure good plant spacing for air circulation"
+      }
+    ],
+    "prevention_guidance": [
+      "Multi-cut harvesting: cut outer leaves 2 cm above crown every 12–15 days for continuous yield",
+      "Provide well-decomposed vermicompost"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/spinacia-oleracea.jpg",
+        "local_path": "backend/data/plant_images/spinacia-oleracea.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "amaranthus-cruentus",
+    "scientific_name": "Amaranthus cruentus",
+    "common_name": "Amaranth / Chaulai / Thotakura",
+    "hindi_name": "चौलाई (Chaulai)",
+    "telugu_name": "తోటకూర (Thotakura)",
+    "tamil_name": "முளைக்கீரை / அரைக்கீரை (Keerai)",
+    "other_regional_names": {
+      "kannada": "ದಂಟು ಸೊಪ್ಪು (Dantu Soppu)",
+      "malayalam": "ചീര (Cheera)",
+      "bengali": "নটে শাক (Note Shaak)",
+      "marathi": "राजगिरा / माठ (Rajgira / Math)"
+    },
+    "synonyms": [
+      "Amaranthus paniculatus"
+    ],
+    "family": "Amaranthaceae",
+    "genus": "Amaranthus",
+    "species": "cruentus",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "West Bengal",
+      "Maharashtra",
+      "Odisha"
+    ],
+    "leaf_characteristics": {
+      "shape": "Broad ovate to rhomboid-elliptic leaves with long petioles, green or deep burgundy-red",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Pinnate",
+      "color": "Green, red, or variegated green-purple"
+    },
+    "stem_characteristics": "Erect, grooved, fleshy succulent branching stem, 0.5–1.5 meters",
+    "flower_characteristics": "Dense feathery terminal and axillary spikes with tiny flowers and colorful bracts",
+    "fruit_characteristics": "Circumscissile capsule with tiny lenticular glossy black or pale cream seeds",
+    "growth_habit": "Fast-growing erect C4 annual herbaceous leafy vegetable, 50–150 cm",
+    "habitat_and_climate": "Warm tropical and sub-tropical plains; rapid 25–40 day harvest cycle",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Moderate; responds well to light regular irrigation",
+    "soil_preferences": "Well-drained fertile loamy soils rich in organic matter, pH 6.0–7.5",
+    "growing_season": "Year-round in southern India; Summer and Kharif in North",
+    "propagation_methods": [
+      "Direct seed broadcast or line sowing"
+    ],
+    "uses": [
+      "Popular leafy vegetable (saag, thotakura fry, sambar)",
+      "Grain amaranth (rajgira) consumed on fasting days; complete protein with lysine"
+    ],
+    "safety_notes": "Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "White Rust (Albugo bliti)",
+        "type": "fungal",
+        "symptoms": "White pustules on lower leaf surface with yellow patches on upper surface",
+        "management": "Spray Mancozeb (2 g/L); remove infected leaves"
+      }
+    ],
+    "prevention_guidance": [
+      "Mix fine seeds with sand (1:4 ratio) for even sowing",
+      "Harvest tender shoots when 15–20 cm tall"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/amaranthus-cruentus.jpg",
+        "local_path": "backend/data/plant_images/amaranthus-cruentus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "coriandrum-sativum",
+    "scientific_name": "Coriandrum sativum",
+    "common_name": "Coriander / Cilantro / Dhania",
+    "hindi_name": "धनिया (Dhania)",
+    "telugu_name": "కొత్తిమీర (Kothimeera)",
+    "tamil_name": "கொத்தமல்லி (Kothamalli)",
+    "other_regional_names": {
+      "kannada": "ಕೊತ್ತಂಬರಿ (Kothambari)",
+      "malayalam": "മല്ലിയില (Malliyila)",
+      "bengali": "ধনে পাতা (Dhone pata)",
+      "marathi": "कोथिंबीर (Kothimbir)"
+    },
+    "synonyms": [],
+    "family": "Apiaceae",
+    "genus": "Coriandrum",
+    "species": "sativum",
+    "category": "herb",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Dimorphic: lower leaves pinnately lobed with fan-like segments; upper leaves finely dissected into filiform linear segments",
+      "arrangement": "Alternate",
+      "margin": "Incised / dissected",
+      "venation": "Reticulate",
+      "color": "Vibrant aromatic green"
+    },
+    "stem_characteristics": "Slender, erect hollow branching glabrous stem, 30–70 cm",
+    "flower_characteristics": "Compound umbels of small white to pale pink asymmetrical flowers",
+    "fruit_characteristics": "Globose ribbed schizocarp splitting into two aromatic mericarps (coriander seeds)",
+    "growth_habit": "Erect aromatic annual herb, 30–70 cm",
+    "habitat_and_climate": "Cool, dry winter climate for vegetative greens; dry warm sunny weather for seed setting",
+    "sunlight_requirements": "Full sun to light partial shade",
+    "water_requirements": "Frequent light irrigations; avoids dry soil",
+    "soil_preferences": "Well-drained rich loamy soil with good moisture holding capacity, pH 6.0–7.5",
+    "growing_season": "Rabi and early Spring (year-round in mild climates)",
+    "propagation_methods": [
+      "Crushed split seed (mericarps) sowing"
+    ],
+    "uses": [
+      "Universal fresh garnish in Indian cookery (kothimeera, dhania chutney)",
+      "Aromatic dry spice powder (dhania powder) forming core curry base"
+    ],
+    "safety_notes": "Safe for human diet.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew (Erysiphe polygoni)",
+        "type": "fungal",
+        "symptoms": "White talcum-like powdery coating over leaves and umbels preventing seed fill",
+        "management": "Spray Wettable Sulfur (2 g/L) or Dinocap"
+      },
+      {
+        "name": "Stem Gall (Protomyces macrosporus)",
+        "type": "fungal",
+        "symptoms": "Tumor-like swellings and galls on stems, pedicels, and fruits",
+        "management": "Seed treatment with Thiram (3 g/kg)"
+      }
+    ],
+    "prevention_guidance": [
+      "Gently crush seeds into halves before sowing to promote rapid emergence",
+      "Sow in succession every 15 days for continuous fresh greens"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/coriandrum-sativum.jpg",
+        "local_path": "backend/data/plant_images/coriandrum-sativum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "trigonella-foenum-graecum",
+    "scientific_name": "Trigonella foenum-graecum",
+    "common_name": "Fenugreek / Methi",
+    "hindi_name": "मेथी (Methi)",
+    "telugu_name": "మెంతులు (Menthulu)",
+    "tamil_name": "வெந்தயம் (Vendhayam)",
+    "other_regional_names": {
+      "kannada": "ಮೆಂತ್ಯ (Menthya)",
+      "malayalam": "ഉലുവ (Uluva)",
+      "bengali": "মেথি (Methi)",
+      "marathi": "मेथी (Methi)"
+    },
+    "synonyms": [],
+    "family": "Fabaceae",
+    "genus": "Trigonella",
+    "species": "foenum-graecum",
+    "category": "herb",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Punjab"
+    ],
+    "leaf_characteristics": {
+      "shape": "Trifoliolate compound leaves with obovate to wedge-shaped leaflets",
+      "arrangement": "Alternate",
+      "margin": "Denticulate towards apex",
+      "venation": "Pinnate",
+      "color": "Fresh medium green"
+    },
+    "stem_characteristics": "Erect or spreading smooth branched herbaceous stem, 30–60 cm",
+    "flower_characteristics": "Sessile solitary or paired yellowish-white to pale lilac papilionaceous flowers",
+    "fruit_characteristics": "Slender curved beaked pod (10–15 cm) holding 10–20 rhombic golden-yellow seeds",
+    "growth_habit": "Erect annual legume herb, 30–60 cm",
+    "habitat_and_climate": "Cool, dry winter climate; frost tolerant",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Moderate light irrigations every 7–10 days",
+    "soil_preferences": "Well-drained fertile loamy to clay loam soils, pH 6.0–7.5",
+    "growing_season": "Rabi (October–November to February–March)",
+    "propagation_methods": [
+      "Direct seed line sowing"
+    ],
+    "uses": [
+      "Fresh leafy greens (methi thepla, aloo methi, methi paratha)",
+      "Aromatic bitter seeds for tempering, pickles, sambar powder",
+      "Rich in soluble fiber (galactomannan) for blood sugar management"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew",
+        "type": "fungal",
+        "symptoms": "White powder on foliage",
+        "management": "Wettable sulfur (2 g/L)"
+      },
+      {
+        "name": "Downy Mildew",
+        "type": "fungal",
+        "symptoms": "Yellow leaf patches with downy growth beneath",
+        "management": "Mancozeb spray"
+      }
+    ],
+    "prevention_guidance": [
+      "First harvest of tender greens (kasuri methi) at 25–30 days; subsequent cuts every 15 days"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/trigonella-foenum-graecum.jpg",
+        "local_path": "backend/data/plant_images/trigonella-foenum-graecum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cucumis-sativus",
+    "scientific_name": "Cucumis sativus",
+    "common_name": "Cucumber / Khira / Kakdi",
+    "hindi_name": "खीरा / ककड़ी (Khira / Kakdi)",
+    "telugu_name": "దోసకాయ (Dosakaya)",
+    "tamil_name": "வெள்ளரிக்காய் (Vellarikkai)",
+    "other_regional_names": {
+      "kannada": "ಸೌತೆಕಾಯಿ (Southekayi)",
+      "malayalam": "വെള്ളരിക്ക (Vellarikka)",
+      "bengali": "শসা (Shosha)",
+      "marathi": "काकडी (Kakdi)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Cucumis",
+    "species": "sativus",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Karnataka",
+      "Madhya Pradesh",
+      "West Bengal",
+      "Andhra Pradesh",
+      "Telangana",
+      "Punjab",
+      "Haryana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, triangular-cordate palmately 3–5 lobed leaves with rough hispid hairs",
+      "arrangement": "Alternate",
+      "margin": "Dentate serrate",
+      "venation": "Palmate",
+      "color": "Rich medium green"
+    },
+    "stem_characteristics": "Trailing or climbing rough hairy ridged vine with simple unbranched tendrils, 1.5–3.0 m",
+    "flower_characteristics": "Monoecious: bright yellow bell-shaped 5-lobed flowers; female flowers have inferior ovary resembling mini cucumber",
+    "fruit_characteristics": "Elongate cylindrical pepo with smooth or tuberculate skin, green turning yellowish",
+    "growth_habit": "Annual climbing or sprawling rough herbaceous vine, 1.5–3.0 meters",
+    "habitat_and_climate": "Warm sub-tropical and tropical seasons; optimal temperature 22°C–32°C",
+    "sunlight_requirements": "Full sun (6–8 hours)",
+    "water_requirements": "Regular uniform irrigation; irregular watering causes fruit bitterness (cucurbitacins)",
+    "soil_preferences": "Fertile, loose, well-drained sandy loam rich in organic manure, pH 6.0–7.0",
+    "growing_season": "Summer (Zaid) and Rainy (Kharif)",
+    "propagation_methods": [
+      "Direct pit sowing or protected plug trays"
+    ],
+    "uses": [
+      "Fresh hydrating salad vegetable (contains 95% water)",
+      "Cooling raita, pickles, detox juice",
+      "Skincare and eye compress"
+    ],
+    "safety_notes": "Bitter cucumbers containing excessive cucurbitacins should not be consumed in large amounts.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Downy Mildew (Pseudoperonospora cubensis)",
+        "type": "fungal",
+        "symptoms": "Angular yellow chlorotic lesions delimited by leaf veins with purplish-grey sporulation beneath",
+        "management": "Spray Cymoxanil + Mancozeb (2 g/L) or Metalaxyl"
+      },
+      {
+        "name": "Powdery Mildew (Podosphaera xanthii)",
+        "type": "fungal",
+        "symptoms": "Talc-like white circular powder covering leaf surfaces",
+        "management": "Spray Wettable Sulfur or Azoxystrobin"
+      }
+    ],
+    "prevention_guidance": [
+      "Trellis vines on bower or vertical net system to keep fruits straight and unblemished",
+      "Ensure active bee pollination or use gynoecious parthenocarpic hybrids"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cucumis-sativus.jpg",
+        "local_path": "backend/data/plant_images/cucumis-sativus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "cucurbita-moschata",
+    "scientific_name": "Cucurbita moschata",
+    "common_name": "Pumpkin / Kaddu / Sitaphal",
+    "hindi_name": "कद्दू / कुम्हड़ा (Kaddu)",
+    "telugu_name": "గుమ్మడికాయ (Gummadikaya)",
+    "tamil_name": "பூசணிக்காய் (Poosanikkai)",
+    "other_regional_names": {
+      "kannada": "ಕುಂಬಳಕಾಯಿ (Kumbalakayi)",
+      "malayalam": "മത്തങ്ങ (Matthanga)",
+      "bengali": "মিষ্টি কুমড়ো (Misti Kumro)",
+      "marathi": "भोपळा (Bhopla)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Cucurbita",
+    "species": "moschata",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "West Bengal",
+      "Odisha",
+      "Uttar Pradesh",
+      "Bihar",
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Broad, shallowly 5-lobed cordate leaves with soft velvety hairs and white silvery mottling along vein junctions",
+      "arrangement": "Alternate",
+      "margin": "Denticulate",
+      "venation": "Palmate",
+      "color": "Medium to dark green with distinctive white silvery blotches"
+    },
+    "stem_characteristics": "Robust trailing or climbing angular grooved vine with branched tendrils, 3–8 meters",
+    "flower_characteristics": "Large showy bright yellow-orange bell-shaped flowers with spreading reflexed lobes",
+    "fruit_characteristics": "Large variable pepo (globose, depressed, ribbed) with thick rind; orange flesh and white flat seeds",
+    "growth_habit": "Vigorous sprawling perennial vine grown as warm-season annual, 3–10 m",
+    "habitat_and_climate": "Warm tropical and subtropical climate; heat tolerant",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Deep irrigation at 7–10 day intervals; avoid wetting foliage",
+    "soil_preferences": "Well-drained fertile sandy loam to clay loam rich in compost, pH 6.0–7.5",
+    "growing_season": "Summer and Rainy (Kharif) seasons",
+    "propagation_methods": [
+      "Direct seed pit sowing on mounds"
+    ],
+    "uses": [
+      "Nutritious yellow vegetable rich in beta-carotene; kaddu ki sabzi, sambar, kheer",
+      "Seeds roasted as zinc-rich pepitas snack",
+      "Tender leaf shoots cooked in Bengali/Odia cuisine"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Fruit Fly (Bactrocera cucurbitae)",
+        "type": "pest",
+        "symptoms": "Punctures on young fruits causing oozing of fluid, decay, and rotting",
+        "management": "Install cue-lure pheromone traps (10/acre); cover young fruits with paper bags"
+      },
+      {
+        "name": "Mosaic Virus",
+        "type": "viral",
+        "symptoms": "Mottling, blistered leaf texture, distorted fruits",
+        "management": "Control aphid vectors; rogue infected vines"
+      }
+    ],
+    "prevention_guidance": [
+      "Apply 10 kg farmyard manure per pit before sowing",
+      "Harvest mature fruits with intact pedicel for long storage up to 6 months"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/cucurbita-moschata.jpg",
+        "local_path": "backend/data/plant_images/cucurbita-moschata.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "lagenaria-siceraria",
+    "scientific_name": "Lagenaria siceraria",
+    "common_name": "Bottle Gourd / Lauki / Ghiya",
+    "hindi_name": "लौकी / घिया (Lauki)",
+    "telugu_name": "సొరకాయ / ఆనపకాయ (Sorakaya)",
+    "tamil_name": "சுரைக்காய் (Suraikkai)",
+    "other_regional_names": {
+      "kannada": "ಸೋರೆಕಾಯಿ (Sorekayi)",
+      "malayalam": "ചുരയ്ക്ക (Churakka)",
+      "bengali": "লাউ (Lau)",
+      "marathi": "दुधी भोपळा (Dudhi Bhopla)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Lagenaria",
+    "species": "siceraria",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Madhya Pradesh",
+      "West Bengal",
+      "Haryana",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Large, reniform to cordate shallowly lobed velvety leaves with two distinct glands on petiole apex",
+      "arrangement": "Alternate",
+      "margin": "Repand to denticulate",
+      "venation": "Palmate",
+      "color": "Pale to bright green with soft velvety pubescence"
+    },
+    "stem_characteristics": "Vigorous ridged climbing or trailing pubescent vine with 2-branched tendrils, 3–6 m",
+    "flower_characteristics": "Showy solitary white nocturnal flowers with crinkled petals opening at dusk",
+    "fruit_characteristics": "Variable elongated cylindrical or bottle-shaped smooth light-green pepo with white spongy flesh",
+    "growth_habit": "Vigorous annual climbing or sprawling herbaceous vine, 3–8 m",
+    "habitat_and_climate": "Warm sub-tropical and tropical climate; frost sensitive",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular weekly irrigation",
+    "soil_preferences": "Fertile, rich well-drained sandy loam with good moisture retention, pH 6.0–7.5",
+    "growing_season": "Summer (Zaid) and Rainy (Kharif)",
+    "propagation_methods": [
+      "Direct pit sowing"
+    ],
+    "uses": [
+      "Light, highly digestible cooling vegetable (lauki ki sabzi, lauki kheer, kofta)",
+      "Ayurvedic rejuvenating vegetable; dried hard rinds traditionally used as musical instruments (tanpura, sitar, ektara)"
+    ],
+    "safety_notes": "HEALTH WARNING: If bottle gourd juice tastes unusually bitter, DO NOT DRINK IT. Extremely bitter juice contains toxic cucurbitacins which cause severe gastrointestinal hemorrhaging.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Anthracnose (Colletotrichum orbiculare)",
+        "type": "fungal",
+        "symptoms": "Circular water-soaked lesions on leaves turning brown, sunken fruit spots",
+        "management": "Spray Mancozeb (2 g/L) or Carbendazim (1 g/L)"
+      }
+    ],
+    "prevention_guidance": [
+      "Grow on overhead bower / pandal trellises to ensure straight, blemish-free hanging fruits"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/lagenaria-siceraria.jpg",
+        "local_path": "backend/data/plant_images/lagenaria-siceraria.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "momordica-charantia",
+    "scientific_name": "Momordica charantia",
+    "common_name": "Bitter Gourd / Karela",
+    "hindi_name": "करेला (Karela)",
+    "telugu_name": "కాకరకాయ (Kakarakaya)",
+    "tamil_name": "பாகற்காய் (Pavakkai)",
+    "other_regional_names": {
+      "kannada": "ಹಾಗಲಕಾಯಿ (Hagalakayi)",
+      "malayalam": "പാവയ്ക്ക (Pavakka)",
+      "bengali": "করলা / উচ্ছে (Korola)",
+      "marathi": "कारले (Karle)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Momordica",
+    "species": "charantia",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Maharashtra",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Telangana",
+      "Kerala",
+      "Tamil Nadu",
+      "West Bengal",
+      "Odisha"
+    ],
+    "leaf_characteristics": {
+      "shape": "Palmately 5–7 deeply lobed leaves with slender petioles and characteristic pungent aroma",
+      "arrangement": "Alternate",
+      "margin": "Dentate to lobed",
+      "venation": "Palmate",
+      "color": "Bright vibrant green"
+    },
+    "stem_characteristics": "Slender, grooved puberulent climbing vine with simple unbranched tendrils, 2–4 m",
+    "flower_characteristics": "Solitary yellow 5-petaled flowers with rounded bract on pedicel",
+    "fruit_characteristics": "Oblong-fusiform pepo covered with prominent warty ridges, green turning orange-yellow when ripe with red arils",
+    "growth_habit": "Annual slender climbing herbaceous vine, 2–4 meters",
+    "habitat_and_climate": "Warm tropical and subtropical climate; heat loving",
+    "sunlight_requirements": "Full sun (6–8 hours)",
+    "water_requirements": "Regular light watering; avoid water stagnation",
+    "soil_preferences": "Well-drained sandy loam rich in organic matter, pH 6.0–7.0",
+    "growing_season": "Summer (February–March) and Monsoon (June–July)",
+    "propagation_methods": [
+      "Direct pit sowing with presoaked seeds"
+    ],
+    "uses": [
+      "Renowned bitter vegetable (bharwan karela, karela chips, theeyal)",
+      "Medicinal: potent hypoglycemic properties (charantin, vicine, polypeptide-p) aiding diabetes control"
+    ],
+    "safety_notes": "Safe when cooked. Red arils of overripe fruit are mildly toxic to young children in large quantities.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Downy Mildew",
+        "type": "fungal",
+        "symptoms": "Yellow angular leaf spots",
+        "management": "Metalaxyl + Mancozeb spray"
+      },
+      {
+        "name": "Fruit Fly (Bactrocera cucurbitae)",
+        "type": "pest",
+        "symptoms": "Maggots inside fruit causing rotting",
+        "management": "Cue-lure pheromone traps (10/ha)"
+      }
+    ],
+    "prevention_guidance": [
+      "Soak hard seeds in warm water for 24 hours to accelerate germination",
+      "Train vines on vertical wire trellis"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/momordica-charantia.jpg",
+        "local_path": "backend/data/plant_images/momordica-charantia.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "luffa-acutangula",
+    "scientific_name": "Luffa acutangula",
+    "common_name": "Ridge Gourd / Torai / Turai",
+    "hindi_name": "तोरी / तोरई (Torai)",
+    "telugu_name": "బీరకాయ (Beerakaya)",
+    "tamil_name": "பீர்க்கங்காய் (Peerkangai)",
+    "other_regional_names": {
+      "kannada": "ಹೀರೆಕಾಯಿ (Heerekayi)",
+      "malayalam": "പീച്ചിങ്ങ (Peechinga)",
+      "bengali": "ঝিঙে (Jhinge)",
+      "marathi": "दोडका (Dodka)"
+    },
+    "synonyms": [],
+    "family": "Cucurbitaceae",
+    "genus": "Luffa",
+    "species": "acutangula",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Karnataka",
+      "Maharashtra",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Palmately 5–7 angled or shallowly lobed scabrous cordate leaves",
+      "arrangement": "Alternate",
+      "margin": "Denticulate",
+      "venation": "Palmate",
+      "color": "Medium green, rough to touch"
+    },
+    "stem_characteristics": "Strong 5-angled grooved climbing vine with multi-branched tendrils, 3–6 m",
+    "flower_characteristics": "Showy pale yellow flowers opening late in afternoon; male in racemes, female solitary",
+    "fruit_characteristics": "Clavate club-shaped fruit with 10 prominent sharp longitudinal ribs (ridges), tapering towards stem",
+    "growth_habit": "Vigorous annual climbing vine, 3–6 m",
+    "habitat_and_climate": "Warm humid tropical and sub-tropical climate",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular weekly irrigation",
+    "soil_preferences": "Fertile, well-drained loamy soil, pH 6.0–7.5",
+    "growing_season": "Summer and Rainy seasons",
+    "propagation_methods": [
+      "Direct pit sowing"
+    ],
+    "uses": [
+      "Tender ridged fruits cooked in curries (turai sabzi, beerakaya curry, peerkangai kootu)",
+      "Mature dried fibrous sponge skeleton used as natural bathing loofah scrubber"
+    ],
+    "safety_notes": "Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Downy Mildew",
+        "type": "fungal",
+        "symptoms": "Angular yellow patches on leaves",
+        "management": "Foliar Mancozeb spray"
+      }
+    ],
+    "prevention_guidance": [
+      "Train on pandal / trellis to let fruits hang freely without curling",
+      "Harvest every 3–4 days while ribs are tender"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/luffa-acutangula.jpg",
+        "local_path": "backend/data/plant_images/luffa-acutangula.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "trichosanthes-cucumerina",
+    "scientific_name": "Trichosanthes cucumerina",
+    "common_name": "Snake Gourd / Chichinda",
+    "hindi_name": "चिचिंडा / चचेंडा (Chichinda)",
+    "telugu_name": "పొట్లకాయ (Potlakaya)",
+    "tamil_name": "புடலங்காய் (Pudalangai)",
+    "other_regional_names": {
+      "kannada": "ಪಡುವಲಕಾಯಿ (Padavalakayi)",
+      "malayalam": "പടവലങ്ങ (Padavalanga)",
+      "bengali": "চিচিঙ্গা (Chichinga)",
+      "marathi": "पडवळ (Padwal)"
+    },
+    "synonyms": [
+      "Trichosanthes anguina"
+    ],
+    "family": "Cucurbitaceae",
+    "genus": "Trichosanthes",
+    "species": "cucumerina",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Tamil Nadu",
+      "Kerala",
+      "Andhra Pradesh",
+      "Karnataka",
+      "West Bengal",
+      "Odisha",
+      "Maharashtra"
+    ],
+    "leaf_characteristics": {
+      "shape": "Broadly palmately 3–7 lobed cordate leaves with soft pubescence",
+      "arrangement": "Alternate",
+      "margin": "Dentate",
+      "venation": "Palmate",
+      "color": "Vibrant green with distinct cucurbitaceous musky scent"
+    },
+    "stem_characteristics": "Slender, grooved climbing vine with branched tendrils, 3–6 m",
+    "flower_characteristics": "Exquisite white nocturnal flowers with beautifully fringed, lace-like petal margins",
+    "fruit_characteristics": "Extremely long, cylindrical, coiled snake-like pendulous fruit (0.5–1.5 m) with white stripes",
+    "growth_habit": "Annual climbing herbaceous vine, 3–6 meters",
+    "habitat_and_climate": "Warm, humid tropical climate with abundant sunshine",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular watering; sensitive to drought stress",
+    "soil_preferences": "Sandy loam to rich river valley alluvial loams, pH 6.0–7.5",
+    "growing_season": "Rainy (Kharif) and Summer",
+    "propagation_methods": [
+      "Direct seed pit sowing on mounds"
+    ],
+    "uses": [
+      "Tender fruits sliced in South Indian kootu, poriyal, stir-fries, and curries",
+      "High moisture and dietary fiber content"
+    ],
+    "safety_notes": "Safe for cooking.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Fruit Fly",
+        "type": "pest",
+        "symptoms": "Maggots inside fruit causing distortion",
+        "management": "Pheromone traps; bag young fruits"
+      }
+    ],
+    "prevention_guidance": [
+      "Traditional practice: tie a small pebble to fruit tip to encourage straight hanging growth"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/trichosanthes-cucumerina.jpg",
+        "local_path": "backend/data/plant_images/trichosanthes-cucumerina.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "raphanus-sativus",
+    "scientific_name": "Raphanus sativus",
+    "common_name": "Radish / Mooli",
+    "hindi_name": "मूली (Mooli)",
+    "telugu_name": "ముల్లంగి (Mullangi)",
+    "tamil_name": "முள்ளங்கி (Mullangi)",
+    "other_regional_names": {
+      "kannada": "ಮೂಲಂಗಿ (Moolangi)",
+      "malayalam": "മുള്ളങ്കി (Mullanki)",
+      "bengali": "মুলো (Mulo)",
+      "marathi": "मुळा (Mula)"
+    },
+    "synonyms": [],
+    "family": "Brassicaceae",
+    "genus": "Raphanus",
+    "species": "sativus",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "West Bengal",
+      "Bihar",
+      "Uttar Pradesh",
+      "Punjab",
+      "Haryana",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "leaf_characteristics": {
+      "shape": "Lyrate-pinnatifid coarse rough leaves with large terminal lobe and bristly hairs",
+      "arrangement": "Basal rosette",
+      "margin": "Crenate to dentate",
+      "venation": "Pinnate",
+      "color": "Medium green with rough prickly hairs"
+    },
+    "stem_characteristics": "Compressed crown stem; elongates into branched flowering stem during bolting",
+    "flower_characteristics": "White to pale lilac cross-shaped 4-petaled flowers with purple veins",
+    "fruit_characteristics": "Enlarged fleshy pungent taproot (white, red, or purple); spongy indehiscent beaked silique pod (moongre)",
+    "growth_habit": "Fast-growing cool-season annual or biennial root crop, 20–40 cm",
+    "habitat_and_climate": "Cool temperate to sub-tropical climate; 30–50 day maturity from seed",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular uniform light watering; drought induces extreme woody pungency and pithiness",
+    "soil_preferences": "Deep, friable, loose sandy loam free from stones and clods, pH 6.0–7.0",
+    "growing_season": "Rabi in plains (September–January); Asiatic types grown in Summer/Monsoon",
+    "propagation_methods": [
+      "Direct line sowing on ridges"
+    ],
+    "uses": [
+      "Crisp pungent root eaten raw in salads, mooli paratha, sambar, pickles",
+      "Tender leaves (mooli ka saag) and seed pods (moongre) cooked as vegetables",
+      "Digestive and liver tonic"
+    ],
+    "safety_notes": "Pungent isothiocyanates give sharp bite. Safe for consumption.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Pithiness / Sponginess",
+        "type": "physiological",
+        "symptoms": "Roots become hollow, dry, and woody when harvest is delayed",
+        "management": "Harvest promptly at root maturity (30–45 days)"
+      }
+    ],
+    "prevention_guidance": [
+      "Sow on 15 cm high raised ridges for straight unbranched root development",
+      "Thin seedlings to 8–10 cm spacing"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/raphanus-sativus.jpg",
+        "local_path": "backend/data/plant_images/raphanus-sativus.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "daucus-carota",
+    "scientific_name": "Daucus carota",
+    "common_name": "Carrot / Gajar",
+    "hindi_name": "गाजर (Gajar)",
+    "telugu_name": "క్యారెట్ (Carrot)",
+    "tamil_name": "கேரட் (Carrot)",
+    "other_regional_names": {
+      "kannada": "ಕ್ಯಾರೆಟ್ (Carrot)",
+      "malayalam": "കാരറ്റ് (Carrot)",
+      "bengali": "গাজর (Gajor)",
+      "marathi": "गाजर (Gajar)"
+    },
+    "synonyms": [
+      "Daucus carota subsp. sativus"
+    ],
+    "family": "Apiaceae",
+    "genus": "Daucus",
+    "species": "carota",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Karnataka",
+      "Tamil Nadu (Nilgiris)",
+      "Madhya Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Finely dissected 2–3 pinnately compound feathery lacy leaves with long petioles",
+      "arrangement": "Basal rosette",
+      "margin": "Deeply incised / dissected",
+      "venation": "Pinnate",
+      "color": "Bright lush green"
+    },
+    "stem_characteristics": "Compressed crown stem giving rise to swollen fleshy taproot; branched umbel flowering scape upon bolting",
+    "flower_characteristics": "Compound umbel of tiny white flowers, often with a solitary dark red flower in center",
+    "fruit_characteristics": "Enlarged fleshy conical taproot (orange, red, black, or purple); schizocarp seed with bristly spines",
+    "growth_habit": "Biennial root vegetable grown as cool-season annual, 30–60 cm",
+    "habitat_and_climate": "Cool winter climate; optimal temperature 15°C–20°C for deep red/orange lycopene and carotene accumulation",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Uniform light irrigation; excess water after dry spell causes root splitting",
+    "soil_preferences": "Deep, loose, stone-free friable sandy loam with high organic humus, pH 6.0–7.0",
+    "growing_season": "Rabi (September–November in plains; year-round in temperate hills)",
+    "propagation_methods": [
+      "Direct seed line sowing on ridges"
+    ],
+    "uses": [
+      "Nutrient-dense root rich in beta-carotene (Vitamin A) and lycopene; raw salad, gajar ka halwa, curries, pickles"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Root Forking / Splitting",
+        "type": "physiological",
+        "symptoms": "Taproot branches into multiple distorted fangs due to hard subsoil pan or undecomposed FYM",
+        "management": "Deep ploughing; avoid fresh unrotted manure"
+      }
+    ],
+    "prevention_guidance": [
+      "Rub seeds to remove bristles before sowing for uniform distribution",
+      "Thin to 6–8 cm apart at 20 days"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/daucus-carota.jpg",
+        "local_path": "backend/data/plant_images/daucus-carota.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "beta-vulgaris",
+    "scientific_name": "Beta vulgaris",
+    "common_name": "Beetroot / Chukandar",
+    "hindi_name": "चुकंदर (Chukandar)",
+    "telugu_name": "బీట్‌రూట్ (Beetroot)",
+    "tamil_name": "பீட்ரூட் (Beetroot)",
+    "other_regional_names": {
+      "kannada": "ಬೀಟ್‌ರೂಟ್ (Beetroot)",
+      "malayalam": "ബീറ്റ്റൂട്ട് (Beetroot)",
+      "bengali": "বিট (Bit)",
+      "marathi": "बीट (Beat)"
+    },
+    "synonyms": [
+      "Beta vulgaris subsp. vulgaris"
+    ],
+    "family": "Amaranthaceae",
+    "genus": "Beta",
+    "species": "vulgaris",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Haryana",
+      "Uttar Pradesh",
+      "Karnataka",
+      "Maharashtra",
+      "Tamil Nadu",
+      "West Bengal"
+    ],
+    "leaf_characteristics": {
+      "shape": "Glossy, ovate to cordate fleshy wavy leaves with prominent crimson-red veins and petioles",
+      "arrangement": "Basal rosette",
+      "margin": "Entire to wavy undulate",
+      "venation": "Pinnate",
+      "color": "Dark green suffused with deep purple-red"
+    },
+    "stem_characteristics": "Short crown stem terminating in swollen subterranean hypocotyl tuber",
+    "flower_characteristics": "Inconspicuous greenish flowers in dense spikes on tall flowering scape",
+    "fruit_characteristics": "Swollen globose to napiform fleshy hypocotyl taproot with deep ruby-red betalain pigmentation",
+    "growth_habit": "Biennial root vegetable grown as annual, 30–50 cm",
+    "habitat_and_climate": "Cool, sunny winter climate; tolerates light frost and mild soil salinity",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Uniform regular watering; alternating dry and wet cycles causes concentric internal white rings",
+    "soil_preferences": "Well-drained deep friable sandy loam or alluvial loam, pH 6.0–7.5",
+    "growing_season": "Rabi (October–November in plains; year-round in hills)",
+    "propagation_methods": [
+      "Direct seed line sowing of multigerm seed balls"
+    ],
+    "uses": [
+      "Deep red sweet root eaten raw, boiled in salads, juices, poriyal, halwa",
+      "Natural source of dietary nitrates (boosts athletic endurance and blood flow) and betalains"
+    ],
+    "safety_notes": "Betalain excretion causes harmless temporary red urine (beeturia).",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Cercospora Leaf Spot (Cercospora beticola)",
+        "type": "fungal",
+        "symptoms": "Circular spots with grey center and reddish-purple border on leaves",
+        "management": "Foliar Mancozeb or Copper Oxychloride"
+      }
+    ],
+    "prevention_guidance": [
+      "Thin clustered seedlings emerging from multigerm seed balls to single robust plants 10 cm apart"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/beta-vulgaris.jpg",
+        "local_path": "backend/data/plant_images/beta-vulgaris.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "pisum-sativum",
+    "scientific_name": "Pisum sativum",
+    "common_name": "Peas / Garden Pea / Matar",
+    "hindi_name": "मटर (Matar)",
+    "telugu_name": "బఠానీలు (Bataneelu)",
+    "tamil_name": "பட்டாணி (Pattani)",
+    "other_regional_names": {
+      "kannada": "ಬಟಾಣಿ (Batani)",
+      "malayalam": "പട്ടാണി (Pattani)",
+      "bengali": "মটরশুঁটি (Matorshuti)",
+      "marathi": "मटार (Matar)"
+    },
+    "synonyms": [
+      "Pisum arvense"
+    ],
+    "family": "Fabaceae",
+    "genus": "Pisum",
+    "species": "sativum",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Punjab",
+      "Himachal Pradesh",
+      "Bihar",
+      "Rajasthan",
+      "Haryana"
+    ],
+    "leaf_characteristics": {
+      "shape": "Pinnate compound leaves with 1–3 pairs of ovate leaflets ending in branched climbing tendrils and large leafy stipules",
+      "arrangement": "Alternate",
+      "margin": "Entire to denticulate",
+      "venation": "Pinnate",
+      "color": "Soft glaucous bluish-green"
+    },
+    "stem_characteristics": "Weak, hollow, succulent climbing stem with nodes, 0.4–1.8 m",
+    "flower_characteristics": "Showy white or pale pinkish-purple papilionaceous flowers solitary or in pairs",
+    "fruit_characteristics": "Swollen straight or curved 2-valved dehiscent pod holding 4–10 sweet spherical green seeds",
+    "growth_habit": "Climbing cool-season annual herbaceous legume, 40–180 cm",
+    "habitat_and_climate": "Cool temperate to sub-tropical winter climate; sensitive to hot dry weather during flowering",
+    "sunlight_requirements": "Full sun (6 hours)",
+    "water_requirements": "Moderate; critical irrigations at flowering and pod filling",
+    "soil_preferences": "Well-drained fertile friable loamy soil, pH 6.0–7.5",
+    "growing_season": "Rabi (October–November to February–March)",
+    "propagation_methods": [
+      "Direct seed line sowing with Rhizobium leguminosarum"
+    ],
+    "uses": [
+      "Popular fresh winter vegetable (matar paneer, aloo matar, samosa, kachori)",
+      "Frozen and dehydrated peas for year-round culinary use; fixes soil nitrogen"
+    ],
+    "safety_notes": "Safe for human nutrition.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Powdery Mildew (Erysiphe pisi)",
+        "type": "fungal",
+        "symptoms": "White flour-like powdery growth covering foliage, stems, and pods in late season",
+        "management": "Spray Wettable Sulfur (2 g/L) or Dinocap; grow resistant varieties (Arka Ajit, AP 3)"
+      }
+    ],
+    "prevention_guidance": [
+      "Stake tall climbing varieties with bamboo sticks or netting",
+      "Pick pods before peas become starchy and hard"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/pisum-sativum.jpg",
+        "local_path": "backend/data/plant_images/pisum-sativum.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  },
+  {
+    "id": "phaseolus-vulgaris",
+    "scientific_name": "Phaseolus vulgaris",
+    "common_name": "French Bean / Common Bean / Rajma",
+    "hindi_name": "फ्रेंच बीन / राजमा (French Bean)",
+    "telugu_name": "బీన్స్ (Beans)",
+    "tamil_name": "பீன்ஸ் (Beans)",
+    "other_regional_names": {
+      "kannada": "ಹುರುಳಿಕಾಯಿ (Hurulikayi)",
+      "malayalam": "ബീൻസ് (Beans)",
+      "bengali": "শিম / বিন্স (Shim / Beans)",
+      "marathi": "फरसबी (Farasbi)"
+    },
+    "synonyms": [],
+    "family": "Fabaceae",
+    "genus": "Phaseolus",
+    "species": "vulgaris",
+    "category": "vegetable",
+    "status_in_india": "cultivated",
+    "indian_states": [
+      "Karnataka",
+      "Maharashtra",
+      "Tamil Nadu",
+      "Himachal Pradesh",
+      "Jammu & Kashmir",
+      "Uttarakhand",
+      "Andhra Pradesh"
+    ],
+    "leaf_characteristics": {
+      "shape": "Trifoliolate compound leaves with broadly ovate pointed leaflets",
+      "arrangement": "Alternate",
+      "margin": "Entire",
+      "venation": "Reticulate",
+      "color": "Medium to dark green"
+    },
+    "stem_characteristics": "Bush type (determinate erect, 30–60 cm) or pole type (indeterminate twining climber, 2–3 m)",
+    "flower_characteristics": "Small clusters of white, pink, or light violet papilionaceous flowers",
+    "fruit_characteristics": "Slender straight or curved fleshy pod (10–20 cm) with cylindrical succulent green pods or dry kidney beans",
+    "growth_habit": "Annual bushy herb or twining climbing vine, 30–250 cm",
+    "habitat_and_climate": "Mild temperate to subtropical climate; highly sensitive to frost and high heat (>32°C causes flower drop)",
+    "sunlight_requirements": "Full sun",
+    "water_requirements": "Regular moderate watering; avoids waterlogging",
+    "soil_preferences": "Well-drained rich friable loamy soil rich in organic matter, pH 5.5–6.8",
+    "growing_season": "Spring and Autumn in hills; Winter in plains",
+    "propagation_methods": [
+      "Direct seed line sowing"
+    ],
+    "uses": [
+      "Tender green pods cooked as French beans vegetable",
+      "Dry mature seeds cooked as renowned North Indian Rajma curry (high protein)"
+    ],
+    "safety_notes": "Raw dry kidney beans contain phytohaemagglutinin (lectin); MUST be soaked and boiled thoroughly before eating.",
+    "is_toxic": false,
+    "common_pests_and_diseases": [
+      {
+        "name": "Bean Anthracnose (Colletotrichum lindemuthianum)",
+        "type": "fungal",
+        "symptoms": "Dark brown sunken eye-shaped lesions on pods with pink spore masses",
+        "management": "Seed treatment with Carbendazim (2 g/kg); spray Mancozeb"
+      }
+    ],
+    "prevention_guidance": [
+      "Pole varieties require sturdy trellis staking for high yields",
+      "Harvest green pods while fleshy and stringless"
+    ],
+    "image_references": [
+      {
+        "image_url": "https://efloraofindia.com/species/phaseolus-vulgaris.jpg",
+        "local_path": "backend/data/plant_images/phaseolus-vulgaris.jpg",
+        "organ": "leaf",
+        "license": "CC BY-NC 4.0",
+        "author": "eFlora of India botanical contributor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India Flora Online - Centre for Ecological Sciences",
+        "url": "https://indiaflora-ces.iisc.ac.in/",
+        "publisher": "Indian Institute of Science (IISc), Bangalore"
+      },
+      {
+        "title": "eFlora of India Botanical Database",
+        "url": "https://efloraofindia.com/",
+        "publisher": "Botanical Survey of India & Citizen Science Taxonomy Consortium"
+      },
+      {
+        "title": "Botanical Survey of India (BSI) Flora of India Fascicles",
+        "url": "https://bsi.gov.in/",
+        "publisher": "Ministry of Environment, Forest and Climate Change, Govt. of India"
+      },
+      {
+        "title": "ICAR Package of Practices for Field Crops & Horticulture",
+        "url": "https://icar.org.in/",
+        "publisher": "Indian Council of Agricultural Research"
+      }
+    ],
+    "verification_status": "verified",
+    "last_checked_date": "2026-03-15"
+  }
+]

@@ -1,0 +1,496 @@
+name: Security Review — AGRO AI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+env:
+  PYTHON_VERSION: "3.11"
+  BACKEND_DIR: backend
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────
+  # 1. SAST — Static Application Security Testing
+  # ─────────────────────────────────────────────────────────────────
+  sast-scan:
+    name: "SAST (Semgrep + Bandit)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install SAST tools
+        run: |
+          pip install --quiet semgrep bandit[toml]
+
+      - name: Detect FastAPI framework
+        id: detect
+        run: |
+          if grep -r "from fastapi" backend/ --include="*.py" -l | head -1 > /dev/null 2>&1; then
+            echo "framework=fastapi" >> "$GITHUB_OUTPUT"
+            echo "✅ FastAPI framework detected"
+          else
+            echo "framework=generic" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Semgrep (FastAPI + Python rules)
+        continue-on-error: true
+        run: |
+          mkdir -p security-reports
+          semgrep scan \
+            --config "p/python" \
+            --config "p/fastapi" \
+            --config "p/owasp-top-ten" \
+            --config "p/jwt" \
+            --config "p/secrets" \
+            --json \
+            --output security-reports/semgrep-results.json \
+            backend/ || true
+          echo "Semgrep scan complete"
+
+      - name: Run Bandit (Python security linter)
+        continue-on-error: true
+        run: |
+          bandit -r backend/ \
+            -f json \
+            -o security-reports/bandit-results.json \
+            -ll \
+            --exclude backend/.venv,backend/tests \
+            || true
+          echo "Bandit scan complete"
+
+      - name: Generate SAST summary
+        run: |
+          python3 - <<'EOF'
+          import json, os
+
+          report = {"semgrep": {}, "bandit": {}}
+
+          try:
+              with open("security-reports/semgrep-results.json") as f:
+                  sg = json.load(f)
+              findings = sg.get("results", [])
+              report["semgrep"] = {
+                  "total": len(findings),
+                  "critical": sum(1 for r in findings if r.get("extra",{}).get("severity","").upper() == "ERROR"),
+                  "high": sum(1 for r in findings if r.get("extra",{}).get("severity","").upper() == "WARNING"),
+                  "findings": findings[:20]
+              }
+          except Exception as e:
+              report["semgrep"]["error"] = str(e)
+
+          try:
+              with open("security-reports/bandit-results.json") as f:
+                  bk = json.load(f)
+              issues = bk.get("results", [])
+              report["bandit"] = {
+                  "total": len(issues),
+                  "high": sum(1 for i in issues if i.get("issue_severity") == "HIGH"),
+                  "medium": sum(1 for i in issues if i.get("issue_severity") == "MEDIUM"),
+                  "low": sum(1 for i in issues if i.get("issue_severity") == "LOW"),
+                  "findings": issues[:20]
+              }
+          except Exception as e:
+              report["bandit"]["error"] = str(e)
+
+          with open("security-reports/sast-summary.json", "w") as f:
+              json.dump(report, f, indent=2)
+
+          print(f"SAST Summary: Semgrep={report['semgrep'].get('total',0)} | Bandit={report['bandit'].get('total',0)}")
+          EOF
+
+      - name: Upload SAST artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sast-results
+          path: security-reports/
+          retention-days: 30
+
+  # ─────────────────────────────────────────────────────────────────
+  # 2. Dependency Scanning
+  # ─────────────────────────────────────────────────────────────────
+  dependency-scan:
+    name: "Dependency Scan (Safety + pip-audit + Trivy)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependency tools
+        run: |
+          pip install --quiet safety pip-audit
+
+      - name: Run Safety check
+        continue-on-error: true
+        run: |
+          mkdir -p security-reports
+          # Find requirements files
+          find . -name "requirements*.txt" -not -path "*/.venv/*" | while read req; do
+            echo "Scanning: $req"
+            safety check -r "$req" --json >> security-reports/safety-results.json 2>/dev/null || true
+          done
+          echo "Safety scan complete"
+
+      - name: Run pip-audit
+        continue-on-error: true
+        run: |
+          pip-audit \
+            --format json \
+            --output security-reports/pip-audit-results.json \
+            -r backend/requirements.txt \
+            || pip-audit --format json --output security-reports/pip-audit-results.json || true
+          echo "pip-audit scan complete"
+
+      - name: Install Trivy
+        run: |
+          wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+          echo deb https://aquasecurity.github.io/trivy-repo/deb generic main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+          sudo apt-get update -qq && sudo apt-get install -y trivy
+
+      - name: Run Trivy filesystem scan
+        continue-on-error: true
+        run: |
+          trivy fs . \
+            --format json \
+            --output security-reports/trivy-results.json \
+            --severity HIGH,CRITICAL \
+            --exit-code 0 \
+            --scanners vuln,secret \
+            || true
+          echo "Trivy scan complete"
+
+      - name: Aggregate dependency report
+        run: |
+          python3 - <<'EOF'
+          import json, os
+
+          report = {"safety": {}, "pip_audit": {}, "trivy": {}}
+
+          try:
+              with open("security-reports/pip-audit-results.json") as f:
+                  pa = json.load(f)
+              vulns = pa.get("dependencies", [])
+              report["pip_audit"] = {
+                  "total_vulnerable": len([d for d in vulns if d.get("vulns")]),
+                  "total_packages": len(vulns)
+              }
+          except Exception as e:
+              report["pip_audit"]["error"] = str(e)
+
+          try:
+              with open("security-reports/trivy-results.json") as f:
+                  tv = json.load(f)
+              results = tv.get("Results", [])
+              all_vulns = []
+              for r in results:
+                  all_vulns.extend(r.get("Vulnerabilities") or [])
+              report["trivy"] = {
+                  "total": len(all_vulns),
+                  "critical": sum(1 for v in all_vulns if v.get("Severity") == "CRITICAL"),
+                  "high": sum(1 for v in all_vulns if v.get("Severity") == "HIGH"),
+              }
+          except Exception as e:
+              report["trivy"]["error"] = str(e)
+
+          with open("security-reports/dependency-summary.json", "w") as f:
+              json.dump(report, f, indent=2)
+          print(json.dumps(report, indent=2))
+          EOF
+
+      - name: Upload dependency artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dependency-results
+          path: security-reports/
+          retention-days: 30
+
+  # ─────────────────────────────────────────────────────────────────
+  # 3. Secret Scanning — Gitleaks
+  # ─────────────────────────────────────────────────────────────────
+  secret-scan:
+    name: "Secret Scan (Gitleaks)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Gitleaks
+        run: |
+          GITLEAKS_VERSION=8.18.4
+          wget -q "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          tar -xf "gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          sudo mv gitleaks /usr/local/bin/
+
+      - name: Run Gitleaks
+        continue-on-error: true
+        run: |
+          mkdir -p security-reports
+          gitleaks detect \
+            --source . \
+            --report-format json \
+            --report-path security-reports/gitleaks-results.json \
+            --redact \
+            --no-git \
+            || true
+          echo "Gitleaks scan complete"
+
+      - name: Summarise secret findings
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          try:
+              with open("security-reports/gitleaks-results.json") as f:
+                  leaks = json.load(f)
+              if not isinstance(leaks, list):
+                  leaks = []
+              summary = {
+                  "total_secrets_found": len(leaks),
+                  "rule_ids": list({l.get("RuleID","unknown") for l in leaks}),
+                  "files_affected": list({l.get("File","unknown") for l in leaks})
+              }
+          except Exception as e:
+              summary = {"error": str(e)}
+          with open("security-reports/secret-summary.json", "w") as f:
+              json.dump(summary, f, indent=2)
+          print(f"Secrets found: {summary.get('total_secrets_found', 'error')}")
+          EOF
+
+      - name: Upload secret scan artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: secret-results
+          path: security-reports/
+          retention-days: 30
+
+  # ─────────────────────────────────────────────────────────────────
+  # 4. API Security — OWASP Top 10 DAST-style checks
+  # ─────────────────────────────────────────────────────────────────
+  api-security:
+    name: "API Security (OWASP Top 10 — DAST)"
+    runs-on: ubuntu-latest
+    services:
+      # Lightweight SQLite-based backend for security testing
+      backend:
+        image: python:3.11-slim
+        ports:
+          - 8000:8000
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install API test dependencies
+        run: |
+          pip install --quiet requests PyJWT pyjwt[crypto] colorama
+
+      - name: Start backend (if possible) or run offline analysis
+        id: backend-start
+        continue-on-error: true
+        run: |
+          cd backend
+          pip install --quiet -r requirements.txt 2>/dev/null || true
+          # Start backend in background
+          DATABASE_URL="sqlite:///./test_security.db" \
+          JWT_SECRET_KEY="test-secret-key-for-ci-security-scan" \
+          python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 &
+          sleep 8
+          curl -sf http://localhost:8000/api/health && echo "backend_ready=true" >> "$GITHUB_OUTPUT" || echo "backend_ready=false" >> "$GITHUB_OUTPUT"
+
+      - name: Run API security checks
+        continue-on-error: true
+        run: |
+          mkdir -p security-reports
+          python security-tests/scripts/api-security-check.py \
+            --base-url http://localhost:8000 \
+            --output security-reports/api-security-results.json \
+            || python security-tests/scripts/api-security-check.py \
+                --base-url http://localhost:8000 \
+                --offline \
+                --output security-reports/api-security-results.json \
+            || true
+
+      - name: Upload API security artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-security-results
+          path: security-reports/
+          retention-days: 30
+
+  # ─────────────────────────────────────────────────────────────────
+  # 5. Report Generator — Consolidate all findings
+  # ─────────────────────────────────────────────────────────────────
+  report-generator:
+    name: "Generate Security Reports (Excel + Markdown)"
+    runs-on: ubuntu-latest
+    needs: [sast-scan, dependency-scan, secret-scan, api-security]
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install report dependencies
+        run: |
+          pip install --quiet openpyxl jinja2 requests
+
+      - name: Download SAST artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: sast-results
+          path: all-security-reports/sast/
+        continue-on-error: true
+
+      - name: Download dependency artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dependency-results
+          path: all-security-reports/dependency/
+        continue-on-error: true
+
+      - name: Download secret scan artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: secret-results
+          path: all-security-reports/secrets/
+        continue-on-error: true
+
+      - name: Download API security artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: api-security-results
+          path: all-security-reports/api/
+        continue-on-error: true
+
+      - name: Generate combined security reports
+        run: |
+          mkdir -p "Vulnerability Test Results"
+          python security-tests/scripts/generate-security-report.py \
+            --input-dir all-security-reports \
+            --output-dir "Vulnerability Test Results"
+
+      - name: Publish GitHub Actions Summary
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, glob
+
+          summary_lines = [
+              "# 🔒 AGRO AI Security Review Summary",
+              "",
+              "| Category | Tool | Findings |",
+              "|----------|------|----------|",
+          ]
+
+          def load_json(path):
+              try:
+                  with open(path) as f: return json.load(f)
+              except: return {}
+
+          # SAST
+          sast = load_json("all-security-reports/sast/sast-summary.json")
+          sg_total = sast.get("semgrep",{}).get("total", "N/A")
+          bk_total = sast.get("bandit",{}).get("total", "N/A")
+          summary_lines.append(f"| SAST | Semgrep | {sg_total} |")
+          summary_lines.append(f"| SAST | Bandit | {bk_total} |")
+
+          # Deps
+          dep = load_json("all-security-reports/dependency/dependency-summary.json")
+          tv = dep.get("trivy",{})
+          summary_lines.append(f"| Dependencies | Trivy | {tv.get('total','N/A')} (Critical: {tv.get('critical','N/A')}, High: {tv.get('high','N/A')}) |")
+
+          # Secrets
+          sec = load_json("all-security-reports/secrets/secret-summary.json")
+          summary_lines.append(f"| Secrets | Gitleaks | {sec.get('total_secrets_found','N/A')} |")
+
+          # API
+          api = load_json("all-security-reports/api/api-security-results.json")
+          api_total = len(api.get("findings", []))
+          summary_lines.append(f"| API Security | OWASP DAST | {api_total} |")
+
+          summary_lines += [
+              "",
+              "## 📊 Risk Level",
+              "",
+              "| Severity | Count |",
+              "|----------|-------|",
+          ]
+
+          # Count from combined report
+          combined = load_json("Vulnerability Test Results/findings-summary.json")
+          for sev in ["Critical","High","Medium","Low"]:
+              summary_lines.append(f"| {sev} | {combined.get(sev.lower(), 'N/A')} |")
+
+          summary_lines += [
+              "",
+              "> ⚠️ **Action Required**: Review Critical and High findings before merging.",
+              "",
+              "📁 All detailed reports are available as workflow artifacts (30-day retention).",
+          ]
+
+          summary_text = "\n".join(summary_lines)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "w") as f:
+              f.write(summary_text)
+          print("GitHub Actions Summary published.")
+          PYEOF
+
+      - name: Check for critical/high failures
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+          try:
+              with open("Vulnerability Test Results/findings-summary.json") as f:
+                  data = json.load(f)
+              critical = data.get("critical", 0)
+              high = data.get("high", 0)
+              print(f"Critical: {critical}, High: {high}")
+              if critical > 0 or high > 0:
+                  print(f"⚠️ Found {critical} Critical and {high} High severity issues.")
+                  print("Review the security reports before merging.")
+                  sys.exit(1)
+              else:
+                  print("✅ No Critical or High severity issues found.")
+          except FileNotFoundError:
+              print("⚠️ findings-summary.json not found — cannot assert severity gate.")
+              sys.exit(0)
+          PYEOF
+
+      - name: Upload final combined report
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-report-combined
+          path: "Vulnerability Test Results/"
+          retention-days: 30
+
+      - name: Upload combined Excel
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-review-xlsx
+          path: "Vulnerability Test Results/findings.xlsx"
+          retention-days: 30

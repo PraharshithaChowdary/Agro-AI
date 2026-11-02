@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.production
+
+# IDE
+.idea/
+.vscode/
+!.vscode/
+!.vscode/tasks.json
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temp
+*.log
+uploads/*
+!uploads/.gitkeep
+output/*.zip
+
+# Local AI / Codespaces
+.venv/
+.venv_old/
+venv/
+tmp/
+logs/
+*.pid
+.DS_Store
+backend/agro_ai.db
+backend/agro_ai.db-shm
+backend/agro_ai.db-wal
+backend/uploads/*
+!backend/uploads/.gitkeep
