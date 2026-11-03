@@ -98,3 +98,4 @@ for filename, title in reports:
     with open(out_html, 'w', encoding='utf-8') as f:
         f.write('\n'.join(html_parts))
     print(f'Generated: {out_html}')
+
