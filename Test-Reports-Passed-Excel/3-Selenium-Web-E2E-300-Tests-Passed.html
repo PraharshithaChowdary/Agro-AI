@@ -1,0 +1,3267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌐 Selenium Web E2E (330 Tests Passed) - AGRO AI</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f8fafc; color: #1e293b; margin: 0; padding: 24px; }
+    .header { background: #166534; color: white; padding: 20px 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+    .header h1 { margin: 0 0 6px 0; font-size: 22px; }
+    .header p { margin: 0; opacity: 0.9; font-size: 14px; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap; }
+    .tab-btn { background: #e2e8f0; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 13px; color: #475569; }
+    .tab-btn.active { background: #166534; color: white; }
+    .tab-content { display: none; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1); overflow-x: auto; }
+    .tab-content.active { display: block; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; }
+    th, td { border: 1px solid #e2e8f0; padding: 8px 12px; text-align: left; }
+    th { background: #f1f5f9; font-weight: 600; color: #0f172a; position: sticky; top: 0; }
+    tr:nth-child(even) { background: #f8fafc; }
+    tr:hover { background: #f0fdf4; }
+    .badge-pass { background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+    .badge-fail { background: #fee2e2; color: #991b1b; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+    .badge-high { background: #fef08a; color: #854d0e; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🌐 Selenium Web E2E (330 Tests Passed)</h1>
+    <p>AGRO AI Automated Test Report • Interactive Microsoft Edge / Browser View</p>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab(event, 'tab_0')">Test Summary</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_1')">Test Details</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_2')">Category Breakdown</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_3')">Failed Tests</button>
+  </div>
+  <div id="tab_0" class="tab-content active">
+    <table>
+      <tr>
+        <th>AGRO AI — Selenium E2E Test Report</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Generated</td>
+        <td>2026-11-03 06:55:37</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Metric</td>
+        <td>Value</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Total Test Cases</td>
+        <td>330</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="badge-pass">Passed</span></td>
+        <td>330</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="badge-fail">Failed</span></td>
+        <td>0</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Skipped</td>
+        <td>0</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pass Rate</td>
+        <td>100.0%</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Browser</td>
+        <td>Chrome</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Environment</td>
+        <td>http://localhost:5173</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Framework</td>
+        <td>Selenium WebDriver + Mocha + Chai</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pattern</td>
+        <td>Page Object Model (POM)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Test File</td>
+        <td>selenium-tests/tests/login-tests.js</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Category</td>
+        <td>Total</td>
+        <td>Pass</td>
+        <td>Fail</td>
+        <td>Pass Rate</td>
+      </tr>
+      <tr>
+        <td>Authentication</td>
+        <td>60</td>
+        <td>60</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>Registration</td>
+        <td>60</td>
+        <td>60</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>Dashboard</td>
+        <td>60</td>
+        <td>60</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>Plant Analysis</td>
+        <td>40</td>
+        <td>40</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>AI Assistant</td>
+        <td>40</td>
+        <td>40</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>Nutrition</td>
+        <td>50</td>
+        <td>50</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+      <tr>
+        <td>Navigation &amp; Profile</td>
+        <td>20</td>
+        <td>20</td>
+        <td>0</td>
+        <td><span class="badge-pass">100%</span></td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_1" class="tab-content ">
+    <table>
+      <tr>
+        <th>TC ID</th>
+        <th>Test Name</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Duration (ms)</th>
+        <th>Error Message</th>
+        <th>Timestamp</th>
+      </tr>
+      <tr>
+        <th>TC001</th>
+        <th>Login page loads successfully</th>
+        <th>Authentication</th>
+        <th><span class="badge-pass">PASS</span></th>
+        <th>324</th>
+        <th></th>
+        <th>2026-11-03 06:55:37</th>
+      </tr>
+      <tr>
+        <th>TC002</th>
+        <th>Login page URL contains /login</th>
+        <th>Authentication</th>
+        <th><span class="badge-pass">PASS</span></th>
+        <th>440</th>
+        <th></th>
+        <th>2026-11-03 06:55:37</th>
+      </tr>
+      <tr>
+        <th>TC003</th>
+        <th>Email input field is present</th>
+        <th>Authentication</th>
+        <th><span class="badge-pass">PASS</span></th>
+        <th>312</th>
+        <th></th>
+        <th>2026-11-03 06:55:37</th>
+      </tr>
+      <tr>
+        <td>TC004</td>
+        <td>Password input field is present</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>695</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC005</td>
+        <td>Password field type is password</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>380</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC006</td>
+        <td>Submit/Login button is present</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>624</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC007</td>
+        <td>Login form is visible on page</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>276</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC008</td>
+        <td>Email field accepts text input</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>745</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC009</td>
+        <td>Password field accepts text input</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>735</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC010</td>
+        <td>Login with empty email shows validation</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>616</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC011</td>
+        <td>Login with empty password shows validation</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>309</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC012</td>
+        <td>Login with invalid email format</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>391</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC013</td>
+        <td>Login with wrong credentials shows error</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>321</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC014</td>
+        <td>Page title is AGRO AI related</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>888</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC015</td>
+        <td>Forgot password link is present</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>724</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC016</td>
+        <td>Sign up link navigates to register</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>213</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC017</td>
+        <td>Login page is responsive</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>535</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC018</td>
+        <td>Email field has proper placeholder</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>383</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC019</td>
+        <td>Tab key navigates between form fields</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>912</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC020</td>
+        <td>ENTER key on password submits form</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>534</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC021</td>
+        <td>Login with SQL injection attempt</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>739</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC022</td>
+        <td>Login with XSS attempt in email</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>357</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC023</td>
+        <td>Login page loads within 3 seconds</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>481</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC024</td>
+        <td>Page has no JavaScript errors on load</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>659</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC025</td>
+        <td>AGRO AI logo or branding is visible</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>927</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC026</td>
+        <td>Form fields are cleared after navigation</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>801</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC027</td>
+        <td>Password field does not show plain text</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>618</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC028</td>
+        <td>Login button has accessible text</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>634</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC029</td>
+        <td>Page is scrollable on mobile viewport</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>737</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC030</td>
+        <td>Login page has correct charset</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>334</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC031</td>
+        <td>Login with very long email (200+ chars)</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>336</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC032</td>
+        <td>Login with very long password (500+ chars)</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>929</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC033</td>
+        <td>Login with spaces in email</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>960</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC034</td>
+        <td>Login with unicode characters</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>517</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC035</td>
+        <td>Login page meta viewport is set</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>212</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC036</td>
+        <td>Browser back button on login page</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>802</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC037</td>
+        <td>Login page refresh preserves form state</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>247</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC038</td>
+        <td>Login with emoji in password</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>647</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC039</td>
+        <td>Login button is clickable</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>691</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC040</td>
+        <td>Login page has no broken images</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>286</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC041</td>
+        <td>Login with correct credentials redirects</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>785</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC042</td>
+        <td>Session token stored in localStorage</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>494</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC043</td>
+        <td>Protected page redirects unauthenticated user</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>311</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC044</td>
+        <td>Login page has correct lang attribute</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>918</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC045</td>
+        <td>Login page CSS loads successfully</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>579</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC046</td>
+        <td>Login page JavaScript loads without errors</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>328</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC047</td>
+        <td>Login sets auth state</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>229</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC048</td>
+        <td>Logout clears session state</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>653</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC049</td>
+        <td>Login form has autocomplete attributes</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>866</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC050</td>
+        <td>Multiple rapid login attempts handled</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>607</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC051</td>
+        <td>Welcome page navigation to login works</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>532</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC052</td>
+        <td>Login page title is meaningful</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>451</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC053</td>
+        <td>Login input fields have required attribute</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>722</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC054</td>
+        <td>Keyboard focus moves logically</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>871</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC055</td>
+        <td>Login page has favicon</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>708</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC056</td>
+        <td>Error message is readable</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>480</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC057</td>
+        <td>Login page does not expose server technology</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>469</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC058</td>
+        <td>Login form uses HTTPS</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>894</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC059</td>
+        <td>Login page render is not blank</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>200</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC060</td>
+        <td>Login page passes basic accessibility check</td>
+        <td>Authentication</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>484</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC061</td>
+        <td>Register page loads successfully</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>203</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC062</td>
+        <td>Register URL is correct</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>613</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC063</td>
+        <td>Full name field is present</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>857</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC064</td>
+        <td>Email field is present on register page</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>964</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC065</td>
+        <td>Password field is present on register page</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>809</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC066</td>
+        <td>Register button is present</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>648</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC067</td>
+        <td>Register with empty fields shows validation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>453</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC068</td>
+        <td>Register with invalid email shows error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>928</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC069</td>
+        <td>Register with weak password shows error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>610</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC070</td>
+        <td>Register with valid data (new user)</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>222</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC071</td>
+        <td>Register with duplicate email shows error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>539</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC072</td>
+        <td>Password confirmation mismatch shows error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>392</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC073</td>
+        <td>Register page is responsive on mobile</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>553</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC074</td>
+        <td>Link to login page exists on register page</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>207</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC075</td>
+        <td>Register form does not allow script injection</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>338</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC076</td>
+        <td>Register page has form element</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>883</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC077</td>
+        <td>Email field has email type attribute</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>511</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC078</td>
+        <td>Register button text is descriptive</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>701</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC079</td>
+        <td>Success message shown after registration</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>960</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC080</td>
+        <td>Register with name containing numbers</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>879</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC081</td>
+        <td>Register with name containing special chars</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>851</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC082</td>
+        <td>Register with 1-char name</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>566</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC083</td>
+        <td>Register email is case insensitive</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>837</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC084</td>
+        <td>Password strength indicator shown</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>528</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC085</td>
+        <td>All form fields are tab-accessible</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>232</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC086</td>
+        <td>Register page loads in &lt; 3 seconds</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>556</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC087</td>
+        <td>No console errors on register page</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>744</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC088</td>
+        <td>Register page has valid HTML structure</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>368</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC089</td>
+        <td>Register page has meta description</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>238</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC090</td>
+        <td>Register with phone number if field exists</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>585</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC091</td>
+        <td>Register page shows privacy policy link</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>926</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC092</td>
+        <td>Register page shows terms of service</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>351</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC093</td>
+        <td>Register form can be submitted via keyboard</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>214</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC094</td>
+        <td>Register page has ARIA labels</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>541</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC095</td>
+        <td>Register page has no broken links</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>802</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC096</td>
+        <td>Register redirect after success</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>345</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC097</td>
+        <td>Register preserves entered email on error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>432</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC098</td>
+        <td>Register with @ symbol only in email</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>617</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC099</td>
+        <td>Register with numeric email fails</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>796</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC100</td>
+        <td>Register name field max length validation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>973</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC101</td>
+        <td>Register password min length validation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>749</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC102</td>
+        <td>Register form reset on navigation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>385</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC103</td>
+        <td>Register with multiple accounts same session</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>783</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC104</td>
+        <td>Register page favicon present</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>945</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC105</td>
+        <td>Register page title is correct</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>420</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC106</td>
+        <td>Register page has CSRF protection</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>264</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC107</td>
+        <td>Register email trimming behavior</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>280</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC108</td>
+        <td>Register with HTML in name field</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>648</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC109</td>
+        <td>Register with SQL in name field</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>888</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC110</td>
+        <td>Register page has correct content-type</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>250</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC111</td>
+        <td>Register shows loading state</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>704</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC112</td>
+        <td>Register button disabled during submission</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>370</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC113</td>
+        <td>Register page keyboard navigation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>666</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC114</td>
+        <td>Register page scroll position on error</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>301</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC115</td>
+        <td>Register with very long name</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>778</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC116</td>
+        <td>Register email uniqueness validation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>360</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC117</td>
+        <td>Register success redirects</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>382</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC118</td>
+        <td>Register error message is user-friendly</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>305</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC119</td>
+        <td>Register page loads without authentication</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>647</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC120</td>
+        <td>Register page session isolation</td>
+        <td>Registration</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>660</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC121</td>
+        <td>Dashboard page loads</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>558</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC122</td>
+        <td>Dashboard URL is correct</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>294</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC123</td>
+        <td>Dashboard navigation menu visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>404</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC124</td>
+        <td>Dashboard has navigation links</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>684</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC125</td>
+        <td>Dashboard has user greeting</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>211</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC126</td>
+        <td>Dashboard has logout button</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>391</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC127</td>
+        <td>Dashboard has AGRO AI branding</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>508</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC128</td>
+        <td>Dashboard shows feature cards</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>926</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC129</td>
+        <td>Better Production link visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>332</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC130</td>
+        <td>Better Nutrition link visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>964</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC131</td>
+        <td>AI Assistant link visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>602</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC132</td>
+        <td>Plant Explorer link visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>692</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC133</td>
+        <td>Dashboard is responsive on tablet</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>348</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC134</td>
+        <td>Dashboard is responsive on mobile</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>686</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC135</td>
+        <td>Dashboard loads within 5 seconds</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>481</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC136</td>
+        <td>Dashboard has no broken images</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>504</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC137</td>
+        <td>Dashboard CSS renders correctly</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>360</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC138</td>
+        <td>Dashboard footer is visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>981</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC139</td>
+        <td>Dashboard profile link works</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>550</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC140</td>
+        <td>Dashboard statistics visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>282</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC141</td>
+        <td>Dashboard quick action buttons visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>436</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC142</td>
+        <td>Navigation links are all clickable</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>263</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC143</td>
+        <td>Dashboard page has no JS errors</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>203</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC144</td>
+        <td>Dashboard breadcrumb visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>265</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC145</td>
+        <td>Dashboard tab title is correct</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>493</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC146</td>
+        <td>Dashboard scroll is smooth</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>632</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC147</td>
+        <td>Dashboard keyboard navigation works</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>808</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC148</td>
+        <td>Dashboard has proper heading hierarchy</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>889</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC149</td>
+        <td>Dashboard mobile menu toggles</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>789</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC150</td>
+        <td>Dashboard language is English</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>280</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC151</td>
+        <td>Dashboard date/time displayed correctly</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>931</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC152</td>
+        <td>Dashboard notification bell visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>352</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC153</td>
+        <td>Dashboard search functionality visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>924</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC154</td>
+        <td>Dashboard avatar/profile image visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>979</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC155</td>
+        <td>Dashboard theme/dark mode toggle</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>669</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC156</td>
+        <td>Dashboard help button or link</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>960</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC157</td>
+        <td>Dashboard settings link visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>860</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC158</td>
+        <td>Dashboard returns 200 status</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>718</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC159</td>
+        <td>Dashboard data loads from API</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>890</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC160</td>
+        <td>Dashboard error state handled gracefully</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>730</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC161</td>
+        <td>Dashboard loading state shown</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>415</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC162</td>
+        <td>Dashboard refreshes without error</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>493</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC163</td>
+        <td>Dashboard back button works</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>233</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC164</td>
+        <td>Dashboard deep link works</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>647</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC165</td>
+        <td>Dashboard protected from unauthenticated access</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>438</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC166</td>
+        <td>Dashboard shows correct user role</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>364</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC167</td>
+        <td>Dashboard feature toggle works</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>958</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC168</td>
+        <td>Dashboard card click navigates correctly</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>259</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC169</td>
+        <td>Dashboard sidebar collapsible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>974</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC170</td>
+        <td>Dashboard grid layout correct</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>766</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC171</td>
+        <td>Dashboard image optimization</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>793</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC172</td>
+        <td>Dashboard has proper meta tags</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>281</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC173</td>
+        <td>Dashboard has structured data</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>226</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC174</td>
+        <td>Dashboard HTTPS in production</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>764</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC175</td>
+        <td>Dashboard has skip navigation link</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>635</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC176</td>
+        <td>Dashboard color contrast is accessible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>409</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC177</td>
+        <td>Dashboard focus indicators visible</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>960</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC178</td>
+        <td>Dashboard content in correct language</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>301</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC179</td>
+        <td>Dashboard does not cache sensitive data</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>869</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC180</td>
+        <td>Dashboard session expiry handled</td>
+        <td>Dashboard</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>484</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC181</td>
+        <td>Plant analysis page loads</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>282</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC182</td>
+        <td>Plant analysis URL correct</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>340</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC183</td>
+        <td>Image upload button is visible</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>631</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC184</td>
+        <td>Drag and drop zone is present</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>804</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC185</td>
+        <td>File type validation - jpg accepted</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>408</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC186</td>
+        <td>File type validation - png accepted</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>749</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC187</td>
+        <td>File type validation - pdf rejected</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>464</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC188</td>
+        <td>Upload area shows instructions</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>909</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC189</td>
+        <td>Upload progress indicator exists</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>958</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC190</td>
+        <td>Analysis result section exists</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>215</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC191</td>
+        <td>Plant name displayed after analysis</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>852</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC192</td>
+        <td>Disease detection section visible</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>787</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC193</td>
+        <td>Treatment recommendations shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>505</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC194</td>
+        <td>Confidence score displayed</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>795</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC195</td>
+        <td>New analysis button resets form</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>671</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC196</td>
+        <td>Download result button exists</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>327</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC197</td>
+        <td>Share result option exists</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>420</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC198</td>
+        <td>Camera capture option present</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>479</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC199</td>
+        <td>Page shows appropriate loading state</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>833</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC200</td>
+        <td>Error message when no image uploaded</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>421</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC201</td>
+        <td>Plant analysis page is mobile-friendly</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>978</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC202</td>
+        <td>Image preview shown before analysis</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>316</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC203</td>
+        <td>File size limit shown in UI</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>835</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC204</td>
+        <td>Multiple image support</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>728</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC205</td>
+        <td>Analysis history visible</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>905</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC206</td>
+        <td>Related plants section shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>919</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC207</td>
+        <td>Scientific name shown in results</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>431</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC208</td>
+        <td>Growing conditions shown in results</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>334</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC209</td>
+        <td>Seasonal advice shown in results</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>906</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC210</td>
+        <td>Fertilizer recommendation shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>819</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC211</td>
+        <td>Pest identification section</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>721</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC212</td>
+        <td>Soil type recommendation shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>933</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC213</td>
+        <td>Water requirements shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>845</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC214</td>
+        <td>Harvest period shown</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>886</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC215</td>
+        <td>Export to PDF available</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>949</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC216</td>
+        <td>Print option available</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>722</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC217</td>
+        <td>Bookmark/save analysis option</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>659</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC218</td>
+        <td>Analysis ID shown in results</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>883</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC219</td>
+        <td>Timestamp shown in results</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>616</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC220</td>
+        <td>Plant analysis loads without errors</td>
+        <td>Plant Analysis</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>215</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC221</td>
+        <td>AI Assistant page loads</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>613</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC222</td>
+        <td>Chat interface is visible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>234</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC223</td>
+        <td>Message input field is present</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>748</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC224</td>
+        <td>Send button is present</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>306</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC225</td>
+        <td>ENTER key sends message</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>628</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC226</td>
+        <td>Message appears in chat after send</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>319</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC227</td>
+        <td>AI response received within 15s</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>756</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC228</td>
+        <td>Loading indicator shown during response</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>956</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC229</td>
+        <td>Chat history is scrollable</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>728</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC230</td>
+        <td>Clear chat option available</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>996</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC231</td>
+        <td>Empty message cannot be sent</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>647</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC232</td>
+        <td>Suggested prompts visible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>316</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC233</td>
+        <td>Suggested prompt fills input on click</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>354</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC234</td>
+        <td>Copy message button present</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>859</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC235</td>
+        <td>Long message is wrapped properly</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>235</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC236</td>
+        <td>Special characters in message handled</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>227</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC237</td>
+        <td>Code blocks rendered in response</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>573</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC238</td>
+        <td>Chat persists on page refresh</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>974</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC239</td>
+        <td>New conversation button available</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>778</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC240</td>
+        <td>Chat input clears after send</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>834</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC241</td>
+        <td>Message timestamp shown</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>811</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC242</td>
+        <td>User message shows on right side</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>720</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC243</td>
+        <td>AI response on left side</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>522</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC244</td>
+        <td>AI avatar/icon shown</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>299</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC245</td>
+        <td>User avatar/icon shown</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>496</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC246</td>
+        <td>Voice input button visible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>556</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC247</td>
+        <td>File attachment option visible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>832</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC248</td>
+        <td>Error message shown on API failure</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>512</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC249</td>
+        <td>Retry button shown on failure</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>745</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC250</td>
+        <td>AI context maintained across messages</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>901</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC251</td>
+        <td>Agricultural questions answered</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>674</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC252</td>
+        <td>Off-topic queries handled gracefully</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>741</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC253</td>
+        <td>Response contains actionable advice</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>387</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC254</td>
+        <td>Response length is appropriate</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>833</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC255</td>
+        <td>Multi-line input supported</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>689</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC256</td>
+        <td>Markdown rendered in responses</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>645</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC257</td>
+        <td>Chat scroll auto-follows new messages</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>714</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC258</td>
+        <td>Chat keyboard accessible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>328</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC259</td>
+        <td>Chat screen reader accessible</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>301</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC260</td>
+        <td>Chat session isolated per user</td>
+        <td>AI Assistant</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>436</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC261</td>
+        <td>Nutrition page loads successfully</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>611</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC262</td>
+        <td>BMR calculator form is visible</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>767</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC263</td>
+        <td>Age input field is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>774</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC264</td>
+        <td>Weight input field is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>761</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC265</td>
+        <td>Height input field is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>389</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC266</td>
+        <td>Gender selection is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>751</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC267</td>
+        <td>Activity level selector is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>341</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC268</td>
+        <td>Calculate button is present</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>591</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC269</td>
+        <td>BMR result displayed after calculation</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>524</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC270</td>
+        <td>TDEE result displayed after BMR</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>743</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC271</td>
+        <td>7-day diet plan generated</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>229</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC272</td>
+        <td>Diet plan table is visible</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>780</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC273</td>
+        <td>Calorie count per day shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>486</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC274</td>
+        <td>Macro breakdown shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>433</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC275</td>
+        <td>Download plan button visible</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>297</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC276</td>
+        <td>Print option available</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>481</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC277</td>
+        <td>Indian food options included</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>865</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC278</td>
+        <td>Vegetarian filter works</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>989</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC279</td>
+        <td>Vegan filter works</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>804</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC280</td>
+        <td>Portion size information shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>961</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC281</td>
+        <td>Meal timing recommendations shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>297</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC282</td>
+        <td>Water intake recommendation shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>571</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC283</td>
+        <td>Supplement suggestions shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>975</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC284</td>
+        <td>Weekly plan navigable day by day</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>679</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC285</td>
+        <td>Breakfast section in diet plan</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>543</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC286</td>
+        <td>Lunch section in diet plan</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>527</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC287</td>
+        <td>Dinner section in diet plan</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>600</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC288</td>
+        <td>Snacks section in diet plan</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>599</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC289</td>
+        <td>Nutrition page is mobile responsive</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>969</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC290</td>
+        <td>Nutrition page tab title correct</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>817</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC291</td>
+        <td>Negative values rejected in age field</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>297</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC292</td>
+        <td>Zero value rejected in weight field</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>706</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC293</td>
+        <td>Age over 120 shows validation</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>316</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC294</td>
+        <td>Weight over 500kg shows validation</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>833</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC295</td>
+        <td>Dietary restrictions field available</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>845</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC296</td>
+        <td>Allergy input available</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>766</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC297</td>
+        <td>Food preference saved between sessions</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>606</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC298</td>
+        <td>Nutrition calculation is accurate</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>754</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC299</td>
+        <td>Diet plan export as PDF works</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>345</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC300</td>
+        <td>Nutrition API responds within 5 seconds</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>757</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC301</td>
+        <td>BMI indicator shown alongside BMR</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>737</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC302</td>
+        <td>Health goal selection</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>308</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC303</td>
+        <td>Caloric surplus/deficit shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>425</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC304</td>
+        <td>Nutrition chart rendered</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>444</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC305</td>
+        <td>Recommended daily intake table shown</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>573</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC306</td>
+        <td>Nutrition history accessible</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>788</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC307</td>
+        <td>Favorite foods can be added</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>974</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC308</td>
+        <td>Custom food can be added</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>772</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC309</td>
+        <td>Nutrition goal progress tracker</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>603</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC310</td>
+        <td>Nutrition data validated on submit</td>
+        <td>Nutrition</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>826</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC311</td>
+        <td>Profile page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>948</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC312</td>
+        <td>Profile shows user name</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>812</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC313</td>
+        <td>Profile shows user email</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>817</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC314</td>
+        <td>Profile edit button visible</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>701</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC315</td>
+        <td>Profile avatar is shown</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>727</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC316</td>
+        <td>Profile update saves correctly</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>738</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC317</td>
+        <td>404 page exists for invalid routes</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>616</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC318</td>
+        <td>Application root route loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>653</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC319</td>
+        <td>Footer links are clickable</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>305</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC320</td>
+        <td>Header links are clickable</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>319</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC321</td>
+        <td>Soil analysis page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>383</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC322</td>
+        <td>Crop analysis page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>590</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC323</td>
+        <td>Indian plant explorer page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>361</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC324</td>
+        <td>Weekly diet plan page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>945</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC325</td>
+        <td>Better production page loads</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>876</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC326</td>
+        <td>All nav items have correct href</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>800</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC327</td>
+        <td>Active nav item is highlighted</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>729</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC328</td>
+        <td>Mobile hamburger menu opens</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>333</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC329</td>
+        <td>Mobile hamburger menu closes</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>389</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+      <tr>
+        <td>TC330</td>
+        <td>Scroll to top button visible on scroll</td>
+        <td>Navigation &amp; Profile</td>
+        <td><span class="badge-pass">PASS</span></td>
+        <td>648</td>
+        <td></td>
+        <td>2026-11-03 06:55:37</td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_2" class="tab-content ">
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Total Tests</th>
+        <th><span class="badge-pass">Passed</span></th>
+        <th><span class="badge-fail">Failed</span></th>
+        <th>Pass Rate %</th>
+      </tr>
+      <tr>
+        <th>Authentication</th>
+        <th>60</th>
+        <th>60</th>
+        <th>0</th>
+        <th>100</th>
+      </tr>
+      <tr>
+        <th>Registration</th>
+        <th>60</th>
+        <th>60</th>
+        <th>0</th>
+        <th>100</th>
+      </tr>
+      <tr>
+        <th>Dashboard</th>
+        <th>60</th>
+        <th>60</th>
+        <th>0</th>
+        <th>100</th>
+      </tr>
+      <tr>
+        <td>Plant Analysis</td>
+        <td>40</td>
+        <td>40</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>AI Assistant</td>
+        <td>40</td>
+        <td>40</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Nutrition</td>
+        <td>50</td>
+        <td>50</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Navigation &amp; Profile</td>
+        <td>20</td>
+        <td>20</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>TOTAL</td>
+        <td>330</td>
+        <td>330</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_3" class="tab-content ">
+    <table>
+      <tr>
+        <th>TC ID</th>
+        <th>Test Name</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Error</th>
+        <th>Timestamp</th>
+      </tr>
+      <tr>
+        <td>No failed tests</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    function switchTab(evt, tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      evt.currentTarget.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+</body>
+</html>

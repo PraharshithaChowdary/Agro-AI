@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>⚡ Load & Baseline Test (100 VUs - 1 min) - AGRO AI</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f8fafc; color: #1e293b; margin: 0; padding: 24px; }
+    .header { background: #166534; color: white; padding: 20px 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+    .header h1 { margin: 0 0 6px 0; font-size: 22px; }
+    .header p { margin: 0; opacity: 0.9; font-size: 14px; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap; }
+    .tab-btn { background: #e2e8f0; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 13px; color: #475569; }
+    .tab-btn.active { background: #166534; color: white; }
+    .tab-content { display: none; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1); overflow-x: auto; }
+    .tab-content.active { display: block; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; }
+    th, td { border: 1px solid #e2e8f0; padding: 8px 12px; text-align: left; }
+    th { background: #f1f5f9; font-weight: 600; color: #0f172a; position: sticky; top: 0; }
+    tr:nth-child(even) { background: #f8fafc; }
+    tr:hover { background: #f0fdf4; }
+    .badge-pass { background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+    .badge-fail { background: #fee2e2; color: #991b1b; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+    .badge-high { background: #fef08a; color: #854d0e; padding: 2px 8px; border-radius: 9999px; font-weight: 600; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>⚡ Load & Baseline Test (100 VUs - 1 min)</h1>
+    <p>AGRO AI Automated Test Report • Interactive Microsoft Edge / Browser View</p>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab(event, 'tab_0')">Test Summary</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_1')">Endpoint Details</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_2')">Threshold Results</button>
+    <button class="tab-btn " onclick="switchTab(event, 'tab_3')">Timeline</button>
+  </div>
+  <div id="tab_0" class="tab-content active">
+    <table>
+      <tr>
+        <th>AGRO AI Load Test Report</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>AGRO AI Load Test Report</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Metric</td>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <td>Test Name</td>
+        <td>AGRO AI Baseline</td>
+      </tr>
+      <tr>
+        <td>Test Date</td>
+        <td>3/11/2026, 12:26:51 pm</td>
+      </tr>
+      <tr>
+        <td>Duration (seconds)</td>
+        <td>59.98</td>
+      </tr>
+      <tr>
+        <td>Total Requests</td>
+        <td>7200</td>
+      </tr>
+      <tr>
+        <td>Total Errors</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>RPS (requests/sec)</td>
+        <td>120.03</td>
+      </tr>
+      <tr>
+        <td>Error Rate (%)</td>
+        <td>0.49</td>
+      </tr>
+      <tr>
+        <td>Avg Response Time (ms)</td>
+        <td>156</td>
+      </tr>
+      <tr>
+        <td>Min Response Time (ms)</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Max Response Time (ms)</td>
+        <td>570</td>
+      </tr>
+      <tr>
+        <td>p50 Response Time (ms)</td>
+        <td>112</td>
+      </tr>
+      <tr>
+        <td>p95 Response Time (ms)</td>
+        <td>431</td>
+      </tr>
+      <tr>
+        <td>p99 Response Time (ms)</td>
+        <td>535</td>
+      </tr>
+      <tr>
+        <td>Check Pass Rate (%)</td>
+        <td>99.51</td>
+      </tr>
+      <tr>
+        <td>Endpoints Tested</td>
+        <td>9</td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_1" class="tab-content ">
+    <table>
+      <tr>
+        <th>Endpoint</th>
+        <th>Requests</th>
+        <th>Errors</th>
+        <th>Error Rate (%)</th>
+        <th>Avg (ms)</th>
+        <th>Min (ms)</th>
+        <th>Max (ms)</th>
+        <th>p50 (ms)</th>
+        <th>p95 (ms)</th>
+        <th>p99 (ms)</th>
+        <th>Pass/Fail</th>
+      </tr>
+      <tr>
+        <th>/api/nutrition/calculate</th>
+        <th>778</th>
+        <th>4</th>
+        <th>0.51</th>
+        <th>194</th>
+        <th>126</th>
+        <th>265</th>
+        <th>193</th>
+        <th>255</th>
+        <th>264</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <th>/api/plants/search</th>
+        <th>874</th>
+        <th>5</th>
+        <th>0.57</th>
+        <th>111</th>
+        <th>70</th>
+        <th>150</th>
+        <th>111</th>
+        <th>146</th>
+        <th>149</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <th>/api/assistant/chat</th>
+        <th>790</th>
+        <th>12</th>
+        <th>1.52</th>
+        <th>418</th>
+        <th>270</th>
+        <th>570</th>
+        <th>419</th>
+        <th>551</th>
+        <th>566</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <td>/api/auth/login</td>
+        <td>782</td>
+        <td>4</td>
+        <td>0.51</td>
+        <td>183</td>
+        <td>120</td>
+        <td>240</td>
+        <td>186</td>
+        <td>234</td>
+        <td>239</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>/api/auth/register</td>
+        <td>792</td>
+        <td>3</td>
+        <td>0.38</td>
+        <td>237</td>
+        <td>160</td>
+        <td>320</td>
+        <td>234</td>
+        <td>311</td>
+        <td>318</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>/health</td>
+        <td>845</td>
+        <td>1</td>
+        <td>0.12</td>
+        <td>45</td>
+        <td>25</td>
+        <td>65</td>
+        <td>45</td>
+        <td>63</td>
+        <td>64</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>/api/production/soil-types</td>
+        <td>783</td>
+        <td>1</td>
+        <td>0.13</td>
+        <td>64</td>
+        <td>45</td>
+        <td>85</td>
+        <td>64</td>
+        <td>83</td>
+        <td>85</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>/api/plants/categories</td>
+        <td>782</td>
+        <td>2</td>
+        <td>0.26</td>
+        <td>75</td>
+        <td>50</td>
+        <td>100</td>
+        <td>75</td>
+        <td>98</td>
+        <td>100</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>/api/production/supported-plants</td>
+        <td>774</td>
+        <td>3</td>
+        <td>0.39</td>
+        <td>84</td>
+        <td>55</td>
+        <td>115</td>
+        <td>83</td>
+        <td>111</td>
+        <td>114</td>
+        <td>✅ PASS</td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_2" class="tab-content ">
+    <table>
+      <tr>
+        <th>Threshold Name</th>
+        <th>Condition</th>
+        <th>Actual Value</th>
+        <th>Pass/Fail</th>
+      </tr>
+      <tr>
+        <th>http_req_duration (p95)</th>
+        <th>p(95) &lt; 2000ms</th>
+        <th>431 ms</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <th>http_req_failed</th>
+        <th>rate &lt; 5%</th>
+        <th>0.49%</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <th>Overall Error Rate</th>
+        <th>&lt; 5%</th>
+        <th>0.49%</th>
+        <th>✅ PASS</th>
+      </tr>
+      <tr>
+        <td>Check Pass Rate</td>
+        <td>&gt;= 95%</td>
+        <td>99.51%</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>RPS</td>
+        <td>&gt;= 10 req/s</td>
+        <td>120.03 rps</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>http_req_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>http_req_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>http_req_failed</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>http_req_failed</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_error_rate</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_error_rate</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_health_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_health_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_login_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_login_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_register_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_register_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_chat_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_chat_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_plant_search_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_plant_search_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_nutrition_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_nutrition_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_production_duration</td>
+        <td>rate&lt;0.05</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+      <tr>
+        <td>agro_production_duration</td>
+        <td>p(95)&lt;2000</td>
+        <td>met</td>
+        <td>✅ PASS</td>
+      </tr>
+    </table>
+  </div>
+  <div id="tab_3" class="tab-content ">
+    <table>
+      <tr>
+        <th>Minute</th>
+        <th>Requests</th>
+        <th>Errors</th>
+        <th>Error Rate (%)</th>
+        <th>Avg Duration (ms)</th>
+        <th>RPS</th>
+      </tr>
+      <tr>
+        <th>0:00 – 1:00</th>
+        <th>7200</th>
+        <th>35</th>
+        <th>0.49</th>
+        <th>156</th>
+        <th>120</th>
+      </tr>
+    </table>
+  </div>
+  <script>
+    function switchTab(evt, tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      evt.currentTarget.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
