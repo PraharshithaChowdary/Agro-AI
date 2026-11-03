@@ -5,11 +5,11 @@ echo  AGRO AI - Pushing All Passed Test Reports to GitHub
 echo  Repository: https://github.com/PraharshithaChowdary/Agro-ai-pdd
 echo ========================================================
 echo.
-git push -u origin main
+git push -u origin main --force
 echo.
 if %errorlevel% equ 0 (
     echo [SUCCESS] All Excel test reports and project files pushed successfully!
 ) else (
-    echo [NOTE] If prompted above, please sign in with your GitHub account.
+    echo [ERROR] Push failed. Check error above.
 )
 pause

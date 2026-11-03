@@ -441,6 +441,12 @@ def get_user_weekly_plans(
     )
     results = []
     for p in plans:
+        summary_dict = {}
+        if p.profile_summary_json:
+            try:
+                summary_dict = json.loads(p.profile_summary_json)
+            except Exception:
+                pass
         results.append(
             SavedWeeklyPlanSummarySchema(
                 id=p.id,
@@ -449,10 +455,37 @@ def get_user_weekly_plans(
                 targetCalories=p.target_calories,
                 totalCaloriesAvg=p.total_calories_avg,
                 totalProteinAvg=p.total_protein_avg,
+                totalCarbsAvg=p.total_carbs_avg,
+                totalFatAvg=p.total_fat_avg,
+                goal=summary_dict.get("goal"),
+                foodPreference=summary_dict.get("foodPreference"),
                 createdAt=p.created_at.isoformat() if p.created_at else ""
             )
         )
     return results
+
+@router.delete("/weekly-plans/{plan_id}")
+def delete_weekly_plan(
+    plan_id: str,
+    db: Session = Depends(get_db),
+    user: User = Depends(get_current_user_required)
+):
+    """
+    Deletes a saved weekly plan belonging to the authenticated user.
+    """
+    plan_record = (
+        db.query(SavedDietPlan)
+        .filter(SavedDietPlan.id == plan_id, SavedDietPlan.user_id == user.id)
+        .first()
+    )
+    if not plan_record:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Diet plan not found or does not belong to the authenticated user."
+        )
+    db.delete(plan_record)
+    db.commit()
+    return {"message": "Diet plan deleted successfully.", "id": plan_id}
 
 @router.get("/weekly-plans/{plan_id}", response_model=WeeklyDietPlanResponseSchema)
 def get_weekly_plan_by_id(

@@ -1,6 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+from pathlib import Path
 import os
 import logging
 import threading
@@ -93,6 +95,38 @@ def ollama_status():
         "ready": bool(data.get("ready")),
         "message": data.get("message", "Local AI status unavailable."),
     }
+
+@app.get("/api/datasets/download-pdf", tags=["Datasets"])
+def download_datasets_pdf():
+    """Download the complete AGRO AI Training Datasets Specification PDF."""
+    pdf_path = Path(__file__).resolve().parents[2] / "datasets" / "AGRO_AI_Training_Datasets_Documentation.pdf"
+    if not pdf_path.exists():
+        raise HTTPException(status_code=404, detail="Datasets documentation PDF not found.")
+    return FileResponse(
+        path=str(pdf_path),
+        filename="AGRO_AI_Training_Datasets_Documentation.pdf",
+        media_type="application/pdf"
+    )
+
+@app.get("/api/datasets/download/{filename}", tags=["Datasets"])
+def download_dataset_file(filename: str):
+    """Download any training dataset CSV or documentation PDF."""
+    allowed_files = {
+        "agricultural_relevance": "agricultural_relevance_dataset.csv",
+        "crop_disease": "crop_disease_dataset.csv",
+        "plant_species": "plant_species_dataset.csv",
+        "soil_pedological": "soil_pedological_dataset.csv",
+        "documentation_pdf": "AGRO_AI_Training_Datasets_Documentation.pdf",
+    }
+    clean_name = filename.lower().replace(".csv", "").replace(".pdf", "")
+    target_file = allowed_files.get(clean_name) or allowed_files.get(filename)
+    if not target_file:
+        raise HTTPException(status_code=404, detail="Dataset file not found.")
+    file_path = Path(__file__).resolve().parents[2] / "datasets" / target_file
+    if not file_path.exists():
+        raise HTTPException(status_code=404, detail=f"File {target_file} not found on disk.")
+    media_type = "application/pdf" if target_file.endswith(".pdf") else "text/csv"
+    return FileResponse(path=str(file_path), filename=target_file, media_type=media_type)
 
 @app.get("/", tags=["General"])
 def root():

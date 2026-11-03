@@ -169,6 +169,10 @@ class SavedWeeklyPlanSummarySchema(BaseModel):
     targetCalories: Optional[int] = None
     totalCaloriesAvg: Optional[float] = None
     totalProteinAvg: Optional[float] = None
+    totalCarbsAvg: Optional[float] = None
+    totalFatAvg: Optional[float] = None
+    goal: Optional[str] = None
+    foodPreference: Optional[str] = None
     createdAt: str
 
 class UserProfileOutSchema(BaseModel):

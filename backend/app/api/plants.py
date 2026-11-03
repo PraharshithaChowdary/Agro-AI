@@ -1,6 +1,7 @@
 from typing import Optional, List, Dict, Any
 import uuid
 import json
+import logging
 from fastapi import APIRouter, Depends, UploadFile, File, Form, Query, HTTPException, status
 from sqlalchemy.orm import Session
 from starlette.concurrency import run_in_threadpool
@@ -21,6 +22,7 @@ from app.schemas.plants import (
     PlantAutocompleteItem
 )
 
+logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/plants", tags=["Indian Plant Explorer & Health Analyzer"])
 
 @router.get("/autocomplete", response_model=List[PlantAutocompleteItem])
@@ -113,12 +115,19 @@ async def identify_plant(
     valid_image, validation_message = AgriculturalRelevanceService.validate_image_file(image_bytes, max_size_mb=15)
     if not valid_image:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=validation_message)
+
     try:
         res = await run_in_threadpool(identification_report, image_bytes, plant_name, organ, db)
-    except OllamaNotReadyError as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-    except OllamaServiceError as exc:
-        raise HTTPException(status_code=502, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.warning("Ollama identification report error: %s. Falling back to local ONNX/ML model.", exc)
+        try:
+            res = await run_in_threadpool(PlantIdentifierService.identify_plant, image_bytes, plant_name, organ, db)
+        except Exception as inner_exc:
+            logger.exception("Fallback plant identification failed: %s", inner_exc)
+            if isinstance(exc, (OllamaNotReadyError, OllamaServiceError)):
+                raise HTTPException(status_code=503, detail=str(exc)) from exc
+            raise HTTPException(status_code=500, detail="Plant identification could not be completed.") from inner_exc
+
     if res.get("_wrong_module"):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=res["_wrong_module"])
     if not res.get("success", False) or not res.get("isAgricultural", True):
@@ -126,8 +135,17 @@ async def identify_plant(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail=res.get("error") or res.get("rejectionReason") or "Uploaded image does not appear to contain recognizable agricultural or botanical flora."
         )
-    res["savedToAccount"] = bool(user)
-    res["persistenceMessage"] = "Saved to your account history." if user else "Preview only — sign in to save this result to your account."
+
+    res.setdefault("visualCondition", "healthy-looking" if (res.get("healthAssessment", {}).get("healthScorePercentage", 100) > 75) else "possible_stress")
+    res.setdefault("ripenessStatus", "not_applicable")
+    res.setdefault("spoilageStatus", "not_applicable")
+    res.setdefault("visualSummary", res.get("healthAssessment", {}).get("healthStatus", "Identification completed"))
+    res.setdefault("possibleIssues", [])
+    res.setdefault("precautions", [])
+    res.setdefault("analysisSource", "vision_model_screening")
+
+    res["savedToAccount"] = False
+    res["persistenceMessage"] = "Preview only — sign in to save this result to your account."
     if user:
         try:
             row = PlantAnalysisHistory(
@@ -138,9 +156,13 @@ async def identify_plant(
             )
             db.add(row)
             db.commit()
+            res["savedToAccount"] = True
+            res["persistenceMessage"] = "Saved to your account history."
         except Exception as exc:
             db.rollback()
-            raise HTTPException(status_code=500, detail="Plant identification completed but could not be saved to your account.") from exc
+            logger.warning("Could not persist plant identification history for user %s: %s", getattr(user, "id", None), exc)
+            res["savedToAccount"] = False
+            res["persistenceMessage"] = "Plant identified successfully (history could not be updated)."
     return res
 
 @router.post("/analyze-health", response_model=PlantHealthAnalysisOut)
@@ -160,19 +182,27 @@ async def analyze_plant_health(
     valid_image, validation_message = AgriculturalRelevanceService.validate_image_file(image_bytes, max_size_mb=15)
     if not valid_image:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=validation_message)
+
     try:
         res = await run_in_threadpool(health_report, image_bytes, plant_id, plant_name, db)
-    except OllamaNotReadyError as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-    except OllamaServiceError as exc:
-        raise HTTPException(status_code=502, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.warning("Ollama health report error: %s. Falling back to local ML health analyzer.", exc)
+        try:
+            res = await run_in_threadpool(PlantIdentifierService.analyze_plant_health, image_bytes, plant_id, plant_name, db)
+        except Exception as inner_exc:
+            logger.exception("Fallback plant health analysis failed: %s", inner_exc)
+            if isinstance(exc, (OllamaNotReadyError, OllamaServiceError)):
+                raise HTTPException(status_code=503, detail=str(exc)) from exc
+            raise HTTPException(status_code=500, detail="Plant health analysis could not be completed.") from inner_exc
+
     if not res.get("success", False):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail=res.get("error", "Plant health analysis could not be completed.")
         )
-    res["savedToAccount"] = bool(user)
-    res["persistenceMessage"] = "Saved to your account history." if user else "Preview only — sign in to save this result to your account."
+
+    res["savedToAccount"] = False
+    res["persistenceMessage"] = "Preview only — sign in to save this result to your account."
     if user:
         try:
             row = PlantAnalysisHistory(
@@ -182,7 +212,11 @@ async def analyze_plant_health(
             )
             db.add(row)
             db.commit()
+            res["savedToAccount"] = True
+            res["persistenceMessage"] = "Saved to your account history."
         except Exception as exc:
             db.rollback()
-            raise HTTPException(status_code=500, detail="Plant health analysis completed but could not be saved to your account.") from exc
+            logger.warning("Could not persist plant health history for user %s: %s", getattr(user, "id", None), exc)
+            res["savedToAccount"] = False
+            res["persistenceMessage"] = "Plant health analyzed successfully (history could not be updated)."
     return res

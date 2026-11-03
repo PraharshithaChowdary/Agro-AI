@@ -18,3 +18,4 @@ This directory contains the complete Excel test execution reports for the AGRO A
 - **Plant Disease Diagnosis & Camera Upload**: Leaf scanning, image recognition, treatment advisory (40–60 TCs)
 - **AI Agricultural Assistant**: Real-time LLM farming advice, streaming responses (30–40 TCs)
 - **Crop Nutrition & Fertilizer Calculator**: NPK calculation, soil recommendations (30–40 TCs)
+

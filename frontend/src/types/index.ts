@@ -362,6 +362,10 @@ export interface SavedWeeklyPlanSummary {
   totalCaloriesAvg?: number;
   totalProteinAvg?: number;
   createdAt: string;
+  totalCarbsAvg?: number;
+  totalFatAvg?: number;
+  goal?: string;
+  foodPreference?: string;
 }
 
 // ----------------- Assistant Types -----------------

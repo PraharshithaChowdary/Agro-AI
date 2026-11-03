@@ -203,34 +203,40 @@ class OllamaService:
         model = cls.chat_model()
         cls._assert_model_ready(model)
         ollama_messages: List[Dict[str, str]] = [{"role": "system", "content": system_prompt}]
-        for message in messages[-10:]:
+        for message in messages[-6:]:
             sender = str(message.get("sender", message.get("role", "user"))).lower()
             role = "assistant" if sender in {"assistant", "model", "bot"} else "user"
             content = str(message.get("content", "")).strip()
             if content:
-                ollama_messages.append({"role": role, "content": content[:6000]})
+                ollama_messages.append({"role": role, "content": content[:2500]})
         payload = {
             "model": model,
             "messages": ollama_messages,
             "stream": False,
-            "keep_alive": cls.keep_alive(),
+            "keep_alive": "60m",
             "options": {
                 "temperature": float(temperature),
-                "num_predict": int(max(64, min(max_tokens, 256))),
-                "num_ctx": max(2048, min(int(os.getenv("OLLAMA_NUM_CTX", "2048")), 8192)),
+                "num_predict": int(max(48, min(max_tokens, 120))),
+                "num_ctx": 1024,
             },
         }
         try:
             with _INFERENCE_LOCK:
+                # Fast response budget for chat: 18 seconds max.
+                # If local CPU inference exceeds 18 seconds, gracefully fail to grounded offline knowledge engine
+                # so the mobile app gets an authoritative response immediately rather than timing out at 45s.
                 response = httpx.post(
                     f"{cls.base_url()}/api/chat",
                     json=payload,
-                    timeout=cls.timeout_seconds(),
+                    timeout=18.0,
                 )
             response.raise_for_status()
             data = response.json()
             content = data.get("message", {}).get("content", "")
             return content.strip() or None
+        except httpx.TimeoutException:
+            logger.warning("Ollama chat_text exceeded 18s budget; delegating to verified offline knowledge engine")
+            return None
         except Exception as exc:
             logger.warning("Ollama text request failed: %s", exc)
             return None

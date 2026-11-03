@@ -75,6 +75,18 @@ export const nutritionService = {
     }
   },
 
+  async deleteSavedPlan(id: string): Promise<boolean> {
+    try {
+      await apiClient.delete(`/nutrition/weekly-plans/${id}`);
+      return true;
+    } catch (err: any) {
+      if (err.response?.data?.detail) {
+        throw new Error(err.response.data.detail);
+      }
+      return false;
+    }
+  },
+
   async savePlan(plan: WeeklyDietPlanResponse): Promise<{ success: boolean; message: string }> {
     try {
       const res = await apiClient.post<{ message: string }>('/nutrition/save-plan', plan);

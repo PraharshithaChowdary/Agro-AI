@@ -1,6 +1,6 @@
 import enum
 from datetime import datetime
-from sqlalchemy import Column, String, DateTime, Enum
+from sqlalchemy import Column, String, DateTime, Enum, Boolean
 from app.database import Base
 
 class UserRoleEnum(str, enum.Enum):
@@ -17,6 +17,9 @@ class User(Base):
     email = Column(String(150), unique=True, index=True, nullable=False)
     hashed_password = Column(String(255), nullable=False)
     role = Column(Enum(UserRoleEnum), default=UserRoleEnum.FARMER, nullable=False)
+    is_verified = Column(Boolean, default=False, nullable=False)
+    otp_code = Column(String(10), nullable=True)
+    otp_expires_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 
@@ -31,5 +34,6 @@ class User(Base):
             "fullName": self.full_name,
             "email": self.email,
             "role": self.get_role_value(),
+            "isVerified": bool(self.is_verified),
             "createdAt": self.created_at.isoformat() if self.created_at else None,
         }

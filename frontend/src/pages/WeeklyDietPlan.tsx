@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { PersistenceNotice } from '../components/PersistenceNotice';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import {
   HeartPulse,
   Flame,
@@ -26,6 +26,8 @@ import { WeeklyDietPlanResponse, NutritionProfileInput, SavedWeeklyPlanSummary }
 import { nutritionService } from '../services/nutritionService';
 
 export const WeeklyDietPlan: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  const planIdParam = searchParams.get('id');
   const [plan, setPlan] = useState<WeeklyDietPlanResponse | null>(null);
   const [activeDay, setActiveDay] = useState<number>(1);
   const [activeTab, setActiveTab] = useState<'schedule' | 'guidance'>('schedule');
@@ -187,22 +189,40 @@ export const WeeklyDietPlan: React.FC = () => {
       }
     });
 
-    // 2. Try to load from session storage
+    // 2. If plan id is passed in URL, load it specifically
+    if (planIdParam) {
+      setLoading(true);
+      nutritionService.getWeeklyPlanById(planIdParam).then((targetPlan) => {
+        if (targetPlan && targetPlan.days && targetPlan.days.length === 7) {
+          setPlan(targetPlan);
+          sessionStorage.setItem('agro_current_plan', JSON.stringify(targetPlan));
+          setLoading(false);
+          return;
+        }
+        loadFromCacheOrLatest();
+      }).catch(() => loadFromCacheOrLatest());
+      return;
+    }
+
+    loadFromCacheOrLatest();
+  }, [planIdParam]);
+
+  const loadFromCacheOrLatest = () => {
     const cached = sessionStorage.getItem('agro_current_plan');
     if (cached) {
       try {
         const parsed = JSON.parse(cached);
         if (parsed && parsed.days && parsed.days.length === 7) {
           setPlan(parsed);
+          setLoading(false);
           return;
         }
       } catch {
         // invalid cached JSON, fallback to fetchLatest
       }
     }
-
     fetchLatest();
-  }, []);
+  };
 
   const handleSavePlan = async () => {
     if (!plan) return;
@@ -290,6 +310,13 @@ export const WeeklyDietPlan: React.FC = () => {
               className="inline-flex items-center gap-2 text-xs font-bold text-emerald-800 hover:text-emerald-950"
             >
               <ArrowLeft className="w-4 h-4" /> Back to Calorie Calculator
+            </Link>
+
+            <Link
+              to="/nutrition?tab=saved"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white border border-gray-200 text-xs font-bold text-emerald-800 hover:text-emerald-950 hover:border-emerald-300 shadow-2xs transition-all"
+            >
+              <Calendar className="w-3.5 h-3.5 text-emerald-600" /> My Saved Plans
             </Link>
 
             {plan.weekNumber && (

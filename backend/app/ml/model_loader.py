@@ -99,6 +99,7 @@ class ModelRegistry:
                     import onnxruntime as ort
                     session = ort.InferenceSession(str(onnx_path))
                     self._loaded_models[model_key] = session
+                    print(f"[INFO] Loaded ONNX plant vision model from {onnx_path.name}")
                     return session
                 except Exception as e:
                     print(f"[WARN] Failed to load ONNX model {onnx_path}: {e}")

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { SavedPlansList } from '../components/SavedPlansList';
 import {
   HeartPulse,
+  Calendar,
   Scale,
   Flame,
   Activity,
@@ -29,6 +31,19 @@ import {
 
 export const BetterNutrition: React.FC = () => {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [activeTab, setActiveTab] = useState<'planner' | 'saved'>(() => {
+    return searchParams.get('tab') === 'saved' ? 'saved' : 'planner';
+  });
+
+  const switchTab = (tab: 'planner' | 'saved') => {
+    setActiveTab(tab);
+    if (tab === 'saved') {
+      setSearchParams({ tab: 'saved' });
+    } else {
+      setSearchParams({});
+    }
+  };
 
   // Biometrics & Personal Details
   const [age, setAge] = useState<number>(28);
@@ -257,6 +272,41 @@ export const BetterNutrition: React.FC = () => {
             Calculate individualized energy requirements using the validated Mifflin-St Jeor equation, strict ingredient-level allergy filtering, and verified Indian Food Composition Tables.
           </p>
         </div>
+
+        {/* Section Navigation Tabs: Meal Planner & My Saved Plans */}
+        <div className="flex items-center justify-center">
+          <div className="inline-flex p-1.5 rounded-2xl bg-gray-100/90 border border-gray-200 shadow-2xs">
+            <button
+              type="button"
+              onClick={() => switchTab('planner')}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all ${
+                activeTab === 'planner'
+                  ? 'bg-white text-emerald-950 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              <HeartPulse className="w-4 h-4 text-emerald-600" />
+              Personalized Meal Planner
+            </button>
+            <button
+              type="button"
+              onClick={() => switchTab('saved')}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all ${
+                activeTab === 'saved'
+                  ? 'bg-white text-emerald-950 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              <Calendar className="w-4 h-4 text-emerald-600" />
+              My Saved Plans
+            </button>
+          </div>
+        </div>
+
+        {activeTab === 'saved' ? (
+          <SavedPlansList onSwitchToPlanner={() => switchTab('planner')} />
+        ) : (
+          <>
 
         {error && (
           <div className="flex items-start gap-3 p-4 bg-red-50 border border-red-200 rounded-2xl text-red-800 text-xs animate-in fade-in">
@@ -879,6 +929,8 @@ export const BetterNutrition: React.FC = () => {
               </button>
             </div>
           </div>
+        )}
+          </>
         )}
       </div>
     </div>
